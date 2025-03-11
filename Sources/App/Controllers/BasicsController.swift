@@ -28,6 +28,7 @@ struct BasicsController: RouteCollection{
     @Sendable
     func createPerson(req: Request) async throws -> BasicDTO {
         let person = try req.content.decode(Basic.self)
+        
         try await person.create(on: req.db)
         return person.toBasicDTO()
     }

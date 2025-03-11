@@ -15,11 +15,11 @@ struct BasicDTO: Content {
     var age: Int?
     var height: Double?
     var weight: Double?
-    var bloodType: String?
-    var isMarriage: Bool?
+    var blood_type: String?
+    var is_marriage: Bool?
     
     // Constanst
     var hobbies: [String]?
-    var uniqueSkills: [String]?
-    var contactInfo: ContactInfo?
+    var unique_skills: [String]?
+    var contact_info: ContactInfo?
 }

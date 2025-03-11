@@ -45,65 +45,72 @@ final class Basic: Model, Content, Validatable, @unchecked Sendable {
     
     // Character
     @Field(key: "blood_type")
-    var bloodType: String
+    var blood_type: String
     
     // Bool
     @Field(key: "is_marriage")
-    var isMarriage: Bool
+    var is_marriage: Bool
     
     // Contanst
     @Field(key: "species")
-    var species: String?
+    var species: String
     
     @Field(key: "eye_count")
-    var eyeCount: Int?
+    var eye_count: Int
     
     @Field(key: "hand_count")
-    var handCount: Int?
+    var hand_count: Int
     
     @Field(key: "heart_count")
-    var heartCount: Int?
+    var heart_count: Int
     
     @Field(key: "dna_structure")
-    var dnaStructure: String?
+    var dna_structure: String
     
     @Field(key: "needs_oxygen")
-    var needsOxygen: Bool?
+    var needs_oxygen: Bool
     
     // Weird
     @Field(key: "hobbies")
     var hobbies: [String]
     
     @Field(key: "unique_skills")
-    var uniqueSkills: [String]
+    var unique_skills: [String]
     
     @Field(key: "contact_info")
-    var contactInfo: ContactInfo
+    var contact_info: ContactInfo
     
-    init() {}
+    init() { }
     
-    init(id: UUID? = nil, fullname: String, nickname: String, age: Int, height: Double, weight: Double, bloodType: String, isMarriage: Bool = false, species: String? = "Homo sapiens", eyeCount: Int? = 2, handCount: Int? = 2, heartCount: Int? = 1, dnaStructure: String? = "ATCG Sequence", needsOxygen: Bool? = true, hobbies: [String] = [], uniqueSkills: [String] = [], contactInfo: ContactInfo) async throws {
+    init(id: UUID? = nil, fullname: String, nickname: String, age: Int, height: Double, weight: Double, blood_type: String, is_marriage: Bool = false, species: String, eye_count: Int, hand_count: Int, heart_count: Int, dna_structure: String, needs_oxygen: Bool = true, hobbies: [String] = [], unique_skills: [String] = [], contact_info: ContactInfo) async throws {
         self.id = id
         self.fullname = fullname
         self.nickname = nickname
         self.age = age
         self.height = height
         self.weight = weight
-        self.bloodType = bloodType
-        self.isMarriage = isMarriage
+        self.blood_type = blood_type
+        self.is_marriage = is_marriage
         
         // Contanst
-        self.species = species ?? "Homo sapiens"
-        self.eyeCount = eyeCount ?? 2
-        self.handCount = handCount ?? 2
-        self.heartCount = heartCount ?? 1
-        self.dnaStructure = dnaStructure ?? "ATCG Sequence"
-        self.needsOxygen = needsOxygen ?? true
+        self.species = species
+        self.eye_count = eye_count
+        self.hand_count = hand_count
+        self.heart_count = heart_count
+        self.dna_structure = dna_structure
+        self.needs_oxygen = needs_oxygen
+        
+//        self.species = "Homo sapiens"
+//        self.eyeCount = 2
+//        self.handCount = 2
+//        self.heartCount = 1
+//        self.dnaStructure = "ATCG Sequence"
+//        self.needsOxygen = true
         
         // Weird
         self.hobbies = hobbies
-        self.uniqueSkills = uniqueSkills
-        self.contactInfo = contactInfo
+        self.unique_skills = unique_skills
+        self.contact_info = contact_info
     }
     
     static func validations(_ validations: inout Validations) {
@@ -130,11 +137,11 @@ final class Basic: Model, Content, Validatable, @unchecked Sendable {
             age: age,
             height: height,
             weight: weight,
-            bloodType: bloodType,
-            isMarriage: isMarriage,
+            blood_type: blood_type,
+            is_marriage: is_marriage,
             hobbies: hobbies,
-            uniqueSkills: uniqueSkills,
-            contactInfo: contactInfo
+            unique_skills: unique_skills,
+            contact_info: contact_info
         )
     }
 }
