@@ -100,13 +100,6 @@ final class Basic: Model, Content, Validatable, @unchecked Sendable {
         self.dna_structure = dna_structure
         self.needs_oxygen = needs_oxygen
         
-//        self.species = "Homo sapiens"
-//        self.eyeCount = 2
-//        self.handCount = 2
-//        self.heartCount = 1
-//        self.dnaStructure = "ATCG Sequence"
-//        self.needsOxygen = true
-        
         // Weird
         self.hobbies = hobbies
         self.unique_skills = unique_skills
