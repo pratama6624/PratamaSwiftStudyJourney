@@ -18,6 +18,11 @@ struct BasicsController: RouteCollection{
         // POST Request /basics
         basics.post(use: self.createPerson)
             .withMetadata("Create new person", "Basic Controller")
+        
+        // For Tuples Test
+        // Implementasi dari Tuples di Swift Route ke versi Vapor / versi REST API
+        basics.post("analyze-patient", use: self.analyzePatientData)
+            .withMetadata("Check health status", "Basic Controller -> Tuples")
     }
     
     @Sendable
@@ -31,5 +36,12 @@ struct BasicsController: RouteCollection{
         
         try await person.create(on: req.db)
         return person.toBasicDTO()
+    }
+    
+    @Sendable
+    func analyzePatientData(req: Request) async throws -> AnalysisResult {
+        let input = try req.content.decode(PatientDTO.self)
+        
+        return PatientAnalyzerService.analyzePatientData(age: input.age, weight: input.weight, bloodPressure: input.bloodPressure)
     }
 }
