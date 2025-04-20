@@ -23,6 +23,11 @@ struct BasicsController: RouteCollection{
         // Implementasi dari Tuples di Swift Route ke versi Vapor / versi REST API
         basics.post("analyze-patient", use: self.analyzePatientData)
             .withMetadata("Check health status", "Basic Controller -> Tuples")
+        
+        // For Optionals Test
+        // Implementasi ke versi Vapor / versi REST API
+        basics.post("create-book", use: self.createBook)
+            .withMetadata("Create a book", "Basic Controller -> Optionals")
     }
     
     @Sendable
@@ -43,5 +48,12 @@ struct BasicsController: RouteCollection{
         let input = try req.content.decode(PatientDTO.self)
         
         return PatientAnalyzerService.analyzePatientData(age: input.age, weight: input.weight, bloodPressure: input.bloodPressure)
+    }
+    
+    @Sendable
+    func createBook(req: Request) async throws -> BookDTO {
+        let input = try req.content.decode(BookDTO.self)
+        
+        return input
     }
 }

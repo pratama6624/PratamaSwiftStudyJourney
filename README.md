@@ -25,8 +25,8 @@ Note: I combined Swift roadmap with Vapor Framework
         [√] Floating-Point Numbers
     [√] Type Safety and Type Inference
     [√] Booleans
-    [ ] Tuples
-    [ ] Optionals
+    [√] Tuples
+    [√] Optionals
     [ ] Optional Binding
     [ ] Providing a Fallback Value
     [ ] Implicitly Unwrapped Optionals
