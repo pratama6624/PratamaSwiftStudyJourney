@@ -27,7 +27,7 @@ Note: I combined Swift roadmap with Vapor Framework
     [√] Booleans
     [√] Tuples
     [√] Optionals
-    [ ] Optional Binding
+    [√] Optional Binding
     [ ] Providing a Fallback Value
     [ ] Implicitly Unwrapped Optionals
     [ ] Error Handling

@@ -7,6 +7,9 @@
 
 import Vapor
 
+// For Optionals Test
+// Implementasi ke versi Vapor / versi REST API
+
 struct BookDTO: Content {
     var title: String
     var author: String

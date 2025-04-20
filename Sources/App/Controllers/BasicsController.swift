@@ -28,6 +28,11 @@ struct BasicsController: RouteCollection{
         // Implementasi ke versi Vapor / versi REST API
         basics.post("create-book", use: self.createBook)
             .withMetadata("Create a book", "Basic Controller -> Optionals")
+        
+        // For Optional Binding Test
+        // Implementasi ke versi Vapor / versi REST API
+        basics.post("analyze-movie", use: self.analyzeMovie)
+            .withMetadata("Analyze movie", "Basic Controller -> Optional Binding")
     }
     
     @Sendable
@@ -55,5 +60,19 @@ struct BasicsController: RouteCollection{
         let input = try req.content.decode(BookDTO.self)
         
         return input
+    }
+    
+    @Sendable
+    func analyzeMovie(req: Request) async throws -> Response {
+        let movie = try req.content.decode(MovieDTO.self)
+        
+        // Optional Binding with if let
+        if let favorite = movie.favoriteMovie {
+            let response = ["message": "\(movie.username)'s favorite movie is \(favorite)."]
+            return Response(status: .ok, body: .init(string: try response.encodeToJSONString()))
+        } else {
+            let response = ["message": "We don't know \(movie.username)'s favorite movie"]
+            return Response(status: .ok, body: .init(string: try response.encodeToJSONString()))
+        }
     }
 }
