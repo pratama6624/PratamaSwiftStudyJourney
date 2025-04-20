@@ -33,6 +33,11 @@ struct BasicsController: RouteCollection{
         // Implementasi ke versi Vapor / versi REST API
         basics.post("analyze-movie", use: self.analyzeMovie)
             .withMetadata("Analyze movie", "Basic Controller -> Optional Binding")
+        
+        // For Optional Fallback Value Test
+        // Implementasi ke versi Vapor / versi REST API
+        basics.post("calculate", use: self.calculateDiscount)
+            .withMetadata("calculate", "Basic Controller -> Optional Fallback Value")
     }
     
     @Sendable
@@ -74,5 +79,17 @@ struct BasicsController: RouteCollection{
             let response = ["message": "We don't know \(movie.username)'s favorite movie"]
             return Response(status: .ok, body: .init(string: try response.encodeToJSONString()))
         }
+    }
+    
+    @Sendable
+    func calculateDiscount(req: Request) async throws -> Response {
+        let data = try req.content.decode(DisorderDTO.self)
+        
+        // Fellback Optional Value
+        let discount = data.discountPercentage ?? 0
+        
+        let message = "\(data.username) gets a \(discount)% discount."
+        let response = ["message": message]
+        return Response(status: .ok, body: .init(string: try response.encodeToJSONString()))
     }
 }
