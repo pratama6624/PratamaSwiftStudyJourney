@@ -15,5 +15,22 @@ struct AppConfig {
     var version: String
 }
 
+// Cara lama
 // Gunakan Implicitly Unwrapped Optional
-var globalConfig: AppConfig!
+//var globalConfig: AppConfig!
+
+// Cara baru di swift 6
+extension Application {
+    private struct AppConfigKey: StorageKey {
+        typealias Value = AppConfig
+    }
+    
+    var config: AppConfig {
+        get {
+            self.storage[AppConfigKey.self]!
+        }
+        set {
+            self.storage[AppConfigKey.self] = newValue
+        }
+    }
+}

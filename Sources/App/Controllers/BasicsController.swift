@@ -99,10 +99,17 @@ struct BasicsController: RouteCollection{
     }
     
     @Sendable
-    func appInfo(req: Request) async throws -> Response {
+    func appInfo(req: Request) async throws -> String {
+        // Cara lama -> return Response
+        /*
         let message = "\(globalConfig.appName) - Version \(globalConfig.version)"
         let response = ["info": message]
         
         return Response(status: .ok, body: .init(string: try response.encodeToJSONString()))
+         */
+        
+        // Cara baru dengan swift 6 -> return String
+        let appName = req.application.config.appName
+        return "Welcome to \(appName)"
     }
 }

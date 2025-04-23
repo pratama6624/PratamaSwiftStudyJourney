@@ -9,7 +9,11 @@ public func configure(_ app: Application) async throws {
     // uncomment to serve files from /Public folder
     // app.middleware.use(FileMiddleware(publicDirectory: app.directory.publicDirectory))
     
-    globalConfig = AppConfig(appName: "SwiftyApp", version: "1.0")
+    // Cara lama
+    // globalConfig = AppConfig(appName: "SwiftyApp", version: "1.0")
+    
+    // Cara baru di swift 6
+    app.config = AppConfig(appName: "SwiftyApp", version: "1.0")
     
     app.logger.logLevel = .debug
     
