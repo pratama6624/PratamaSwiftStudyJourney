@@ -43,6 +43,11 @@ struct BasicsController: RouteCollection{
         // Implementasi ke versi Vapor / versi REST API
         basics.post("app-info", use: self.appInfo)
             .withMetadata("App info", "Basic Controller -> Optional Fallback Value")
+        
+        // For Basic Error Handling
+        // Implementasi ke versi Vapor / versi REST API
+        basics.post("test-error-handling", use: self.errorHandlingTest)
+            .withMetadata("Test error handling", "Basic Controller -> Error Handling")
     }
     
     @Sendable
@@ -111,5 +116,20 @@ struct BasicsController: RouteCollection{
         // Cara baru dengan swift 6 -> return String
         let appName = req.application.config.appName
         return "Welcome to \(appName)"
+    }
+    
+    @Sendable
+    func errorHandlingTest(req: Request) async throws -> UserResponseDTO {
+        let data = try req.content.decode(UserRequest.self)
+        
+        guard let name = data.name, !name.isEmpty else {
+            throw UserError.missingName
+        }
+        
+        guard let age = data.age, age > 0 else {
+            throw UserError.invalidAge
+        }
+        
+        return UserResponseDTO(message: "Hello \(name), Age \(age)")
     }
 }

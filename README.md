@@ -30,7 +30,7 @@ Note: I combined Swift roadmap with Vapor Framework
     [√] Optional Binding
     [√] Providing a Fallback Value
     [√] Implicitly Unwrapped Optionals
-    [ ] Error Handling
+    [√] Error Handling
     [ ] Assertions and Preconditions
     [ ] Debugging with Assertions
     [ ] Enforcing Preconditions
