@@ -37,7 +37,12 @@ struct BasicsController: RouteCollection{
         // For Optional Fallback Value Test
         // Implementasi ke versi Vapor / versi REST API
         basics.post("calculate", use: self.calculateDiscount)
-            .withMetadata("calculate", "Basic Controller -> Optional Fallback Value")
+            .withMetadata("Calculate", "Basic Controller -> Optional Fallback Value")
+        
+        // For Implicitly Unwrapped Optionals
+        // Implementasi ke versi Vapor / versi REST API
+        basics.post("app-info", use: self.appInfo)
+            .withMetadata("App info", "Basic Controller -> Optional Fallback Value")
     }
     
     @Sendable
@@ -90,6 +95,14 @@ struct BasicsController: RouteCollection{
         
         let message = "\(data.username) gets a \(discount)% discount."
         let response = ["message": message]
+        return Response(status: .ok, body: .init(string: try response.encodeToJSONString()))
+    }
+    
+    @Sendable
+    func appInfo(req: Request) async throws -> Response {
+        let message = "\(globalConfig.appName) - Version \(globalConfig.version)"
+        let response = ["info": message]
+        
         return Response(status: .ok, body: .init(string: try response.encodeToJSONString()))
     }
 }
