@@ -32,6 +32,6 @@ Note: I combined Swift roadmap with Vapor Framework
     [√] Implicitly Unwrapped Optionals
     [√] Error Handling
     [√] Assertions and Preconditions
-    [ ] Debugging with Assertions
+    [√] Debugging with Assertions
     [ ] Enforcing Preconditions
 ```

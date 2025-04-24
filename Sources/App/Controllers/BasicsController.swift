@@ -53,6 +53,11 @@ struct BasicsController: RouteCollection{
         // Implementasi ke versi Vapor / versi REST API
         basics.post("check-score", use: self.checkScore)
             .withMetadata("Test score", "Basic Controller -> Assertions and Preconditions")
+        
+        // For Basic Assertions - Debugging with Assertions
+        // Implementasi ke versi Vapor / versi REST API
+        basics.get("check-age", use: self.checkAge)
+            .withMetadata("Check age", "Basic Controller -> Debugging with Assertions")
     }
     
     @Sendable
@@ -149,5 +154,23 @@ struct BasicsController: RouteCollection{
         precondition(!data.name.isEmpty, "Name must not be empty")
         
         return ScoreResponseDTO(message: "Score for \(data.name) is \(data.score)")
+    }
+    
+    @Sendable
+    func checkAge(req: Request) async throws -> String {
+        let age = try req.query.get(Int.self, at: "age")
+        
+        // Aplikasi langsung crash jika tidak memenuhi syarat
+        // Only for developer, not for end-user
+        assert(age >= 0, "A person's age can't be less than zero.")
+        
+        if age > 17 {
+            return "You can vote"
+        } else if age >= 0 {
+            return "You can't vote yet"
+        } else {
+            assertionFailure("Age is invalid")
+            return "This should never happen"
+        }
     }
 }
