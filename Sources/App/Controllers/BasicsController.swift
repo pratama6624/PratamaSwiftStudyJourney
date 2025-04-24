@@ -48,6 +48,11 @@ struct BasicsController: RouteCollection{
         // Implementasi ke versi Vapor / versi REST API
         basics.post("test-error-handling", use: self.errorHandlingTest)
             .withMetadata("Test error handling", "Basic Controller -> Error Handling")
+        
+        // For Basic Assertions and Preconditions
+        // Implementasi ke versi Vapor / versi REST API
+        basics.post("check-score", use: self.checkScore)
+            .withMetadata("Test score", "Basic Controller -> Assertions and Preconditions")
     }
     
     @Sendable
@@ -131,5 +136,18 @@ struct BasicsController: RouteCollection{
         }
         
         return UserResponseDTO(message: "Hello \(name), Age \(age)")
+    }
+    
+    @Sendable
+    func checkScore(req: Request) async throws -> ScoreResponseDTO {
+        let data = try req.content.decode(ScoreRequest.self)
+        
+        // Assertion : Hanya aktif saat debug
+        assert(data.score >= 0, "Score must not be negative!")
+        
+        // Precondition : Aktif di debug & release
+        precondition(!data.name.isEmpty, "Name must not be empty")
+        
+        return ScoreResponseDTO(message: "Score for \(data.name) is \(data.score)")
     }
 }
