@@ -33,5 +33,5 @@ Note: I combined Swift roadmap with Vapor Framework
     [√] Error Handling
     [√] Assertions and Preconditions
     [√] Debugging with Assertions
-    [ ] Enforcing Preconditions
+    [√] Enforcing Preconditions
 ```

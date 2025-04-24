@@ -58,6 +58,11 @@ struct BasicsController: RouteCollection{
         // Implementasi ke versi Vapor / versi REST API
         basics.get("check-age", use: self.checkAge)
             .withMetadata("Check age", "Basic Controller -> Debugging with Assertions")
+        
+        // For Basic Preconditions - Enforcing Preconditions
+        // Implementasi ke versi Vapor / versi REST API
+        basics.get(":id", use: self.getProduct)
+            .withMetadata("Get product", "Basic Controller -> Enforcing Preconditions")
     }
     
     @Sendable
@@ -172,5 +177,29 @@ struct BasicsController: RouteCollection{
             assertionFailure("Age is invalid")
             return "This should never happen"
         }
+    }
+    
+    @Sendable
+    func getProduct(req: Request) async throws -> ProductDTO {
+        let dummyProducts: [UUID: ProductDTO] = [
+            UUID(uuidString: "11111111-1111-1111-1111-111111111111")!: ProductDTO(id: UUID(uuidString: "11111111-1111-1111-1111-111111111111")!, name: "MacBook Pro", stock: 15)
+        ]
+        
+        guard let idString = req.parameters.get("id"), let uuid = UUID(uuidString: idString) else {
+            throw Abort(.badRequest, reason: "Invalid UUID")
+        }
+        
+        // Preconditions -> Harusnya uuid valid karena sudah melewati guard diatasnya
+        precondition(dummyProducts.keys.contains(uuid), "Product with ID \(uuid) must exist in system."
+        
+        )
+        
+        // Kalo sudah sampai sini berarti kita sudah yakin ID valid
+        guard let product = dummyProducts[uuid] else {
+            // Tidak seharusnya terjadi karena state invalid
+            preconditionFailure("Product lookup failed despite passing precondition.")
+        }
+        
+        return product
     }
 }
