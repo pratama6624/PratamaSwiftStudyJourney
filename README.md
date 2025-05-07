@@ -46,8 +46,8 @@ Note: I combined Swift roadmap with Vapor Framework
     [√] Unary Minus
     [√] Unary Plus
     [√] Compound Assignment
-    [ ] Comparison Operators
-    [ ] Ternary Conditional
+    [√] Comparison Operators
+    [√] Ternary Conditional
     [ ] Nil-Coalescing Operator
     [ ] Range
     [ ] Logical
