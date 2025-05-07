@@ -10,7 +10,7 @@ Note: I combined Swift roadmap with Vapor Framework
 
 ### Basics
 ```bash
-    On Going
+    Complete
     
     [√] Constants and Variables
     [√] Declaring Constants and Variables
@@ -35,3 +35,19 @@ Note: I combined Swift roadmap with Vapor Framework
     [√] Debugging with Assertions
     [√] Enforcing Preconditions
 ```
+
+### Basic Operators
+```bash
+    On Going
+    [√] Assignment
+    [√] Arithmetic
+    [√] String
+    [√] Remainder or Modulus
+    [√] Unary Minus
+    [√] Unary Plus
+    [√] Compound Assignment
+    [ ] Comparison Operators
+    [ ] Ternary Conditional
+    [ ] Nil-Coalescing Operator
+    [ ] Range
+    [ ] Logical
