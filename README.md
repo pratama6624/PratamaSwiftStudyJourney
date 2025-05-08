@@ -48,6 +48,6 @@ Note: I combined Swift roadmap with Vapor Framework
     [√] Compound Assignment
     [√] Comparison Operators
     [√] Ternary Conditional
-    [ ] Nil-Coalescing Operator
-    [ ] Range
+    [√] Nil-Coalescing Operator
+    [√] Range
     [ ] Logical
