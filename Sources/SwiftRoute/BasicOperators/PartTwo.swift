@@ -82,3 +82,44 @@ print("Index 5 is \(range.contains(5))")
 print("Index 5 is \(range.contains(-15))")
 
 // Logical
+// ! != && ||
+// !
+var isHuman = true
+if !isHuman {
+    print("Devil")
+} else {
+    print("Human")   
+}
+// !=
+var name = "Young"
+if name != "Pratama" {
+    print("Not me")
+}
+// &&
+let enteredDoorCode = true
+let passedRetinaScan = false
+if enteredDoorCode && passedRetinaScan {
+    print("Welcome")
+} else {
+    print("ACCESS DENIED")
+}
+// ||
+let hasDoorKey = false
+let knowsOverridePassword = true
+if hasDoorKey || knowsOverridePassword {
+    print("Welcome")
+} else {
+    print("ACCESS DENIED")
+}
+// Combine && ||
+if enteredDoorCode && passedRetinaScan || hasDoorKey || knowsOverridePassword {
+    print("Welcome")
+} else {
+    print("ACCESS DENIED")
+}
+// Explicit Combine && ||
+if (enteredDoorCode && passedRetinaScan) || hasDoorKey || knowsOverridePassword {
+    print("Welcome")
+} else {
+    print("ACCESS DENIED")
+}
