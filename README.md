@@ -71,10 +71,10 @@ Note: I combined Swift roadmap with Vapor Framework
     [√] Unicode Scalar Values
     [√] Extended Grapheme Clusters
     [√] Counting Characters
-    [ ] Accessing and Modifying a String
-    [ ] String Indices
-    [ ] Inserting and Removing
-    [ ] Substrings
+    [√] Accessing and Modifying a String
+    [√] String Indices
+    [√] Inserting and Removing
+    [√] Substrings
     [ ] Comparing Strings
     [ ] String and Character Equality
     [ ] Prefix and Suffix Equality

@@ -60,6 +60,14 @@ let precomposed: Character = "\u{D55C}" // 한
 let decomposed: Character = "\u{1112}\u{1161}\u{11AB}" // ᄒ, ᅡ, ᆫ
 print("Precomposed is \(precomposed), Decomposed is \(decomposed)")
 
+// Counting Characters
+let unusualMenagerie = "Koala 🐨, Snail 🐌, Penguin 🐧, Dromedary 🐪"
+print("unusualMenagerie has \(unusualMenagerie.count) characters")
+
+var word = "cafe"
+print("the number of characters in \(word) is \(word.count)")
+word += "\u{301}" // add ´
+print("the number of characters in \(word) is still \(word.count)") // Still 4
 
 
 
