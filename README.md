@@ -1,10 +1,15 @@
-# Learning Swift: A Programming Languange From APPLE
+# Learning Swift – For the Apple Ecosystem
 
-# For the Entire APPLE Ecosystem
+This repository documents my structured journey to deeply learn **Swift**, Apple’s official language for iOS, iPadOS, macOS, watchOS, and tvOS development.
 
-This repository is created to document my journey in learning **Swift**, a programming language from apple for the entire apple ecosystem itself. All practices, experiments, and updates will be recorded here according to the official documentation and my first-hand experience.
+Although I already have experience with Swift, my learning was previously unstructured. Now, I’m following the [official Swift documentation](https://swift.org/documentation/) step-by-step to strengthen my foundation and fill in any gaps.
 
-Note: I combined Swift roadmap with Vapor Framework
+### What's inside:
+- Code examples and experiments  
+- Notes from official docs  
+- Integration with the [Vapor](https://vapor.codes) framework for server-side Swift  
+
+> Combining client-side and server-side Swift for full-stack mastery.
 
 ## Road Map
 
