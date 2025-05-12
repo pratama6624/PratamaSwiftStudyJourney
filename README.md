@@ -64,13 +64,13 @@ Note: I combined Swift roadmap with Vapor Framework
     [√] Initializing an Empty String
     [√] String Mutability
     [√] Strings Are Value Types
-    [ ] Working with Characters
-    [ ] Concatenating Strings and Characters
-    [ ] String Interpolation
-    [ ] Unicode
-    [ ] Unicode Scalar Values
-    [ ] Extended Grapheme Clusters
-    [ ] Counting Characters
+    [√] Working with Characters
+    [√] Concatenating Strings and Characters
+    [√] String Interpolation
+    [√] Unicode
+    [√] Unicode Scalar Values
+    [√] Extended Grapheme Clusters
+    [√] Counting Characters
     [ ] Accessing and Modifying a String
     [ ] String Indices
     [ ] Inserting and Removing
