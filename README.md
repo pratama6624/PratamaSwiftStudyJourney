@@ -103,15 +103,19 @@ Although I already have experience with Swift, my learning was previously unstru
     [√] Creating an Array with an Array Literal
     [√] Accessing and Modifying an Array
     [√] Iterating Over an Array
-    [ ] Sets
-    [ ] Hash Values for Set Types
-    [ ] Set Type Syntax
-    [ ] Creating and Initializing an Empty Set
-    [ ] Creating a Set with an Array Literal
-    [ ] Accessing and Modifying a Set
-    [ ] Iterating Over a Set
+    [√] Sets
+    [√] Hash Values for Set Types
+    [√] Set Type Syntax
+    [√] Creating and Initializing an Empty Set
+    [√] Creating a Set with an Array Literal
+    [√] Accessing and Modifying a Set
+    [√] Iterating Over a Set
     [ ] Performing Set Operations
     [ ] Fundamental Set Operations
+        [ ] intersection
+        [ ] intersection
+        [ ] union
+        [ ] subtracting
     [ ] Set Membership and Equality
     [ ] Dictionaries
     [ ] Dictionary Type Shorthand Syntax
