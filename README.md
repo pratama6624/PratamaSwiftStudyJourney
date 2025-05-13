@@ -80,9 +80,9 @@ Although I already have experience with Swift, my learning was previously unstru
     [√] String Indices
     [√] Inserting and Removing
     [√] Substrings
-    [ ] Comparing Strings
-    [ ] String and Character Equality
-    [ ] Prefix and Suffix Equality
+    [√] Comparing Strings
+    [√] String and Character Equality
+    [√] Prefix and Suffix Equality
     [ ] Unicode Representations of Strings
     [ ] UTF-8 Representation
     [ ] UTF-16 Representation
