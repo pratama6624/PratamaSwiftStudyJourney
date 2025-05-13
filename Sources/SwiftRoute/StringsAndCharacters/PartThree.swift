@@ -101,3 +101,20 @@ print("\(mansionCount) mansion scenes; \(cellCount) cell scenes\n---------------
 // On Going
 let bigA = "\u{0041}"
 print(#"\(u{0041}) equals A"#)
+
+let dogString = "Dog‼🐶"
+// utf-8
+for codeUnit in dogString.utf8 {
+    print("\(codeUnit)", terminator: " ")
+}
+print("")
+// utf-16
+for codeUnit in dogString.utf16 {
+    print("\(codeUnit)", terminator: " ")
+}
+print("")
+// Scalar
+for scalar in dogString.unicodeScalars {
+    print("\(scalar)", terminator: " ")
+    
+}

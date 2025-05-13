@@ -61,7 +61,8 @@ Although I already have experience with Swift, my learning was previously unstru
 
 ### Strings and Characters
 ```bash
-    On Going
+    Complete
+    
     [√] String Literals
     [√] Multiline String Literals
     [√] Special Characters in String Literals
@@ -83,7 +84,7 @@ Although I already have experience with Swift, my learning was previously unstru
     [√] Comparing Strings
     [√] String and Character Equality
     [√] Prefix and Suffix Equality
-    [ ] Unicode Representations of Strings
-    [ ] UTF-8 Representation
-    [ ] UTF-16 Representation
-    [ ] Unicode Scalar Representation
+    [√] Unicode Representations of Strings
+    [√] UTF-8 Representation
+    [√] UTF-16 Representation
+    [√] Unicode Scalar Representation
