@@ -110,13 +110,18 @@ Although I already have experience with Swift, my learning was previously unstru
     [√] Creating a Set with an Array Literal
     [√] Accessing and Modifying a Set
     [√] Iterating Over a Set
-    [ ] Performing Set Operations
-    [ ] Fundamental Set Operations
-        [ ] intersection
-        [ ] intersection
-        [ ] union
-        [ ] subtracting
+    [√] Performing Set Operations
+    [√] Fundamental Set Operations
+        [√] intersection
+        [√] symmetric difference
+        [√] union
+        [√] subtracting
     [ ] Set Membership and Equality
+        [ ] is equal (==)
+        [ ] isSubset
+        [ ] isSuperset
+        [ ] isStrictSubset
+        [ ] isDisjoint
     [ ] Dictionaries
     [ ] Dictionary Type Shorthand Syntax
     [ ] Creating an Empty Dictionary
