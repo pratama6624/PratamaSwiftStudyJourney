@@ -92,7 +92,7 @@ Although I already have experience with Swift, my learning was previously unstru
 
 ### Collection Types
 ```bash
-    On Going
+    Complete
 
     [√] Mutability of Collections
     [√] Arrays
@@ -116,15 +116,16 @@ Although I already have experience with Swift, my learning was previously unstru
         [√] symmetric difference
         [√] union
         [√] subtracting
-    [ ] Set Membership and Equality
-        [ ] is equal (==)
-        [ ] isSubset
-        [ ] isSuperset
-        [ ] isStrictSubset
-        [ ] isDisjoint
-    [ ] Dictionaries
-    [ ] Dictionary Type Shorthand Syntax
-    [ ] Creating an Empty Dictionary
-    [ ] Creating a Dictionary with a Dictionary Literal
-    [ ] Accessing and Modifying a Dictionary
-    [ ] Iterating Over a Dictionary
+    [√] Set Membership and Equality
+        [√] is equal (==)
+        [√] isSubset
+        [√] isSuperset
+        [√] isStrictSubset
+        [√] isDisjoint
+    [√] Dictionaries
+    [√] Dictionary Type Shorthand Syntax
+    [√] Creating an Empty Dictionary
+    [√] Creating a Dictionary with a Dictionary Literal
+    [√] Accessing and Modifying a Dictionary
+    [√] Iterating Over a Dictionary
+```

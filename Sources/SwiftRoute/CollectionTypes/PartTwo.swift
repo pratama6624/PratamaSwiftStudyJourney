@@ -87,7 +87,111 @@ print("odd subtrating with single digit prime number \(oddDigits.subtracting(sin
 
 // Lom kelar broo, lanjutin tar sore
 // Set Membership and Equality
-// s equal (==)
 let houseAnimals: Set = ["🐶", "🐱"]
 let farmAnimals: Set = ["🐮", "🐔", "🐑", "🐶", "🐱"]
 let cityAnimals: Set = ["🐦", "🐭"]
+let houseAnimals2: Set = ["🐶", "🐱"]
+let houseAnimals3: Set = ["🐱", "🐶"]
+// is equal (==)
+print("houseAnimals = houseAnimals2 is \(houseAnimals == houseAnimals2)")
+print("houseAnimals = cityAnimals is \(houseAnimals == cityAnimals)")
+print("houseAnimals2 = houseAnimals3 is \(houseAnimals2 == houseAnimals3)")
+// isSubset
+print("houseAnimals isSubset farmAnimals is \(houseAnimals.isSubset(of: farmAnimals))")
+print("cityAnimals isSubset farmAnimals is \(cityAnimals.isSubset(of: farmAnimals))")
+print("farmAnimals isSubset houseAnimals3 is \(farmAnimals.isSubset(of: houseAnimals3))")
+// isSuperset
+print("houseAnimals isSuperset farmAnimals is \(houseAnimals.isSuperset(of: farmAnimals))")
+print("farmAnimals isSuperset houseAnimals is \(farmAnimals.isSuperset(of: houseAnimals))")
+// isStrictSubset
+let smallSet: Set = [1, 2]
+let bigSet: Set = [1, 2, 3, 4]
+let smallSet2: Set = [1, 2]
+let mediumSet: Set = [5, 6, 7]
+print("smallSet is isStrictSubset bigSet is \(smallSet.isStrictSubset(of: bigSet))")
+print("smallSet is smallSet2 bigSet is \(smallSet.isStrictSubset(of: smallSet2))")
+// isStrictSuperset
+print("bigSet is isStrictSuperset smallSet is \(bigSet.isStrictSuperset(of: smallSet))")
+print("smallSet2 is isStrictSuperset smallSet is \(smallSet2.isStrictSuperset(of: smallSet))")
+// isDisjoint
+print("smallSet is isDisjoint mediumSet is \(smallSet.isDisjoint(with: mediumSet))\n------------------------------------------")
+
+
+// Dictionaries
+var students: Dictionary<String, Int> = [
+    "Pratama": 22,
+    "Nur": 24,
+    "Kukuh": 25
+]
+print("\(students)")
+
+// Dictionary Type Shorthand Syntax
+// long form
+var data1: Dictionary<String, Int> = [
+    "Pramata": 2,
+    "Nur": 5
+]
+// shorthand
+var data2: [String: Int] = [
+    "Kukuh": 4,
+    "Pratama": 10
+]
+// Creating an Empty Dictionary
+var data3: [String: String] = [:]
+if data3.isEmpty {
+    print("data 3 is empty")
+}
+data3["Kukuh Nur Pratama"] = "411222054"
+print("now data 3 is no longer empty")
+
+// Creating a Dictionary with a Dictionary Literal
+var mahasiswa: [String: String] = ["Pratama": "411222054", "Diki": "411222055"]
+print("Mahasiswa \(mahasiswa)")
+
+// Accessing and Modifying a Dictionary
+// Access
+if let nimPratama = mahasiswa["Pratama"] {
+    print("Mahasiswa Pratama with NIM \(nimPratama)")
+} else {
+    print("Data NIM not found")
+}
+// Adding
+mahasiswa["Nur"] = "411222055"
+if let nimNur = mahasiswa["Nur"] {
+    print("Mahasiswa Nur with NIM \(nimNur)")
+} else {
+    print("Data NIM not found")
+}
+// Modify
+mahasiswa["Nur"] = "411222053"
+if let newNimNur = mahasiswa["Nur"] {
+    print("Mahasiswa Nur with new NIM \(newNimNur)")
+} else {
+    print("Data NIM not found")
+}
+// Remove / Delete
+mahasiswa["Nur"] = nil
+print("Final data mahasiswa \(mahasiswa)\n------------------------------------------")
+
+
+// Iterating Over a Dictionary
+// Default Iteration
+for (name, nim) in mahasiswa {
+    print("Mahasiswa \(name) with NIM \(nim)")
+}
+print("------------------------------------------")
+// Get the key
+for mahasiswaName in mahasiswa.keys {
+    print("Mahasiswa with name \(mahasiswaName)")
+}
+print("------------------------------------------")
+// Get the value
+for mahasiswaNim in mahasiswa.values {
+    print("Mahasiswa with NIM \(mahasiswaNim)")
+}
+print("------------------------------------------")
+let names = [String](mahasiswa.keys)
+print("\(names)\n------------------------------------------")
+let nims = [String](mahasiswa.values)
+print("\(nims)\n------------------------------------------")
+
