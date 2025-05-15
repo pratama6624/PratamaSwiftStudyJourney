@@ -129,3 +129,32 @@ Although I already have experience with Swift, my learning was previously unstru
     [√] Accessing and Modifying a Dictionary
     [√] Iterating Over a Dictionary
 ```
+
+### Control Flow
+```bash
+    On Going
+
+    [√] For-In Loops
+    [√] While Loops
+    [√] While
+    [√] Repeat While
+    [√] Conditional Statements
+    [√] If
+    [√] Switch
+        [√] No Implicit Fallthrough
+        [ ] Interval Matching
+        [ ] Tuples
+        [ ] Value Bindings
+        [ ] Where
+        [ ] Compound Cases
+    [ ] Control Transfer Statements
+        [ ] Continue
+        [ ] Break
+        [ ] Break in a Loop Statement
+        [ ] Break in a Switch Statement
+        [ ] Fallthrough
+        [ ] Labeled Statements
+    [ ] Early Exit
+    [ ] Deferred Actions
+    [ ] Checking API Availability
+```
