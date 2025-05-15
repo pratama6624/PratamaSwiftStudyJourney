@@ -128,3 +128,190 @@ switch somePoint {
     print("\(somePoint) is outside of the box")
 }
 // Prints "(1, 1) is inside the box"
+
+// Value Bindings
+let anotherPoint = (2, 0)
+switch anotherPoint {
+    case (let x, 0):
+        print("on the x-axis with an x value of \(x)")
+    case (0, let y):
+        print("on the y-axis with a y value of \(y)")
+    case let (x, y):
+        print("somewhere else at (\(x), \(y))")
+}
+
+// Where
+let yetAnotherPoint = (1, -1)
+switch yetAnotherPoint {
+    case let (x, y) where x == y:
+        print("(\(x), \(y)) is on the line x == y")
+    case let (x, y) where x == -y:
+        print("(\(x), \(y)) is on the line x == -y")
+    case let (x, y):
+        print("(\(x), \(y)) is just some arbitrary point")
+}
+
+// Compound Cases
+let someChar: Character = "v"
+switch someChar {
+    case "a", "i", "u", "e", "o":
+        print("\(someChar) is a vowel")
+    case "b", "c", "d", "f", "g", "h", "j", "k", "l", "m",
+        "n", "p", "q", "r", "s", "t", "v", "w", "x", "y", "z":
+        print("\(someChar) is a consonant")
+    default:
+        print("\(someChar) isn't a vowel or a consonant")       
+}
+let stillAnotherPoint = (9, 0)
+switch stillAnotherPoint {
+    // This is the same as the function ||
+    case (let distance, 0), (0, let distance):
+        print("On an axis, \(distance) from the origin")
+    default:
+        print("Not on an axis")
+}
+
+// Control Transfer Statements
+// Continue
+let puzzleInput = "great minds think alike"
+var puzzleOutput = ""
+let charactersToRemove: [Character] = ["a", "e", "i", "o", "u", " "]
+for char in puzzleInput {
+    if charactersToRemove.contains(char) {
+        continue
+    }
+    puzzleOutput.append(char)
+}
+print("\(puzzleOutput)\n----------------------------------")
+
+// Break
+// Break in a Loop Statement
+for i in 1..<100 {
+    if i == 3 {
+        break
+    }
+    print("i = \(i)")
+}
+
+// Break in a Switch Statement
+let number = 5
+switch number {
+case 5:
+    print("5")
+    // Break is only an option in swift
+    break
+case 6:
+    print("6")
+default:
+    print("i don't know")
+}
+
+// Fallthrough
+let integerToDescribe = 5
+var description = "The number \(integerToDescribe) is"
+switch integerToDescribe {
+    case 2, 3, 5, 7, 11, 13, 17, 19:
+        description += " a prime number, and also"
+        fallthrough
+    default:
+        description += " an integer."
+}
+print("\(description)")
+
+let value = 3
+switch value {
+    case 3:
+        print("This is 3")
+        fallthrough
+    case 4:
+        print("This is 4")
+        fallthrough
+    case 5:
+        print("This is 5")
+    default:
+        print("Done")
+}
+
+// Labeled Statements
+print("\n--------------------------------------------")
+outerLoop: for i in 1...5 {
+    innerLoop: for j in 1...5 {
+        if j == 3 {
+            print("Break to outer loop i = \(i), j = \(j)")
+            break outerLoop
+        }
+        print("i = \(i), j = \(j)")
+    }
+}
+print("--------------------------------------------")
+numberLoop: for num in 1...5 {
+    if num % 2 == 0 {
+        print("Next iteration from number loop in num = \(num)")
+        continue numberLoop
+    }
+    print("Odd number: \(num)")
+}
+
+// Early Exit
+print("--------------------------------------------")
+func great(person: [String: String]) {
+    guard let name = person["name"] else {
+        return
+    }
+
+    print("Hello \(name)")
+
+    guard let location = person["location"] else {
+        print("I hope the weather is nice near you.")
+        return
+    }
+    
+    print("I hope the weather is nice in \(location)")
+}
+great(person: ["name": "Pratama"])
+great(person: ["name": "Nur", "location": "South tangerang"])
+
+// Deferred Actions
+print("--------------------------------------------")
+var score = 1
+if score < 10 {
+    defer {
+        print(score)
+    }
+    score += 5
+}
+print("--------------------------------------------")
+var score2 = 3
+if score2 < 100 {
+    score2 += 100
+    defer {
+        score2 -= 100
+    }
+    print(score2)
+}
+print("--------------------------------------------")
+if score < 10 {
+    defer {
+        print(score)
+    }
+    defer {
+        print("The score is \(score)")
+        
+    }
+    score += 5
+}
+
+// Checking API Availability
+@available(macOS 10.12, *)
+struct ColorPreference {
+    var bestColor = "blue"
+}
+func chooseBestColor() -> String {
+    guard #available(macOS 10.12, *) else {
+       return "gray"
+    }
+
+    let colors = ColorPreference()
+    return colors.bestColor
+}
+print(chooseBestColor())

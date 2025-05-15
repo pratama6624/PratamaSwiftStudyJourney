@@ -179,17 +179,17 @@ This section outlines my long-term learning goals to become a professional iOS D
         [√] No Implicit Fallthrough
         [√] Interval Matching
         [√] Tuples
-        [ ] Value Bindings
-        [ ] Where
-        [ ] Compound Cases
+        [√] Value Bindings
+        [√] Where
+        [√] Compound Cases
     [ ] Control Transfer Statements
-        [ ] Continue
-        [ ] Break
-        [ ] Break in a Loop Statement
-        [ ] Break in a Switch Statement
-        [ ] Fallthrough
-        [ ] Labeled Statements
-    [ ] Early Exit
-    [ ] Deferred Actions
-    [ ] Checking API Availability
+        [√] Continue
+        [√] Break
+        [√] Break in a Loop Statement
+        [√] Break in a Switch Statement
+        [√] Fallthrough
+        [√] Labeled Statements
+    [√] Early Exit
+    [√] Deferred Actions
+    [√] Checking API Availability
 ```
