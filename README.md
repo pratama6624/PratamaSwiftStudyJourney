@@ -11,7 +11,42 @@ Although I already have experience with Swift, my learning was previously unstru
 
 > Combining client-side and server-side Swift for full-stack mastery.
 
-## Road Map
+---
+
+## 🚀 Road to iOS Developer 2027 (High-Level Roadmap)
+
+This section outlines my long-term learning goals to become a professional iOS Developer by early 2027.
+
+1. Fundamental Programming (Swift)
+2. Version Control (Git & GitHub)
+3. Basic Xcode & SwiftUI/UIKit Familiarity
+4. Layouting & Navigation
+5. State Management & Data Flow
+6. Networking (API/JSON & Codable)
+7. Local Data (UserDefaults, Core Data, Keychain)
+8. Authentication (Login/Register Basic)
+9. Project Architecture (MVVM, Clean Code)
+10. Unit Test & UI Test
+11. Debugging & Profiling Tools
+12. Error Handling & Logging
+13. Push Notification & Background Task
+14. Working with Media (Camera, Gallery, File)
+15. Accessibility & Localization
+16. App Lifecycle & SceneDelegate
+17. App Performance Optimization
+18. Working with Frameworks (MapKit, HealthKit, etc.)
+19. App Store Preparation
+20. TestFlight & Beta Testing
+21. App Store Submission
+22. Freelance / Real Project Simulation
+23. Contribute to Open Source / Build Personal Portfolio
+24. Stay Updated (WWDC, Swift Evolution, Apple Docs)
+25. Soft Skills: Problem Solving & Communication
+
+> This roadmap serves as a guide to track my growth and keep me accountable.
+
+
+## Road Map (Low-Level Roadmap)
 
 ### Basics
 ```bash
@@ -142,8 +177,8 @@ Although I already have experience with Swift, my learning was previously unstru
     [√] If
     [√] Switch
         [√] No Implicit Fallthrough
-        [ ] Interval Matching
-        [ ] Tuples
+        [√] Interval Matching
+        [√] Tuples
         [ ] Value Bindings
         [ ] Where
         [ ] Compound Cases
