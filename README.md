@@ -196,7 +196,7 @@ This section outlines my long-term learning goals to become a professional iOS D
 
 ### Functions
 ```bash
-    On Going
+    Complete
 
     [√] Defining and Calling Functions
     [√] Function Parameters and Return Values
@@ -204,17 +204,26 @@ This section outlines my long-term learning goals to become a professional iOS D
     [√] Functions With Multiple Parameters
     [√] Functions Without Return Values
     [√] Functions with Multiple Return Values
-    [ ] Optional Tuple Return Types
-    [ ] Functions With an Implicit Return
-    [ ] Function Argument Labels and Parameter Names
-    [ ] Specifying Argument Labels
-    [ ] Omitting Argument Labels
-    [ ] Default Parameter Values
-    [ ] Variadic Parameters
-    [ ] In-Out Parameters
-    [ ] Function Types
-    [ ] Using Function Types
-    [ ] Function Types as Parameter Types
-    [ ] Function Types as Return Types
-    [ ] Nested Functions
+    [√] Optional Tuple Return Types
+    [√] Functions With an Implicit Return
+    [√] Function Argument Labels and Parameter Names
+    [√] Specifying Argument Labels
+    [√] Omitting Argument Labels
+    [√] Default Parameter Values
+    [√] Variadic Parameters
+    [√] In-Out Parameters
+    [√] Function Types
+    [√] Using Function Types
+    [√] Function Types as Parameter Types
+    [√] Function Types as Return Types
+    [√] Nested Functions
+```
+
+### Closures
+```bash
+    On Going
+
+    [ ]
+    [ ]
+    [ ]
 ```
