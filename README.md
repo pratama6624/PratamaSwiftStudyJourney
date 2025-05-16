@@ -17,31 +17,31 @@ Although I already have experience with Swift, my learning was previously unstru
 
 This section outlines my long-term learning goals to become a professional iOS Developer by early 2027.
 
-1. Fundamental Programming (Swift)
-2. Version Control (Git & GitHub)
-3. Basic Xcode & SwiftUI/UIKit Familiarity
-4. Layouting & Navigation
-5. State Management & Data Flow
-6. Networking (API/JSON & Codable)
-7. Local Data (UserDefaults, Core Data, Keychain)
-8. Authentication (Login/Register Basic)
-9. Project Architecture (MVVM, Clean Code)
-10. Unit Test & UI Test
-11. Debugging & Profiling Tools
-12. Error Handling & Logging
-13. Push Notification & Background Task
-14. Working with Media (Camera, Gallery, File)
-15. Accessibility & Localization
-16. App Lifecycle & SceneDelegate
-17. App Performance Optimization
-18. Working with Frameworks (MapKit, HealthKit, etc.)
-19. App Store Preparation
-20. TestFlight & Beta Testing
-21. App Store Submission
-22. Freelance / Real Project Simulation
-23. Contribute to Open Source / Build Personal Portfolio
-24. Stay Updated (WWDC, Swift Evolution, Apple Docs)
-25. Soft Skills: Problem Solving & Communication
+[ ] Fundamental Programming (Swift)
+[ ] Version Control (Git & GitHub)
+[ ] Basic Xcode & SwiftUI/UIKit Familiarity
+[ ] Layouting & Navigation
+[ ] State Management & Data Flow
+[ ] Networking (API/JSON & Codable)
+[ ] Local Data (UserDefaults, Core Data, Keychain)
+[ ] Authentication (Login/Register Basic)
+[ ] Project Architecture (MVVM, Clean Code)
+[ ] Unit Test & UI Test
+[ ] Debugging & Profiling Tools
+[ ] Error Handling & Logging
+[ ] Push Notification & Background Task
+[ ] Working with Media (Camera, Gallery, File)
+[ ] Accessibility & Localization
+[ ] App Lifecycle & SceneDelegate
+[ ] App Performance Optimization
+[ ] Working with Frameworks (MapKit, HealthKit, etc.)
+[ ] App Store Preparation
+[ ] TestFlight & Beta Testing
+[ ] App Store Submission
+[ ] Freelance / Real Project Simulation
+[ ] Contribute to Open Source / Build Personal Portfolio
+[ ] Stay Updated (WWDC, Swift Evolution, Apple Docs)
+[ ] Soft Skills: Problem Solving & Communication
 
 > This roadmap serves as a guide to track my growth and keep me accountable.
 
@@ -167,7 +167,7 @@ This section outlines my long-term learning goals to become a professional iOS D
 
 ### Control Flow
 ```bash
-    On Going
+    Complete
 
     [√] For-In Loops
     [√] While Loops
@@ -182,7 +182,7 @@ This section outlines my long-term learning goals to become a professional iOS D
         [√] Value Bindings
         [√] Where
         [√] Compound Cases
-    [ ] Control Transfer Statements
+    [√] Control Transfer Statements
         [√] Continue
         [√] Break
         [√] Break in a Loop Statement
@@ -192,4 +192,29 @@ This section outlines my long-term learning goals to become a professional iOS D
     [√] Early Exit
     [√] Deferred Actions
     [√] Checking API Availability
+```
+
+### Functions
+```bash
+    On Going
+
+    [√] Defining and Calling Functions
+    [√] Function Parameters and Return Values
+    [√] Functions Without Parameters
+    [√] Functions With Multiple Parameters
+    [√] Functions Without Return Values
+    [√] Functions with Multiple Return Values
+    [ ] Optional Tuple Return Types
+    [ ] Functions With an Implicit Return
+    [ ] Function Argument Labels and Parameter Names
+    [ ] Specifying Argument Labels
+    [ ] Omitting Argument Labels
+    [ ] Default Parameter Values
+    [ ] Variadic Parameters
+    [ ] In-Out Parameters
+    [ ] Function Types
+    [ ] Using Function Types
+    [ ] Function Types as Parameter Types
+    [ ] Function Types as Return Types
+    [ ] Nested Functions
 ```
