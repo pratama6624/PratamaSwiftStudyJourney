@@ -19,7 +19,7 @@ This section outlines my long-term learning goals to become a professional iOS D
 
 ```bash
     [ ] Fundamental Programming (Swift)
-    [ ] Version Control (Git & GitHub)
+    [√] Version Control (Git & GitHub)
     [ ] Basic Xcode & SwiftUI/UIKit Familiarity
     [ ] Layouting & Navigation
     [ ] State Management & Data Flow
@@ -225,7 +225,22 @@ This section outlines my long-term learning goals to become a professional iOS D
 ```bash
     On Going
 
-    [ ]
-    [ ]
-    [ ]
+    [√] Closure Expressions
+    [√] The Sorted Method
+        [√] Full Closure Expression
+        [√] Type Inference
+        [√] Implicit Return
+        [√] Shorthand Argument Names
+        [√] Trailing Closure Syntax
+    [ ] Closure Expression Syntax
+    [ ] Inferring Type From Context
+    [ ] Implicit Returns from Single-Expression Closures
+    [ ] Shorthand Argument Names
+    [ ] Operator Methods
+    [ ] Trailing Closures
+    [ ] Capturing Values
+    [ ] Closures Are Reference Types
+    [ ] Escaping Closures
+    [ ] Autoclosures
+    [ ] 
 ```
