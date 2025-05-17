@@ -88,3 +88,31 @@ print("Numbers sort is \(reversedTrailingNumbers)\n-----------------------------
 // Sample 3 (Medium Level)
 let numberTransformation = numbers.map { "Angka: \($0)" }
 print("\(numberTransformation)")
+
+// Sample 4 (Hard Level)
+func repeatAction(times: Int, action: () -> Void) {
+    for _ in 1...times {
+        action()
+    }
+}
+var newCounter = 0
+repeatAction(times: 5) {
+    newCounter += 1
+    print("Now, new counter is \(newCounter)")   
+}
+
+// Sample 5 (Very Hard Level)
+func makeIncrementer(amount: Int) -> () -> Int {
+    var total = 0
+    let incrementer: () -> Int = {
+        total += amount
+        return total
+    }
+    return incrementer
+}
+let incrementByTwo = makeIncrementer(amount: 2)
+print("Now \(incrementByTwo())")
+print("Now \(incrementByTwo())")
+print("Now \(incrementByTwo())")
+print("Now \(incrementByTwo())")
+print("Now \(incrementByTwo())")
