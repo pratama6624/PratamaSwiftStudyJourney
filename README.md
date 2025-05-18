@@ -232,7 +232,7 @@ This section outlines my long-term learning goals to become a professional iOS D
         [√] Implicit Return
         [√] Shorthand Argument Names
         [√] Trailing Closure Syntax
-    [ ] Closure Expression Syntax
+    [√] Closure Expression Syntax
     [ ] Inferring Type From Context
     [ ] Implicit Returns from Single-Expression Closures
     [ ] Shorthand Argument Names
