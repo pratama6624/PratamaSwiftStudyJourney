@@ -70,7 +70,7 @@ let studentSorted = students.sorted (by: {(p1: Student, p2: Student) -> Bool in
     if p1.grade != p2.grade {
         return p1.grade > p2.grade
     } else if p1.attendance != p2.attendance {
-        return p1.attendance > p2.attendance
+        return p1.attendance > p2.attendance  
     } else {
         return p1.name < p2.name
     }

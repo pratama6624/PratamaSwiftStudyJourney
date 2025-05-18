@@ -242,5 +242,7 @@ This section outlines my long-term learning goals to become a professional iOS D
     [ ] Closures Are Reference Types
     [ ] Escaping Closures
     [ ] Autoclosures
-    [ ] 
+    [ ] Closures Challenge
+        [√] Filter, Map & Reduce (Case Study 1)
+        [ ] Filter, Map & Reduce Advanced (Case Study 1)
 ```
