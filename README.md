@@ -244,5 +244,5 @@ This section outlines my long-term learning goals to become a professional iOS D
     [ ] Autoclosures
     [ ] Closures Challenge
         [√] Filter, Map & Reduce (Case Study 1)
-        [ ] Filter, Map & Reduce Advanced (Case Study 1)
+        [√] Filter, Reduce, Sorted & Prefix Advanced (Case Study 2)
 ```
