@@ -144,5 +144,60 @@ let bestPlayer = Dictionary(grouping: players) { $0.level }
             .map { $0.name }
     }
 print("Best players \(bestPlayer)")
+print("-------------------------------------------------------")
 
 
+// Challenge 4 - Final
+// Top Contributor Tracker
+struct Contribution {
+    let username: String
+    let commits: Int
+    let linesOfCode: Int
+    let project: String
+}
+let contributions: [Contribution] = [
+    Contribution(username: "Andi", commits: 30, linesOfCode: 1200, project: "Alpha"),
+    Contribution(username: "Budi", commits: 25, linesOfCode: 800, project: "Beta"),
+    Contribution(username: "Citra", commits: 40, linesOfCode: 1511, project: "Alpha"),
+    Contribution(username: "Dina", commits: 20, linesOfCode: 1100, project: "Beta"),
+    Contribution(username: "Eka", commits: 35, linesOfCode: 1300, project: "Gamma"),
+    Contribution(username: "Fikri", commits: 22, linesOfCode: 900, project: "Alpha"),
+    Contribution(username: "Gina", commits: 28, linesOfCode: 1000, project: "Gamma"),
+    Contribution(username: "Hadi", commits: 18, linesOfCode: 700, project: "Beta"),
+    Contribution(username: "Intan", commits: 32, linesOfCode: 1600, project: "Gamma")
+]
+/* Sample Output
+    [
+        "Alpha": "Citra",
+        "Beta": "Budi",
+        "Gamma": "Intan"
+    ]
+*/
+/* Objective
+    1. Score = (commits * 10) + (linesOfCode / 10)
+    2. Grouping
+    3. 1 User top score
+    4. Output Dictionary
+*/
+// Grouping
+let contributionsGroup = Dictionary(grouping: contributions) { $0.project }
+// Mapping
+let contributionsScore = contributionsGroup.mapValues { contributions in
+    contributions.map { ($0.username, Double($0.commits * 10) + Double($0.linesOfCode / 10)) }
+        .sorted { $0.1 > $1.1 }
+        .prefix(1)
+        .map { $0.0 }
+}
+// print("\(contributionsScore)")
+// 1 Line | Clean code
+let finalContributionsScore = Dictionary(grouping: contributions) { $0.project }
+    .mapValues { contributions in
+        contributions.map {
+            ($0.username, Double($0.commits * 10) + Double($0.linesOfCode / 10))
+        }
+        .sorted { $0.1 > $1.1 }
+        .prefix(1)
+        .map { $0.0 }
+    }
+    .mapValues { $0.first ?? "" }
+print("Final score \(finalContributionsScore)")
