@@ -233,13 +233,13 @@ This section outlines my long-term learning goals to become a professional iOS D
         [√] Shorthand Argument Names
         [√] Trailing Closure Syntax
     [√] Closure Expression Syntax
-    [ ] Inferring Type From Context
-    [ ] Implicit Returns from Single-Expression Closures
-    [ ] Shorthand Argument Names
-    [ ] Operator Methods
-    [ ] Trailing Closures
-    [ ] Capturing Values
-    [ ] Closures Are Reference Types
+    [√] Inferring Type From Context
+    [√] Implicit Returns from Single-Expression Closures
+    [√] Shorthand Argument Names
+    [√] Operator Methods
+    [√] Trailing Closures
+    [√] Capturing Values
+    [√] Closures Are Reference Types
     [ ] Escaping Closures
     [ ] Autoclosures
     [√] Closures Challenge
