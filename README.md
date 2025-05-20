@@ -245,4 +245,5 @@ This section outlines my long-term learning goals to become a professional iOS D
     [ ] Closures Challenge
         [√] Filter, Map & Reduce (Case Study 1)
         [√] Filter, Reduce, Sorted & Prefix Advanced (Case Study 2)
+        [√] Leaderboard Category Challenge (Case Study 3)
 ```

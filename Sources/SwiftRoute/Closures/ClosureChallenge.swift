@@ -29,7 +29,6 @@ let filterStudentInOneChain = students
     .map { (Double($0.grade * 2)) + ($0.attendance * 100) }
     .reduce(0) { $0 + $1 }
 print("In one chain \(filterStudentInOneChain)")
-
 print("-------------------------------------------------------")
 
 
@@ -95,3 +94,55 @@ let top3FinalScoreClean = members
     //     result[item.0] = item.1
     // }
 print("Clean \(top3FinalScoreClean)")
+print("-------------------------------------------------------")
+
+
+// Challenge 3 -> Leaderboard Category Challenge
+struct Player {
+    let name: String
+    let score: Int
+    let level: String // "Beginner", "Intermediate", "Expert"
+}
+let players: [Player] = [
+    Player(name: "Andi", score: 120, level: "Beginner"),
+    Player(name: "Budi", score: 150, level: "Intermediate"),
+    Player(name: "Citra", score: 200, level: "Expert"),
+    Player(name: "Dina", score: 180, level: "Expert"),
+    Player(name: "Eka", score: 130, level: "Beginner"),
+    Player(name: "Fikri", score: 160, level: "Intermediate"),
+    Player(name: "Gina", score: 190, level: "Expert"),
+    Player(name: "Hadi", score: 100, level: "Beginner"),
+    Player(name: "Intan", score: 140, level: "Intermediate"),
+    Player(name: "Joko", score: 170, level: "Expert")
+]
+/* Sample output
+    [
+        "Beginner": ["Eka", "Andi"],
+        "Intermediate": ["Fikri", "Budi"],
+        "Expert": ["Citra", "Dina"]
+    ]
+*/
+/* Objective
+    1. Group players by their level (Beginner, Intermediate, Expert)
+    2. Sort players inside each group by their score descending
+    3. Get top 2 player
+    4. Output dictionary -> [String: [String]]
+*/
+// Grouping
+let groupedPlayer = Dictionary(grouping: players) { $0.level }
+// print("\(groupedPlayer)")
+// Sorting
+let sortedGroupedPlayer = groupedPlayer.mapValues { players in
+    players.sorted { $0.score > $1.score }.prefix(2).map { $0.name }
+}
+// print("\(sortedGroupedPlayer)")
+// 1 Line | Clean code
+let bestPlayer = Dictionary(grouping: players) { $0.level }
+    .mapValues { players in
+        players.sorted { $0.score > $1.score }
+            .prefix(2)
+            .map { $0.name }
+    }
+print("Best players \(bestPlayer)")
+
+
