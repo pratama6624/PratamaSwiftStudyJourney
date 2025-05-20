@@ -34,6 +34,8 @@ print("-------------------------------------------------------")
 
 
 // Challenge 2 -> Filter, Map & Reduce
+// Note (for challege 2) -> Any function that produces a dictionary will break the order
+// So.... Dictionary === Break the order
 struct Member {
     let name: String
     let grade: Int
@@ -63,33 +65,33 @@ let members: [Member] = [
 */
 // Filter
 let filterMember: [Member] = members.filter { $0.attendance >= 0.9 && $0.isActive == true }
-print("Filter it \(filterMember)")
+// print("Filter it \(filterMember)")
 // Reduce it
 let reduceFilterMember: [String: Double] = filterMember.reduce(into: [String: Double]()) { result, member in
     result[member.name] = Double(member.grade) + Double(member.attendance * 10)
 }
-print("Reduce it \(reduceFilterMember)")
+// print("Reduce it \(reduceFilterMember)")
 // Sort it
 let sorted = reduceFilterMember.sorted { $0.value > $1.value }
+print("Sorted array \(sorted)")
+// Note Dictionary == Random Sort
 let topSortReduceFilterMember = Dictionary.init(uniqueKeysWithValues: Array(sorted.prefix(3)))
-print("Sort it \(topSortReduceFilterMember)")
+// print("Sort it \(topSortReduceFilterMember)")
 // 1 Line | In one chain
-let top3FinalScore = Dictionary.init(uniqueKeysWithValues: Array(members
+let top3FinalScore = Array(members
     .filter { $0.attendance >= 0.9 && $0.isActive == true }
     .reduce(into: [String: Double]()) { result, member in
         result[member.name] = Double(member.grade) + Double(member.attendance * 10)
     }
-    .sorted { $0.value > $1.value }.prefix(3)))
+    .sorted { $0.value > $1.value }.prefix(3))
 print("1 Line \(top3FinalScore)")
 // 1 Line | Clean Code
-let top3FinalScoreClean: [String: Double] = members
+let top3FinalScoreClean = members
     .filter { $0.attendance >= 0.9 && $0.isActive == true }
     .map { ($0.name, Double($0.grade) + $0.attendance * 10) }
     .sorted { $0.1 > $1.1 }
     .prefix(3)
-    .reduce(into: [String: Double]()) { result, item in
-        result[item.0] = item.1
-    }
+    // .reduce(into: [String: Double]()) { result, item in
+    //     result[item.0] = item.1
+    // }
 print("Clean \(top3FinalScoreClean)")
-
-NEXT BRO, BENER TAPI KO SALAH 
