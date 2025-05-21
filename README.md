@@ -223,7 +223,7 @@ This section outlines my long-term learning goals to become a professional iOS D
 
 ### Closures
 ```bash
-    On Going
+    Complete
 
     [√] Closure Expressions
     [√] The Sorted Method
@@ -240,11 +240,20 @@ This section outlines my long-term learning goals to become a professional iOS D
     [√] Trailing Closures
     [√] Capturing Values
     [√] Closures Are Reference Types
-    [ ] Escaping Closures
-    [ ] Autoclosures
+    [√] Escaping Closures - Create now run later
+    [√] Autoclosures - Writing regular expressions but closures
     [√] Closures Challenge
         [√] Filter, Map & Reduce (Case Study 1)
         [√] Filter, Reduce, Sorted & Prefix Advanced (Case Study 2)
         [√] Leaderboard Category Challenge (Case Study 3)
         [√] Top Contributor Tracker (Case Study 4)
+```
+
+### Enumerations
+```bash
+    On Going
+
+    [ ] 
+    [ ] 
+    [ ] 
 ```

@@ -101,17 +101,70 @@ let semaphore1 = DispatchSemaphore(value: 0)
 func fetchDataFromServer(completion: @escaping () -> Void) {
     print("Start fetching data from server")
     
-    DispatchQueue.main.asyncAfter(deadline: .now() + 2) {
+    DispatchQueue.global().asyncAfter(deadline: .now() + 2) {
         print("Data has been retrieved")
         completion()
         semaphore1.signal()
     }
 }
-
-// DISINI ADA DEATHLOCK BROO, HANG PROGRAMNYA, CEK LAGI TAR YEE
-
 fetchDataFromServer {
     print("🧠 Update UI after data is complete")
 }
 print("📱 UI can still be used while waiting for data...")
 semaphore1.wait()
+// Sample 3
+func fetchUserName(completion: @escaping (String) -> Void) {
+    print("⏳ Fetching user data...")
+    DispatchQueue.global().asyncAfter(deadline: .now() + 2) {
+        let fetchedName = "John Appleseed"
+        completion(fetchedName)
+    }
+}
+fetchUserName { name in
+    print("✅ User name fetched: \(name)")
+}
+RunLoop.main.run(until: Date().addingTimeInterval(3))
+
+// Autoclosures
+func checkPermission(_ validation: @autoclosure () -> Bool) {
+    print("Check permit")
+    if validation() {
+        print("✅ Access granted")
+    } else {
+        print("❌ Access denied")
+    }
+}
+let userHasAdminRole = false
+checkPermission(userHasAdminRole == true)
+// Without @autoclosure -> checkPermission( { userHasAdminRole == true } )
+
+// From apple docs
+var customersInLine = ["Chris", "Alex", "Ewa", "Barry", "Daniella"]
+print(customersInLine.count)
+let customerProvider = { customersInLine.remove(at: 0)}
+print(customersInLine.count)
+print("Now serving \(customerProvider())!")
+// Prints "Now serving Chris!"
+print(customersInLine.count)
+// Without autoclosure
+func serve(customer customerProvider: () -> String) {
+    print("Now serving \(customerProvider())!")
+}
+serve(customer: { customersInLine.remove(at: 0) })
+// With autoclosure
+func serve(customer customerProvider: @autoclosure () -> String) {
+    print("Now serving \(customerProvider())!")
+}
+serve(customer: customersInLine.remove(at: 0))
+
+// Autoclosure + Escaping
+var customerProviders: [() -> String] = []
+func collectCustomerProviders(_ customerProvider: @autoclosure @escaping () -> String) {
+    customerProviders.append(customerProvider)
+}
+collectCustomerProviders(customersInLine.remove(at: 0))
+collectCustomerProviders(customersInLine.remove(at: 0))
+print("Collected \(customerProviders.count) closures.")
+for customerProvider in customerProviders {
+     print("Now serving \(customerProvider())!")
+}
