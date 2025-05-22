@@ -111,8 +111,37 @@ if let somePlanet = AnotherPlanet(rawValue: positionToFind) {
 }
 
 // Recursive Enumerations
+print("-----------------------------------------------------------")
 /* 
     In this section, because it is technical,
     It must be understood and use case studiesfor practice,
     OK bro
 */
+enum ArithmeticExpression {
+    case number(Int)
+    indirect case addition(ArithmeticExpression, ArithmeticExpression)
+    indirect case multiplication(ArithmeticExpression, ArithmeticExpression)
+}
+// indirect enum ArithmeticExpression {
+//     case number(Int)
+//     case addition(ArithmeticExpression, ArithmeticExpression)
+//     case multiplication(ArithmeticExpression, ArithmeticExpression)
+// }
+let five = ArithmeticExpression.number(5)
+let four = ArithmeticExpression.number(4)
+let sum = ArithmeticExpression.addition(five, four)
+let product = ArithmeticExpression.multiplication(sum, ArithmeticExpression.number(2))
+// print("5 + 4 = \(sum)")
+// print("\(sum) * 2 = \(product)")
+func evaluate(_ expression: ArithmeticExpression) -> Int {
+    switch expression {
+        case let .number(value):
+            return value
+        case let .addition(left, right):
+            return evaluate(left) + evaluate(right)
+        case let .multiplication(left, right):
+            return evaluate(left) * evaluate(right)
+    }
+}
+print("Evaluate sum of 5 + 4 = \(evaluate(sum))")
+print("Evaluate multiply of 9 x 2 = \(evaluate(product))")
