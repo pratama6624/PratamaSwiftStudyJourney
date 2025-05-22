@@ -253,7 +253,25 @@ This section outlines my long-term learning goals to become a professional iOS D
 ```bash
     On Going
 
-    [ ] 
-    [ ] 
-    [ ] 
+    [√] Enumeration Syntax
+    [√] Matching Enumeration Values with a Switch Statement
+    [√] Iterating over Enumeration Cases
+    [√] Associated Values
+    [√] Raw Values
+        [√] Implicitly Assigned Raw Values
+        [√] Initializing from a Raw Value
+    [ ] Recursive Enumerations
+        [ ] Study Case 1
+        [ ] Study Case 2
+        [ ] Study Case 3
+        [ ] Real Study Case 4 (Simulation)
+        [ ] Real Study Case 5 (Simulation)
+```
+
+### Structures and Classes
+```bash
+    On Going
+
+    [ ]
+    [ ]
 ```
