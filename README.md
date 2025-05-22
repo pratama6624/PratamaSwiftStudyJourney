@@ -261,7 +261,7 @@ This section outlines my long-term learning goals to become a professional iOS D
         [√] Implicitly Assigned Raw Values
         [√] Initializing from a Raw Value
     [√] Recursive Enumerations
-        [ ] Sample From Apple Docs
+        [√] Sample From Apple Docs
         [ ] Study Case 1
         [ ] Study Case 2
         [ ] Study Case 3
@@ -276,6 +276,19 @@ This section outlines my long-term learning goals to become a professional iOS D
 ```bash
     On Going
 
-    [ ]
-    [ ]
+    [√] Definition Syntax
+        [√] Structure
+        [√] Class
+    [√] Instances
+        [√] Structure Instances
+        [√] Class Instances
+    [√] Accessing Properties
+    [√] Memberwise Initializers for Structure Types
+    [√] Structures and Enumerations Are Value Types
+    [√] Classes Are Reference Types
+    [√] Identity Operators
+        [√] Identical to (===)
+        [√] Not identical to (!==)
+    [√] Pointers
+        Note: Swift is safe, So don't worry about memory
 ```
