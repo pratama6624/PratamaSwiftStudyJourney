@@ -274,7 +274,7 @@ This section outlines my long-term learning goals to become a professional iOS D
 
 ### Structures and Classes
 ```bash
-    On Going
+    Complete
 
     [√] Definition Syntax
         [√] Structure
@@ -291,4 +291,26 @@ This section outlines my long-term learning goals to become a professional iOS D
         [√] Not identical to (!==)
     [√] Pointers
         Note: Swift is safe, So don't worry about memory
+```
+
+### Properties
+```bash
+    On Going
+
+    [√] Stored Properties
+    [ ] Stored Properties of Constant Structure Instances
+    [√] Lazy Stored Properties
+    [√] Stored Properties and Instance Variables
+    [√] Computed Properties
+    [ ] Shorthand Setter Declaration
+    [ ] Shorthand Getter Declaration
+    [ ] Read-Only Computed Properties
+    [ ] Property Observers
+    [ ] Property Wrappers
+    [ ] Setting Initial Values for Wrapped Properties
+    [ ] Projecting a Value From a Property Wrapper
+    [ ] Global and Local Variables
+    [ ] Type Properties
+    [ ] Type Property Syntax
+    [ ] Querying and Setting Type Properties
 ```
