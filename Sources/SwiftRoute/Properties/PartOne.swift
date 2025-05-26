@@ -119,7 +119,7 @@ var temp = Celsius(temperatureInCelsius: 0)
 temp.temperatureInFahrenheit = 212
 print("Now temp in celcius is \(temp.temperatureInCelsius)")
 // sample chatgpt 2
-struct Wallet {
+class Wallet {
     var moneyInTheBank: Int
     var moneyInTheWallet: Int
 
@@ -133,7 +133,75 @@ struct Wallet {
             moneyInTheBank = newValue - moneyInTheWallet
         }
     }
+
+    init(moneyInTheBank: Int, moneyInTheWallet: Int) {
+        self.moneyInTheBank = moneyInTheBank
+        self.moneyInTheWallet = moneyInTheWallet
+    }
 }
-var myMoney = Wallet(moneyInTheBank: 1_000_000, moneyInTheWallet: 200_000)
-myMoney.moneyInTheWallet = 500_000
+var myMoney = Wallet(moneyInTheBank: 0, moneyInTheWallet: 0)
+myMoney.totalMoney = 2_000_000
+print("Now my money in the wallet is \(myMoney.moneyInTheWallet)")
 print("Now my money in the bank is \(myMoney.moneyInTheBank)")
+// Sample chatgpt 3
+struct Person {
+    var height: Double
+    var weight: Double
+
+    var bmi: Double {
+        get {
+            return weight / (height * height)
+        }
+        set {
+            weight = newValue * (height * height)
+        }
+    }
+}
+var person = Person(height: 1.72, weight: 70)
+print("BMI now \(person.bmi)")
+person.bmi = 23.6
+print("Ideal weight for BMI 23.6: \(person.weight)")
+// Exam 1
+struct Battery {
+    var capacity: Int
+    var used: Int
+
+    var remainingPercentage: Int {
+        get {
+            return Int((Double(capacity - used) / Double(capacity)) * 100)
+        }
+        set {
+            used = capacity - Int(Double(newValue) / 100 * Double(capacity))
+        }
+    }
+}
+var myBattery = Battery(capacity: 4000, used: 1000)
+print("Remaining is \(myBattery.remainingPercentage)") // 75
+myBattery.remainingPercentage = 75
+print(myBattery.used) // 1000
+
+// Read-Only Computed Properties
+// Sample from apple docs
+struct Cuboid {
+    var width = 0.0, height = 0.0, depth = 0.0
+    var volume: Double {
+        return width * height * depth
+    }
+}
+let fourByFiveByTwo = Cuboid(width: 4.0, height: 5.0, depth: 2.0)
+print("the volume of fourByFiveByTwo is \(fourByFiveByTwo.volume)")
+// Sample from chatgpt
+struct Transaction {
+    var amount: Double
+    var date: Date
+    var formattedDate: String {
+        let formatter = DateFormatter()
+        formatter.locale = Locale(identifier: "id_ID")
+        formatter.dateStyle = .long
+        return formatter.string(from: date)
+    }
+}
+let transaksi = Transaction(amount: 200_000, date: Date())
+print("Date of transaction : \(transaksi.formattedDate)")
+
+// Property Observers

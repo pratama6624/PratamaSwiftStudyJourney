@@ -306,7 +306,7 @@ This section outlines my long-term learning goals to become a professional iOS D
         [√] Sample From ChatGPT
     [√] Shorthand Setter Declaration
     [√] Shorthand Getter Declaration
-    [ ] Read-Only Computed Properties
+    [√] Read-Only Computed Properties
     [ ] Property Observers
     [ ] Property Wrappers
     [ ] Setting Initial Values for Wrapped Properties
