@@ -298,12 +298,14 @@ This section outlines my long-term learning goals to become a professional iOS D
     On Going
 
     [√] Stored Properties
-    [ ] Stored Properties of Constant Structure Instances
+    [√] Stored Properties of Constant Structure Instances
     [√] Lazy Stored Properties
     [√] Stored Properties and Instance Variables
     [√] Computed Properties
-    [ ] Shorthand Setter Declaration
-    [ ] Shorthand Getter Declaration
+        [√] Sample from apple docs
+        [√] Sample From ChatGPT
+    [√] Shorthand Setter Declaration
+    [√] Shorthand Getter Declaration
     [ ] Read-Only Computed Properties
     [ ] Property Observers
     [ ] Property Wrappers

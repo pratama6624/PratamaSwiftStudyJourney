@@ -73,5 +73,67 @@ let initialSquareCenter = square.center
 square.center = Point(x: 15.0, y: 15.0)
 print("square.origin is now at (\(square.origin.x), \(square.origin.y))")
 // Sample from chatGPT
+struct Rectangle {
+    var width: Double
+    var height: Double
 
-// CODE HERE BROOO
+    var area: Double {
+        return width * height
+    }
+}
+let box = Rectangle(width: 5, height: 10)
+print("Box area is \(box.area)")
+
+// Shorthand Setter Declaration
+// Shorthand Getter Declaration
+// Sample apple dosc
+struct AlternativeRect {
+    var origin = Point()
+    var size = Size()
+    var center: Point {
+        get {
+            let centerX = origin.x + (size.width / 2)
+            let centerY = origin.y + (size.height / 2)
+            return Point(x: centerX, y: centerY)
+        }
+        set {
+            origin.x = newValue.x - (size.width / 2)
+            origin.y = newValue.y - (size.height / 2)
+        }
+    }
+}
+// Sample chatgpt
+struct Celsius {
+    var temperatureInCelsius: Double
+    var temperatureInFahrenheit: Double {
+        get {
+            return (temperatureInCelsius * 9/5) + 32
+        }
+        set {
+            temperatureInCelsius = (newValue - 32) * 5/9
+        }
+    }
+}
+// call Celcius struct with first fahrenheit param
+var temp = Celsius(temperatureInCelsius: 0)
+temp.temperatureInFahrenheit = 212
+print("Now temp in celcius is \(temp.temperatureInCelsius)")
+// sample chatgpt 2
+struct Wallet {
+    var moneyInTheBank: Int
+    var moneyInTheWallet: Int
+
+    var totalMoney: Int {
+        get {
+            return moneyInTheBank + moneyInTheWallet
+        }
+        set {
+            // For example: you always want pocket money of 10% of your total money
+            moneyInTheWallet = Int(Double(newValue) * 0.1)
+            moneyInTheBank = newValue - moneyInTheWallet
+        }
+    }
+}
+var myMoney = Wallet(moneyInTheBank: 1_000_000, moneyInTheWallet: 200_000)
+myMoney.moneyInTheWallet = 500_000
+print("Now my money in the bank is \(myMoney.moneyInTheBank)")
