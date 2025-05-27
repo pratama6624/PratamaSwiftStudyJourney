@@ -179,6 +179,24 @@ var myBattery = Battery(capacity: 4000, used: 1000)
 print("Remaining is \(myBattery.remainingPercentage)") // 75
 myBattery.remainingPercentage = 75
 print(myBattery.used) // 1000
+// Exam 2
+struct RectangleCP {
+    var width: Double
+    var height: Double
+
+    var area: Double {
+        get {
+            return width * height
+        }
+        set {
+            height = newValue / width
+        }
+    }
+}
+var rectcp = RectangleCP(width: 4, height: 5)
+print(rectcp.area) // 20.0
+rectcp.area = 40
+print(rectcp.height) // 10.0
 
 // Read-Only Computed Properties
 // Sample from apple docs
@@ -244,3 +262,24 @@ var refriregator = Refrigerator()
 refriregator.totalDegree = 15
 refriregator.totalDegree = 5 // UP 10 degree
 refriregator.totalDegree = 9 // DOWN 4 degree
+// Exam 1
+class FuelTank {
+    var fuelLevel: Int = 0 {
+        willSet(newTotalFuelTank) {
+            print("Fuel will be set to \(newTotalFuelTank) liters")
+        }
+        didSet {
+            if fuelLevel > oldValue {
+                print("Refueled \(fuelLevel - oldValue) liters")
+            } else if fuelLevel < oldValue {
+                print("Consumed \(oldValue - fuelLevel)")
+            } else {
+                print("Fuel unchanged")
+            }
+        }
+    }
+}
+let tank = FuelTank()
+tank.fuelLevel = 20
+tank.fuelLevel = 10
+tank.fuelLevel = 10
