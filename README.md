@@ -307,7 +307,7 @@ This section outlines my long-term learning goals to become a professional iOS D
     [√] Shorthand Setter Declaration
     [√] Shorthand Getter Declaration
     [√] Read-Only Computed Properties
-    [ ] Property Observers
+    [√] Property Observers
     [ ] Property Wrappers
     [ ] Setting Initial Values for Wrapped Properties
     [ ] Projecting a Value From a Property Wrapper

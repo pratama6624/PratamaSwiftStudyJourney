@@ -205,3 +205,42 @@ let transaksi = Transaction(amount: 200_000, date: Date())
 print("Date of transaction : \(transaksi.formattedDate)")
 
 // Property Observers
+// Sample from apple docs
+class StepCounter {
+    var totalSteps: Int = 0 {
+        willSet(newTotalSteps) {
+            print("About to set totalSteps to \(newTotalSteps)")
+        }
+        didSet {
+            if totalSteps > oldValue {
+                print("Added \(totalSteps - oldValue) steps")
+            }
+        }
+    }
+}
+let stepCounter = StepCounter()
+stepCounter.totalSteps = 200
+stepCounter.totalSteps = 360
+stepCounter.totalSteps = 896
+print("----------------------------------------------------------")
+// Sample from chatgpt
+class Refrigerator {
+    var totalDegree: Int = 0 {
+        willSet(newTotalDegree) {
+            print("The temperature will change to \(newTotalDegree) degress")
+        }
+        didSet {
+            if oldValue == totalDegree {
+                print("Temperature does not change")
+            } else if oldValue > totalDegree {
+                print("The refrigerator is getting colder by \(oldValue - totalDegree) degrees")
+            } else {
+                print("The refrigerator is getting warmer by \(totalDegree - oldValue) degrees")
+            }
+        }
+    }
+}
+var refriregator = Refrigerator()
+refriregator.totalDegree = 15
+refriregator.totalDegree = 5 // UP 10 degree
+refriregator.totalDegree = 9 // DOWN 4 degree
