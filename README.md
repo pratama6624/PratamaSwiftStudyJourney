@@ -308,12 +308,11 @@ This section outlines my long-term learning goals to become a professional iOS D
     [√] Shorthand Getter Declaration
     [√] Read-Only Computed Properties
     [√] Property Observers
-    [ ] Property Wrappers
+    [√] Property Wrappers
         [√] Sample from apple docs
         [√] Sample from ChatGPT
-        [ ] Exam level easy
-        [ ] Exam level medium
-        [ ] Exam level hard
+        [√] Exam level easy
+        [√] Exam level medium
     [ ] Setting Initial Values for Wrapped Properties
     [ ] Projecting a Value From a Property Wrapper
     [ ] Global and Local Variables
