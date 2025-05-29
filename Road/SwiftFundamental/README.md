@@ -3,30 +3,30 @@
 ## Road Map (Low-Level Roadmap) - Fundamental Programming 
 
 ### Basics
-    Complete
+Complete
     
-    [√] Constants and Variables
-    [√] Declaring Constants and Variables
-    [√] Type Annotations
-    [√] Naming Constants and Variables
-    [√] Printing Constants and Variables
-    [√] Comments
-    [√] Semicolons
-    [√] Integers
-        [√] Int
-        [√] UInt
-        [√] Floating-Point Numbers
-    [√] Type Safety and Type Inference
-    [√] Booleans
-    [√] Tuples
-    [√] Optionals
-    [√] Optional Binding
-    [√] Providing a Fallback Value
-    [√] Implicitly Unwrapped Optionals
-    [√] Error Handling
-    [√] Assertions and Preconditions
-    [√] Debugging with Assertions
-    [√] Enforcing Preconditions
+- [√] Constants and Variables
+- [√] Type Annotations
+- [√] Declaring Constants and Variables
+- [√] Naming Constants and Variables
+- [√] Printing Constants and Variables
+- [√] Comments
+- [√] Semicolons
+- [√] Integers
+    - [√] Int
+    - [√] UInt
+    - [√] Floating-Point Numbers
+- [√] Type Safety and Type Inference
+- [√] Booleans
+- [√] Tuples
+- [√] Optionals
+- [√] Optional Binding
+- [√] Providing a Fallback Value
+- [√] Implicitly Unwrapped Optionals
+- [√] Error Handling
+- [√] Assertions and Preconditions
+- [√] Debugging with Assertions
+- [√] Enforcing Preconditions
 
 ### Basic Operators
 ```bash
