@@ -3,33 +3,32 @@
 ## Road Map (Low-Level Roadmap) - Fundamental Programming 
 
 ### Basics
-Complete
+    Complete
     
-[√] Constants and Variables
-[√] Type Annotations
-[√] Declaring Constants and Variables
-[√] Naming Constants and Variables
-[√] Printing Constants and Variables
-[√] Comments
-[√] Semicolons
-[√] Integers
-    [√] Int
-    [√] UInt
-    [√] Floating-Point Numbers
-[√] Type Safety and Type Inference
-[√] Booleans
-[√] Tuples
-[√] Optionals
-[√] Optional Binding
-[√] Providing a Fallback Value
-[√] Implicitly Unwrapped Optionals
-[√] Error Handling
-[√] Assertions and Preconditions
-[√] Debugging with Assertions
-[√] Enforcing Preconditions
+    [√] Constants and Variables
+    [√] Declaring Constants and Variables
+    [√] Type Annotations
+    [√] Naming Constants and Variables
+    [√] Printing Constants and Variables
+    [√] Comments
+    [√] Semicolons
+    [√] Integers
+        [√] Int
+        [√] UInt
+        [√] Floating-Point Numbers
+    [√] Type Safety and Type Inference
+    [√] Booleans
+    [√] Tuples
+    [√] Optionals
+    [√] Optional Binding
+    [√] Providing a Fallback Value
+    [√] Implicitly Unwrapped Optionals
+    [√] Error Handling
+    [√] Assertions and Preconditions
+    [√] Debugging with Assertions
+    [√] Enforcing Preconditions
 
 ### Basic Operators
-```bash
     Complete
 
     [√] Assignment
@@ -44,10 +43,8 @@ Complete
     [√] Nil-Coalescing Operator
     [√] Range
     [√] Logical
-```
 
 ### Strings and Characters
-```bash
     Complete
 
     [√] String Literals
@@ -75,10 +72,8 @@ Complete
     [√] UTF-8 Representation
     [√] UTF-16 Representation
     [√] Unicode Scalar Representation
-```
 
 ### Collection Types
-```bash
     Complete
 
     [√] Mutability of Collections
@@ -115,10 +110,8 @@ Complete
     [√] Creating a Dictionary with a Dictionary Literal
     [√] Accessing and Modifying a Dictionary
     [√] Iterating Over a Dictionary
-```
 
 ### Control Flow
-```bash
     Complete
 
     [√] For-In Loops
@@ -144,10 +137,8 @@ Complete
     [√] Early Exit
     [√] Deferred Actions
     [√] Checking API Availability
-```
 
 ### Functions
-```bash
     Complete
 
     [√] Defining and Calling Functions
@@ -169,10 +160,8 @@ Complete
     [√] Function Types as Parameter Types
     [√] Function Types as Return Types
     [√] Nested Functions
-```
 
 ### Closures
-```bash
     Complete
 
     [√] Closure Expressions
@@ -197,10 +186,8 @@ Complete
         [√] Filter, Reduce, Sorted & Prefix Advanced (Case Study 2)
         [√] Leaderboard Category Challenge (Case Study 3)
         [√] Top Contributor Tracker (Case Study 4)
-```
 
 ### Enumerations
-```bash
     Finished but not yet
 
     [√] Enumeration Syntax
@@ -220,10 +207,8 @@ Complete
 
         Note : Just skip it for now
                OP skill for this
-```
 
 ### Structures and Classes
-```bash
     Complete
 
     [√] Definition Syntax
@@ -241,10 +226,8 @@ Complete
         [√] Not identical to (!==)
     [√] Pointers
         Note: Swift is safe, So don't worry about memory
-```
 
 ### Properties
-```bash
     On Going
 
     [√] Stored Properties
@@ -269,4 +252,3 @@ Complete
     [ ] Type Properties
     [ ] Type Property Syntax
     [ ] Querying and Setting Type Properties
-```
