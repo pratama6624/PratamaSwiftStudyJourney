@@ -3,7 +3,6 @@
 ## Road Map (Low-Level Roadmap) - Fundamental Programming 
 
 ### Basics
-```bash
     Complete
     
     [√] Constants and Variables
@@ -28,7 +27,6 @@
     [√] Assertions and Preconditions
     [√] Debugging with Assertions
     [√] Enforcing Preconditions
-```
 
 ### Basic Operators
 ```bash
