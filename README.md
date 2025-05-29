@@ -18,8 +18,7 @@ Although I already have experience with Swift, my learning was previously unstru
 This section outlines my long-term learning goals to become a professional iOS Developer by early 2027.
 
 ```bash
-    [ ] Fundamental Programming (Swift)
-        View Documentation -> (./Road/SwiftFundamental/README.md)
+    [ ] Fundamental Programming (Swift) → [View Documentation](./Road/SwiftFundamental/README.md)
     [√] Version Control (Git & GitHub)
     [ ] Basic Xcode & SwiftUI/UIKit Familiarity
     [ ] Layouting & Navigation
