@@ -1,21 +1,25 @@
-# Learning Swift – For the Apple Ecosystem
+# 🧭 Becoming an iOS Developer
 
-This repository documents my structured journey to deeply learn **Swift**, Apple’s official language for iOS, iPadOS, macOS, watchOS, and tvOS development.
+This repository documents my structured journey to mastering **Swift** — Apple's official programming language for building apps on iOS, iPadOS, macOS, watchOS, and tvOS.
 
-Although I already have experience with Swift, my learning was previously unstructured. Now, I’m following the [official Swift documentation](https://swift.org/documentation/) step-by-step to strengthen my foundation and fill in any gaps.
-
-### What's inside:
-- Code examples and experiments  
-- Notes from official docs  
-- Integration with the [Vapor](https://vapor.codes) framework for server-side Swift  
-
-> Combining client-side and server-side Swift for full-stack mastery.
+While I already have some experience using Swift, my previous learning process was unstructured and scattered. Now, I’m taking a more disciplined approach by following the [official Swift documentation](https://swift.org/documentation/) step by step — solidifying the basics and bridging all the gaps.
 
 ---
 
-## 🚀 Road to iOS Developer 2027 (High-Level Roadmap)
+### 📦 What's Inside
 
-This section outlines my long-term learning goals to become a professional iOS Developer by early 2027.
+- Code examples, experiments, and hands-on tests  
+- Notes and summaries from official Swift docs  
+- Backend with [Vapor](https://vapor.codes) — bringing full-stack Swift into the game  
+
+> _“From UIKit to server-side Swift — aiming for full-stack Apple Developer mastery.”_
+
+---
+
+## Road to iOS Developer 2027
+
+My personal roadmap to become a **professional iOS Developer by early 2027**. Every checkbox represents a skill or area I aim to master.  
+I’ll keep this list updated as I progress.
 
 - [ ] [Fundamental Programming (Swift)](./Road/SwiftFundamental/README.md)
 - [x] Version Control (Git & GitHub)
@@ -43,4 +47,17 @@ This section outlines my long-term learning goals to become a professional iOS D
 - [ ] Stay Updated (WWDC, Swift Evolution, Apple Docs)
 - [ ] Soft Skills: Problem Solving & Communication
 
-> This roadmap serves as a guide to track my growth and keep me accountable.
+> _This roadmap keeps me focused, motivated, and accountable on my journey._
+
+---
+
+## Final Reward (Big Goal)
+
+If I complete **100%** of this roadmap —  
+**I'll reward myself with the latest iPhone model, no matter the price.**  
+Yup. Even if it's the **most expensive one of the year**. No compromise.  
+_It’s my way of saying “I earned it.”_
+
+---
+
+[Let’s build something extraordinary.]
