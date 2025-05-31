@@ -1,4 +1,4 @@
-# 🧭 Becoming an iOS Developer
+# Becoming an iOS Developer
 
 This repository documents my structured journey to mastering **Swift** — Apple's official programming language for building apps on iOS, iPadOS, macOS, watchOS, and tvOS.
 
@@ -6,7 +6,7 @@ While I already have some experience using Swift, my previous learning process w
 
 ---
 
-### 📦 What's Inside
+### What's Inside
 
 - Code examples, experiments, and hands-on tests  
 - Notes and summaries from official Swift docs  

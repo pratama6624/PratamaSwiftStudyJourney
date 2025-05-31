@@ -2,7 +2,7 @@
 
 ## Road Map (Low-Level Roadmap) - Fundamental Programming 
 
-### [Basics](https://github.com/pratama6624/PratamaSwiftStudyJourney/tree/main/Sources/SwiftRoute/Basics)
+### [Basics](https://github.com/pratama6624/PratamaSwiftStudyJourney/blob/main/Road/SwiftFundamental)
     Complete
     
     [√] Constants and Variables
@@ -28,7 +28,7 @@
     [√] Debugging with Assertions
     [√] Enforcing Preconditions
 
-### Basic Operators
+### [Basic Operators](https://github.com/pratama6624/PratamaSwiftStudyJourney/tree/main/Sources/SwiftRoute/BasicOperators)
     Complete
 
     [√] Assignment
@@ -44,7 +44,7 @@
     [√] Range
     [√] Logical
 
-### Strings and Characters
+### [Strings and Characters](https://github.com/pratama6624/PratamaSwiftStudyJourney/tree/main/Sources/SwiftRoute/StringsAndCharacters)
     Complete
 
     [√] String Literals
@@ -73,7 +73,7 @@
     [√] UTF-16 Representation
     [√] Unicode Scalar Representation
 
-### Collection Types
+### [Collection Types](https://github.com/pratama6624/PratamaSwiftStudyJourney/tree/main/Sources/SwiftRoute/CollectionTypes)
     Complete
 
     [√] Mutability of Collections
@@ -111,7 +111,7 @@
     [√] Accessing and Modifying a Dictionary
     [√] Iterating Over a Dictionary
 
-### Control Flow
+### [Control Flow](https://github.com/pratama6624/PratamaSwiftStudyJourney/tree/main/Sources/SwiftRoute/ControlFlow)
     Complete
 
     [√] For-In Loops
@@ -138,7 +138,7 @@
     [√] Deferred Actions
     [√] Checking API Availability
 
-### Functions
+### [Functions](https://github.com/pratama6624/PratamaSwiftStudyJourney/tree/main/Sources/SwiftRoute/Functions)
     Complete
 
     [√] Defining and Calling Functions
@@ -161,7 +161,7 @@
     [√] Function Types as Return Types
     [√] Nested Functions
 
-### Closures
+### [Closures](https://github.com/pratama6624/PratamaSwiftStudyJourney/tree/main/Sources/SwiftRoute/Closures)
     Complete
 
     [√] Closure Expressions
@@ -187,7 +187,7 @@
         [√] Leaderboard Category Challenge (Case Study 3)
         [√] Top Contributor Tracker (Case Study 4)
 
-### Enumerations
+### [Enumerations](https://github.com/pratama6624/PratamaSwiftStudyJourney/tree/main/Sources/SwiftRoute/Enumerations)
     Finished but not yet
 
     [√] Enumeration Syntax
@@ -208,7 +208,7 @@
         Note : Just skip it for now
                OP skill for this
 
-### Structures and Classes
+### [Structures and Classes](https://github.com/pratama6624/PratamaSwiftStudyJourney/tree/main/Sources/SwiftRoute/StructuresAndClasses)
     Complete
 
     [√] Definition Syntax
@@ -227,7 +227,7 @@
     [√] Pointers
         Note: Swift is safe, So don't worry about memory
 
-### Properties
+### [Properties](https://github.com/pratama6624/PratamaSwiftStudyJourney/tree/main/Sources/SwiftRoute/Properties)
     On Going
 
     [√] Stored Properties
