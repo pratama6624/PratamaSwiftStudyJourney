@@ -126,3 +126,26 @@ bright.brightness = -1 // 0
 print("Brigness set to \(bright.brightness)")
 bright.brightness = 56 // 56
 print("Brigness set to \(bright.brightness)")
+
+// Re-fresh
+print("\n=== Property Wrapper MaxLength Sample ===")
+@propertyWrapper
+struct MaxLength {
+    private var value: String = ""
+    var wrappedValue: String {
+        get { value }
+        set { value = String(newValue.prefix(12))}
+    }
+}
+
+struct AccountUser {
+    @MaxLength var username: String
+}
+
+var userMax = AccountUser()
+userMax.username = "pratamakingdom"
+print("Username: \(userMax.username)") // Output: "pratamakingd"
+userMax.username = "tama"
+print("Username: \(userMax.username)") // Output: "tama"
+userMax.username = "theSwiftDeveloperPro"
+print("Username: \(userMax.username)") // Output: "theSwiftDeve"
