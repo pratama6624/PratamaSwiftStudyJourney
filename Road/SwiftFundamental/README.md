@@ -246,7 +246,7 @@
         [√] Sample from ChatGPT
         [√] Exam level easy
         [√] Exam level medium
-    [ ] Setting Initial Values for Wrapped Properties
+    [√] Setting Initial Values for Wrapped Properties
     [ ] Projecting a Value From a Property Wrapper
     [ ] Global and Local Variables
     [ ] Type Properties
