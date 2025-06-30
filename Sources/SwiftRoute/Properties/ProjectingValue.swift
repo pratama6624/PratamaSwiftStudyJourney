@@ -113,3 +113,20 @@ wasClamped = sizedRectangle.resize(to: .ultra)
 print("Height: \(sizedRectangle.height)") // 100
 print("Width: \(sizedRectangle.width)") // 100
 print("Was Clamped? \(wasClamped)") 
+
+// Global and Local Variables
+func someFunction() {
+    @SmallNumber var myNumber: Int
+
+    myNumber = 10
+    print("My Number is \(myNumber)")
+
+    myNumber = 20
+    print("My Number is \(myNumber)")
+}
+
+// Error
+// myNumber = 10
+// print("My Number is \(myNumber)")
+
+someFunction()
