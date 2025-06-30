@@ -130,3 +130,68 @@ func someFunction() {
 // print("My Number is \(myNumber)")
 
 someFunction()
+
+// Type Properties
+// Type Property Syntax
+struct AnotherSomeStructure {
+    static var storedTypeProperty = "Some value."
+    static var computedTypeProperty: Int {
+        return 1
+    }
+}
+enum SomeEnumeration {
+    static var storedTypeProperty = "Some value."
+    static var computedTypeProperty: Int {
+        return 6
+    }
+}
+class SomeClass {
+    static var storedTypeProperty = "Some value."
+    static var computedTypeProperty: Int {
+        return 27
+    }
+    class var overrideableComputedTypeProperty: Int {
+        return 107
+    }
+}
+
+// Querying and Setting Type Properties
+print(AnotherSomeStructure.storedTypeProperty)
+// Prints "Some value."
+AnotherSomeStructure.storedTypeProperty = "Another value."
+print(AnotherSomeStructure.storedTypeProperty)
+// Prints "Another value."
+print(SomeEnumeration.computedTypeProperty)
+// Prints "6"
+print(SomeClass.computedTypeProperty)
+// Prints "27"
+
+struct AudioChannel {
+    static let thresholdLevel = 10
+    static var maxInputLevelForAllChannels = 0
+    var currentLevel: Int = 0 {
+        didSet {
+            if currentLevel > AudioChannel.thresholdLevel {
+                currentLevel = AudioChannel.thresholdLevel
+            }
+            if currentLevel > AudioChannel.maxInputLevelForAllChannels {
+                AudioChannel.maxInputLevelForAllChannels = currentLevel
+            }
+        }
+    }
+}
+
+var leftChannel = AudioChannel()
+var rightChannel = AudioChannel()
+
+leftChannel.currentLevel = 7
+print("Left Channel : \(leftChannel.currentLevel)")
+// Prints "7"
+print("Max : \(AudioChannel.maxInputLevelForAllChannels)")
+// Prints "7"
+
+rightChannel.currentLevel = 11
+print(rightChannel.currentLevel)
+// Prints "10"
+print(AudioChannel.maxInputLevelForAllChannels)
+// Prints "10"

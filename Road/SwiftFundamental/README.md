@@ -249,6 +249,6 @@
     [√] Setting Initial Values for Wrapped Properties
     [√] Projecting a Value From a Property Wrapper
     [√] Global and Local Variables
-    [ ] Type Properties
-    [ ] Type Property Syntax
-    [ ] Querying and Setting Type Properties
+    [√] Type Properties
+        [√] Type Property Syntax
+        [√] Querying and Setting Type Properties
