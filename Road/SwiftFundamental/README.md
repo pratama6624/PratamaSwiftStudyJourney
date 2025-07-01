@@ -257,8 +257,7 @@
     On Going
 
     [√] Instance Methods
-    [ ] The self Property
-    [ ] Modifying Value Types from Within Instance Methods
-    [ ] Modifying Value Types from Within Instance Methods
-    [ ] Assigning to self Within a Mutating Method
+    [√] The self Property
+    [√] Modifying Value Types from Within Instance Methods
+    [√] Assigning to self Within a Mutating Method
     [ ] Type Methods
