@@ -254,7 +254,7 @@
         [√] Querying and Setting Type Properties
 
 ### [Methods](https://github.com/pratama6624/PratamaSwiftStudyJourney/tree/main/Sources/SwiftRoute/Methods)
-    On Going
+    Complete
 
     [√] Instance Methods
     [√] The self Property
@@ -264,3 +264,13 @@
         [√] Instance Method - obj.method()
         [√] Type Method = Type.method()
         [√] Type Property - Type.property
+
+### [Subscripts](https://github.com/pratama6624/PratamaSwiftStudyJourney/tree/main/Sources/SwiftRoute/Subscripts)
+    On Going
+
+    [√] Subscript Syntax
+        [√] Subscript Read-Only
+        [√] Subscript Read-Write
+    [√] Subscript Usage
+    [√] Subscript Options
+    [√] Type Subscripts
