@@ -260,4 +260,7 @@
     [√] The self Property
     [√] Modifying Value Types from Within Instance Methods
     [√] Assigning to self Within a Mutating Method
-    [ ] Type Methods
+    [√] Type Methods
+        [√] Instance Method - obj.method()
+        [√] Type Method = Type.method()
+        [√] Type Property - Type.property
