@@ -228,7 +228,7 @@
         Note: Swift is safe, So don't worry about memory
 
 ### [Properties](https://github.com/pratama6624/PratamaSwiftStudyJourney/tree/main/Sources/SwiftRoute/Properties)
-    On Going
+    Complete
 
     [√] Stored Properties
     [√] Stored Properties of Constant Structure Instances
@@ -252,3 +252,13 @@
     [√] Type Properties
         [√] Type Property Syntax
         [√] Querying and Setting Type Properties
+
+### [Methods](https://github.com/pratama6624/PratamaSwiftStudyJourney/tree/main/Sources/SwiftRoute/Methods)
+    On Going
+
+    [√] Instance Methods
+    [ ] The self Property
+    [ ] Modifying Value Types from Within Instance Methods
+    [ ] Modifying Value Types from Within Instance Methods
+    [ ] Assigning to self Within a Mutating Method
+    [ ] Type Methods
