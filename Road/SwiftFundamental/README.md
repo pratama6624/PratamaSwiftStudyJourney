@@ -266,7 +266,7 @@
         [√] Type Property - Type.property
 
 ### [Subscripts](https://github.com/pratama6624/PratamaSwiftStudyJourney/tree/main/Sources/SwiftRoute/Subscripts)
-    On Going
+    Complete
 
     [√] Subscript Syntax
         [√] Subscript Read-Only
@@ -276,13 +276,13 @@
     [√] Type Subscripts
 
 ### [Inheritance](https://github.com/pratama6624/PratamaSwiftStudyJourney/tree/main/Sources/SwiftRoute/Inheritance)
-    On Going
+    Complete
 
-    [ ] Defining a Base Class
-    [ ] Subclassing
-    [ ] Overriding
-    [ ] Overriding Methods
-    [ ] Overriding Properties
-        [ ] Overriding Property Getters and Setters
-        [ ] Overriding Property Observers
-    [ ] Preventing Overrides
+    [√] Defining a Base Class
+    [√] Subclassing
+    [√] Overriding
+        [√] Overriding Methods
+        [√] Overriding Properties
+        [√] Overriding Property Getters and Setters
+        [√] Overriding Property Observers
+    [√] Preventing Overrides
