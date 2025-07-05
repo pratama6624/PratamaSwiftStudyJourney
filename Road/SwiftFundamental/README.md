@@ -313,9 +313,9 @@
     [ ] Failable Initializers
         [√] Failable Initializers
         [√] Failable Initializers for Enumerations
-        [ ] Failable Initializers for Enumerations with Raw Values
-        [ ] Propagation of Initialization Failure
-        [ ] Overriding a Failable Initializer
+        [√] Failable Initializers for Enumerations with Raw Values
+        [√] Propagation of Initialization Failure
+        [√] Overriding a Failable Initializer
         [ ] The init! Failable Initializer
         [ ] Required Initializers
         [ ] Setting a Default Property Value with a Closure or Function

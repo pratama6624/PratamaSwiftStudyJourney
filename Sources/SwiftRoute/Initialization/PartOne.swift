@@ -268,6 +268,7 @@ enum TemperatureUnit {
     }
 }
 
+// Failable Initializers for Enumerations with Raw Values
 enum TemperatureUnitNew: Character {
     case kelvin = "K", celsius = "C", fahrenheit = "F"
 }
@@ -279,3 +280,94 @@ let unknownUnit = TemperatureUnitNew(rawValue: "X")
 if unknownUnit == nil {
     print("This isn't a defined temperature unit, so initialization failed.")
 }
+
+// Propagation of Initialization Failure
+class Product {
+    let name: String
+    init?(name: String) {
+        if name.isEmpty { return nil }
+        self.name = name
+    }
+}
+
+class CartItem: Product {
+    let quantity: Int
+    init?(name: String, quantity: Int) {
+        if quantity < 1 { return nil }
+        self.quantity = quantity
+        super.init(name: name)
+    }
+}
+// Name: sock, quantity: 2
+if let twoSocks = CartItem(name: "sock", quantity: 2) {
+    print("Item: \(twoSocks.name), quantity: \(twoSocks.quantity)")
+}
+// Name: shirt, quantity: 0
+// Unable to initialize zeroshirts
+if let zeroShirts = CartItem(name: "shirt", quantity: 0) {
+    print("Item: \(zeroShirts.name), quantity: \(zeroShirts.quantity)")
+} else {
+    print("Unable to initialize zeroshirts")
+}
+// Name: Unnamed, quantity: 1
+// Unable to initialize one unnamed product
+if let oneUnnamed = CartItem(name: "", quantity: 1) {
+    print("Item: \(oneUnnamed.name), quantity: \(oneUnnamed.quantity)")
+} else {
+    print("Unable to initialize one unnamed product")
+}
+
+// Overriding a Failable Initializer
+class Document {
+    var name: String?
+    // this initializer creates a document with a nil name value
+    init() { }
+    // this initializer creates a document with a nonempty name value
+    init?(name: String) {
+        if name.isEmpty { return nil }
+        self.name = name
+    }
+}
+class AutomaticallyNamedDoccument: Document {
+    override init() {
+        super.init()
+        self.name = "[Untitled]"
+    }
+    override init(name: String) {
+        super.init()
+        if name.isEmpty {
+            self.name = "[Untitled]"
+        } else {
+            self.name = name
+        }
+    }
+}
+class UntitledDocument: Document {
+    override init() {
+        super.init(name: "[Untitled]")!
+    }
+}
+let doc = Document() // Name = nil
+// Optional Handling
+if let docName = doc.name {
+    print("Doc name is \(docName)")
+} else {
+    print("Doc name is nil")
+}
+let doc1 = Document(name: "My Files") // Name = My Files
+// Optional Handling
+print("Doc 1 name is \(doc1?.name ?? "tanpa nama")")
+let doc2 = Document(name: "") // Return nil
+// Optional Handling
+print("Doc 2 name is \(doc2?.name ?? "tanpa nama")")
+
+// Auto
+let auto1 = AutomaticallyNamedDoccument() // name = "[Untitled]"
+// Optional Handling
+print("Doc auto 1 name is \(auto1.name ?? "")")
+let auto2 = AutomaticallyNamedDoccument(name: "Notes") // name = "Notes"
+// Optional Handling
+print("Doc auto 2 name is \(auto2.name ?? "")")
+let auto3 = AutomaticallyNamedDoccument(name: "") // name = "[Untitled]"
+// Optional Handling
+print("Doc auto 3 name is \(auto3.name ?? "")")
