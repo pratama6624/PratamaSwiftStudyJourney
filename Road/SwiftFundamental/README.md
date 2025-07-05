@@ -297,11 +297,11 @@
         [√] Initialization Parameters
         [√] Parameter Names and Argument Labels
         [√] Initializer Parameters Without Argument Labels
-    [ ] Optional Property Types
-    [ ] Assigning Constant Properties During Initialization
-    [ ] Default Initializers
-    [ ] Memberwise Initializers for Structure Types
-    [ ] Initializer Delegation for Value Types
+    [√] Optional Property Types
+    [√] Assigning Constant Properties During Initialization
+    [√] Default Initializers
+    [√] Memberwise Initializers for Structure Types
+    [√] Initializer Delegation for Value Types
     [ ] Class Inheritance and Initialization
         [ ] Designated Initializers and Convenience Initializers
         [ ] Syntax for Designated and Convenience Initializers
