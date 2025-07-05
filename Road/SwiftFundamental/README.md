@@ -311,10 +311,11 @@
         [√] Automatic Initializer Inheritance
     [√] Designated and Convenience Initializers in Action
     [ ] Failable Initializers
-    [ ] Failable Initializers for Enumerations
-    [ ] Failable Initializers for Enumerations with Raw Values
-    [ ] Propagation of Initialization Failure
-    [ ] Overriding a Failable Initializer
-    [ ] The init! Failable Initializer
+        [√] Failable Initializers
+        [√] Failable Initializers for Enumerations
+        [ ] Failable Initializers for Enumerations with Raw Values
+        [ ] Propagation of Initialization Failure
+        [ ] Overriding a Failable Initializer
+        [ ] The init! Failable Initializer
         [ ] Required Initializers
         [ ] Setting a Default Property Value with a Closure or Function

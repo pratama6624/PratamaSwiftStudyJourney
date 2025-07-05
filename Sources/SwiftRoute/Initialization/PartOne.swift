@@ -220,3 +220,62 @@ breakfastList[0].purchased = true
 for item in breakfastList {
     print(item.description)
 }
+
+// Failable Initializers
+let wholeNumber: Double = 12345.0
+let pi = 3.14159
+
+if let valueMaintained = Int(exactly: wholeNumber) {
+    print("\(wholeNumber) conversion to Int maintains value of \(valueMaintained)")
+}
+
+let valueChanged = Int(exactly: pi)
+if valueChanged == nil {
+    print("\(pi) conversion to Int doesn't maintain value")
+}
+
+struct Animal {
+    let species: String
+    init?(species: String) {
+        if species.isEmpty { return nil }
+        self.species = species
+    }
+}
+let someCreature = Animal(species: "Giraffe")
+if let giraffe = someCreature {
+    print("An animal was initialized with a species of \(giraffe.species)")
+}
+
+let anonymousCreature = Animal(species: "")
+if anonymousCreature == nil {
+    print("The anonymous creature couldn't be initialized")
+}
+
+// Failable Initializers for Enumerations
+enum TemperatureUnit {
+    case kelvin, celsius, fahrenheit
+    init?(symbol: Character) {
+        switch symbol {
+            case "K":
+                self = .kelvin
+            case "C":
+                self = .celsius
+            case "F":
+                self = .fahrenheit
+            default:
+             return nil
+        }
+    }
+}
+
+enum TemperatureUnitNew: Character {
+    case kelvin = "K", celsius = "C", fahrenheit = "F"
+}
+let fahrenheitUnit = TemperatureUnitNew(rawValue: "F")
+if fahrenheitUnit != nil {
+    print("This is a defined temperature unit, so initialization succeeded.")
+}
+let unknownUnit = TemperatureUnitNew(rawValue: "X")
+if unknownUnit == nil {
+    print("This isn't a defined temperature unit, so initialization failed.")
+}
