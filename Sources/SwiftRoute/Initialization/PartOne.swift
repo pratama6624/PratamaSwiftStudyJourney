@@ -130,3 +130,40 @@ let originRect = Rect(origin: Point(x: 2.0, y: 2.0), size: Size(width: 5.0, heig
 print("Rect origin is \(originRect)")
 let centerRect = Rect(center: Point(x: 4.0, y: 4.0), size: Size(width: 3.0, height: 3.0))
 print("center rect origin is \(centerRect)")
+
+// Class Inheritance and Initialization
+// Designated Initializers and Convenience Initializers
+// Syntax for Designated and Convenience Initializers
+// Initializer Inheritance and Overriding
+class Vehicle {
+    var numberOfWheels = 0
+    var description: String {
+        return "\(numberOfWheels) wheel(s)"
+    }
+}
+let vehicle = Vehicle()
+print("Vehicle: \(vehicle.description)")
+
+class Bicycle: Vehicle {
+    override init() {
+        super.init()
+        numberOfWheels = 2
+    }
+}
+let bicycle = Bicycle()
+print("Bicycle: \(bicycle.description)")
+
+class HoverBoard: Vehicle {
+    var color: String
+    init(color: String) {
+        self.color = color
+        // super.init() implicitly called here
+    }
+    override var description: String {
+        return "\(super.description) in a beautiful \(color)"
+    }
+}
+let hoverboard = HoverBoard(color: "silver")
+print("Hoverboard: \(hoverboard.description)")
+
+// Automatic Initializer Inheritance

@@ -302,13 +302,13 @@
     [√] Default Initializers
     [√] Memberwise Initializers for Structure Types
     [√] Initializer Delegation for Value Types
-    [ ] Class Inheritance and Initialization
-        [ ] Designated Initializers and Convenience Initializers
-        [ ] Syntax for Designated and Convenience Initializers
-        [ ] Initializer Delegation for Class Types
-        [ ] Two-Phase Initialization
-        [ ] Initializer Inheritance and Overriding
-        [ ] Automatic Initializer Inheritance
+    [√] Class Inheritance and Initialization
+        [√] Designated Initializers and Convenience Initializers
+        [√] Syntax for Designated and Convenience Initializers
+        [√] Initializer Delegation for Class Types
+        [√] Two-Phase Initialization
+        [√] Initializer Inheritance and Overriding
+        [√] Automatic Initializer Inheritance
     [ ] Designated and Convenience Initializers in Action
     [ ] Failable Initializers
     [ ] Failable Initializers for Enumerations
