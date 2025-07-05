@@ -309,7 +309,7 @@
         [√] Two-Phase Initialization
         [√] Initializer Inheritance and Overriding
         [√] Automatic Initializer Inheritance
-    [ ] Designated and Convenience Initializers in Action
+    [√] Designated and Convenience Initializers in Action
     [ ] Failable Initializers
     [ ] Failable Initializers for Enumerations
     [ ] Failable Initializers for Enumerations with Raw Values

@@ -167,3 +167,56 @@ let hoverboard = HoverBoard(color: "silver")
 print("Hoverboard: \(hoverboard.description)")
 
 // Automatic Initializer Inheritance
+
+// Designated and Convenience Initializers in Action
+// Note: Fungsinya adalah sama dengan init() untuk membuat object tanpa nama
+class Food {
+    var name: String
+    init(name: String) {
+        self.name = name
+    }
+    convenience init() {
+        self.init(name: "[Unnamed]")
+    }
+}
+let a = Food(name: "Pizza")
+print("A is \(a.name)")
+let b = Food()
+print("B is \(b.name)")
+
+class RecipeIngredient: Food {
+    var quantity: Int
+    init(name: String, quantity: Int) {
+        self.quantity = quantity
+        super.init(name: name)
+    }
+    override convenience init(name: String) {
+        self.init(name: name, quantity: 1)
+    }
+}
+let oneMysteryItem = RecipeIngredient()
+print("One mystery item is \(oneMysteryItem.name) with quantity is \(oneMysteryItem.quantity)")
+let oneBacon = RecipeIngredient(name: "Bacon")
+print("One Bacon is \(oneBacon.name) with quantity is \(oneBacon.quantity)")
+let sixEggs = RecipeIngredient(name: "Eggs", quantity: 6)
+print("Six eggs is \(sixEggs) with quantity is \(sixEggs.quantity)")
+print("")
+
+class ShoppingList: RecipeIngredient {
+    var purchased = false
+    var description: String {
+        var output = "\(quantity) x \(name)"
+        output += purchased ? " ✔" : " ✘"
+        return output
+    }
+}
+var breakfastList = [
+    ShoppingList(),
+    ShoppingList(name: "Bacon"),
+    ShoppingList(name: "Eggs", quantity: 6)
+]
+breakfastList[0].name = "Orange juice"
+breakfastList[0].purchased = true
+for item in breakfastList {
+    print(item.description)
+}
