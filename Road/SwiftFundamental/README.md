@@ -286,3 +286,35 @@
         [√] Overriding Property Getters and Setters
         [√] Overriding Property Observers
     [√] Preventing Overrides
+
+### [Initialization](https://github.com/pratama6624/PratamaSwiftStudyJourney/tree/main/Sources/SwiftRoute/Initialization)
+    On Going
+
+    [√] Setting Initial Values for Stored Properties
+        [√] Initializers
+        [√] Default Property Values
+    [√] Customizing Initialization
+        [√] Initialization Parameters
+        [√] Parameter Names and Argument Labels
+        [√] Initializer Parameters Without Argument Labels
+    [ ] Optional Property Types
+    [ ] Assigning Constant Properties During Initialization
+    [ ] Default Initializers
+    [ ] Memberwise Initializers for Structure Types
+    [ ] Initializer Delegation for Value Types
+    [ ] Class Inheritance and Initialization
+        [ ] Designated Initializers and Convenience Initializers
+        [ ] Syntax for Designated and Convenience Initializers
+        [ ] Initializer Delegation for Class Types
+        [ ] Two-Phase Initialization
+        [ ] Initializer Inheritance and Overriding
+        [ ] Automatic Initializer Inheritance
+    [ ] Designated and Convenience Initializers in Action
+    [ ] Failable Initializers
+    [ ] Failable Initializers for Enumerations
+    [ ] Failable Initializers for Enumerations with Raw Values
+    [ ] Propagation of Initialization Failure
+    [ ] Overriding a Failable Initializer
+    [ ] The init! Failable Initializer
+        [ ] Required Initializers
+        [ ] Setting a Default Property Value with a Closure or Function
