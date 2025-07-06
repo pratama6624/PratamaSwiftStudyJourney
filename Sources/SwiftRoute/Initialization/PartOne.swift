@@ -371,3 +371,39 @@ print("Doc auto 2 name is \(auto2.name ?? "")")
 let auto3 = AutomaticallyNamedDoccument(name: "") // name = "[Untitled]"
 // Optional Handling
 print("Doc auto 3 name is \(auto3.name ?? "")")
+
+// Required Initializers
+class SomeClass {
+    required init() {
+        // initializer implementation goes here
+    }
+}
+class SomeSubClass: SomeClass {
+    required init() {
+        // // subclass implementation of the required initializer goes here
+    }
+}
+
+// Setting a Default Property Value with a Closure or Function
+struct Chessboard {
+    let boardColors: [Bool] = {
+        var temporaryBoard: [Bool] = []
+        var isBlack = false
+        for i in 1...8 {
+            for j in 1...8 {
+                temporaryBoard.append(isBlack)
+                isBlack = !isBlack
+            }
+            isBlack = !isBlack
+        }
+        return temporaryBoard
+    }()
+    func squareIsBlackAt(row: Int, column: Int) -> Bool {
+        return boardColors[(row * 8) + column]
+    }
+}
+let board = Chessboard()
+print(board.squareIsBlackAt(row: 0, column: 1))
+// Prints "true"
+print(board.squareIsBlackAt(row: 7, column: 7))
+// Prints "false"

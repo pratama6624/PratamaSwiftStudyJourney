@@ -288,7 +288,7 @@
     [√] Preventing Overrides
 
 ### [Initialization](https://github.com/pratama6624/PratamaSwiftStudyJourney/tree/main/Sources/SwiftRoute/Initialization)
-    On Going
+    Complete
 
     [√] Setting Initial Values for Stored Properties
         [√] Initializers
@@ -316,6 +316,12 @@
         [√] Failable Initializers for Enumerations with Raw Values
         [√] Propagation of Initialization Failure
         [√] Overriding a Failable Initializer
-        [ ] The init! Failable Initializer
-        [ ] Required Initializers
-        [ ] Setting a Default Property Value with a Closure or Function
+        [√] The init! Failable Initializer
+        [√] Required Initializers
+        [√] Setting a Default Property Value with a Closure or Function
+
+### [Deinitialization](https://github.com/pratama6624/PratamaSwiftStudyJourney/tree/main/Sources/SwiftRoute/Deinitialization)
+    On Going
+
+    [ ] How Deinitialization Works
+    [ ] Deinitializers in Action
