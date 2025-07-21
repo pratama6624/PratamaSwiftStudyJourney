@@ -321,7 +321,16 @@
         [√] Setting a Default Property Value with a Closure or Function
 
 ### [Deinitialization](https://github.com/pratama6624/PratamaSwiftStudyJourney/tree/main/Sources/SwiftRoute/Deinitialization)
+    Complete
+
+    [√] How Deinitialization Works
+    [√] Deinitializers in Action
+
+### [Optional Chaining](https://github.com/pratama6624/PratamaSwiftStudyJourney/tree/main/Sources/SwiftRoute/OptionalChaining)
     On Going
 
-    [ ] How Deinitialization Works
-    [ ] Deinitializers in Action
+    [ ] 
+    [ ] 
+    [ ] 
+    [ ] 
+    [ ] 
