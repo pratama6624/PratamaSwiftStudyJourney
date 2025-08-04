@@ -28,6 +28,8 @@ if let roomCount = john.residence?.numberOfRooms {
     print("unable to retrieve the number od rooms.")
 }
 
+print("-------------------------------------------------------")
+
 // Defining Model Classes for Optional Chaining
 class Room {
     let name: String
@@ -66,6 +68,7 @@ class NewResidence {
         }
     }
 
+    // Side effect or Ga ngembaliin apapun
     func printNumberOfRooms() {
         print("The number of rooms is \(numberOfRooms)")
     }
@@ -88,6 +91,8 @@ address.street = "Baker Street"
 newResidence.address = address
 
 print(newResidence.printNumberOfRooms())
+
+print("-------------------------------------------------------")
 
 // Accessing Properties Through Optional Chaining
 
@@ -113,8 +118,8 @@ if let street = young.residence?.address?.street {
 
 let one = NewPerson()
 one.residence = NewResidence()
-one.residence?.rooms.append(Room(name: "Living Room"))
 one.residence?.rooms.append(Room(name: "Dining Room"))
+one.residence?.rooms.append(Room(name: "Living Room"))
 one.residence?.rooms.append(Room(name: "Kichen"))
 one.residence?.rooms.append(Room(name: "Bathroo"))
 
@@ -127,7 +132,7 @@ func createAddress() -> Address {
 
     return someAddress
 }
-one.residence?.address = createAddress()
+// one.residence?.address = createAddress()
 
 if let buildingNumber = one.residence?.address?.buildingNumber {
     print("One building number is \(buildingNumber)")
@@ -135,4 +140,40 @@ if let buildingNumber = one.residence?.address?.buildingNumber {
     print("I dont know it broo")
 }
 
+print("-------------------------------------------------------")
+
 // Calling Methods Through Optional Chaining
+// Hanya digunakan untuk mengecek apakah sebuah fungsi berhasil dieksekusi atau tidak dan tidak mengembalikan suatu nilai
+// Contoh : Mengecek apakah fungsi side effect seperti printNumberOfRooms() berhasil dijalankan atau tidak
+print(newResidence.printNumberOfRooms()) // Mengembalikan fungsi
+if one.residence?.printNumberOfRooms() != nil {
+    print("It was possible to print the number of rooms.")
+} else {
+    print("It was not possible to print the number of rooms.")
+}
+
+if (one.residence?.address = someAddress) != nil {
+    print("It was possible to set the address.")
+} else {
+    print("It was not possible to set the address.")
+}
+
+print("-------------------------------------------------------")
+
+// Accessing Subscripts Through Optional Chaining
+// Let's try with optional chaining
+if let firstRoomName = one.residence?[0].name {
+    print("The first room name is \(firstRoomName).")
+} else {
+    print("Unable to retrieve the first room name.")
+}
+
+// Accessing Subscripts of Optional Type
+var testScores = ["Dave": [86, 82, 84], "Bev": [79, 94, 81]]
+testScores["Dave"]?[0] = 91
+testScores["Bev"]?[0] += 1
+testScores["Brian"]?[0] = 72
+
+print(testScores)
+
+print("-------------------------------------------------------")
