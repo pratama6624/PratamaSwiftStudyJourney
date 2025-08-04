@@ -1,3 +1,5 @@
+// import Foundation
+
 // Optional Chaining
 // Optional Chaining as an Alternative to Forced Unwrapping
 class Person {
@@ -106,8 +108,8 @@ if let roomCount = young.residence?.numberOfRooms {
 }
 
 let someAddress = Address()
-someAddress.buildingNumber = "29"
-someAddress.street = "Acacia Road"
+someAddress.buildingNumber = "The Flower 29"
+someAddress.street = "The Acacia Road"
 young.residence?.address = someAddress
 
 if let street = young.residence?.address?.street {
@@ -127,8 +129,8 @@ func createAddress() -> Address {
     print("This function was called")
     
     let someAddress = Address()
-    someAddress.buildingNumber = "31"
-    someAddress.street = "Dragon road"
+    someAddress.buildingNumber = "The Flower 31"
+    someAddress.street = "The Dragon road"
 
     return someAddress
 }
@@ -177,3 +179,25 @@ testScores["Brian"]?[0] = 72
 print(testScores)
 
 print("-------------------------------------------------------")
+
+// Linking Multiple Levels of Chaining
+if let oneStreet = one.residence?.address?.street {
+    print("One's street name is \(oneStreet).")
+} else {
+    print("Unable to retrieve the address.")
+}
+
+print("-------------------------------------------------------")
+
+// Chaining on Methods with Optional Return Values
+if let buildingIdentifier = one.residence?.address?.buildingIdentifier() {
+    print("One's building identifier is \(buildingIdentifier).")
+}
+
+if let beginsWithThe = one.residence?.address?.buildingIdentifier()?.hasPrefix("The") {
+    if beginsWithThe {
+        print("One's building identifier begins with \"The\".")
+    } else {
+        print("One's building identifier doesn't begin with \"The\".")
+    }
+}

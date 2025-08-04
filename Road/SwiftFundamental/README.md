@@ -336,5 +336,5 @@
     [√] Calling Methods Through Optional Chaining
     [√] Accessing Subscripts Through Optional Chaining
     [√] Accessing Subscripts of Optional Type
-    [ ] Linking Multiple Levels of Chaining
+    [√] Linking Multiple Levels of Chaining
     [ ] Chaining on Methods with Optional Return Values
