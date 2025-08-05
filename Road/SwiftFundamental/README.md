@@ -346,7 +346,7 @@
     [√] Handling Errors
         [√] Propagating Errors Using Throwing Functions
         [√] Handling Errors Using Do-Catch
-        [ ] Converting Errors to Optional Values
-        [ ] Disabling Error Propagation
-    [ ] Specifying the Error Type
-    [ ] Specifying Cleanup Actions
+        [√] Converting Errors to Optional Values
+        [√] Disabling Error Propagation
+    [√] Specifying the Error Type
+    [√] Specifying Cleanup Actions
