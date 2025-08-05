@@ -327,7 +327,7 @@
     [√] Deinitializers in Action
 
 ### [Optional Chaining](https://github.com/pratama6624/PratamaSwiftStudyJourney/tree/main/Sources/SwiftRoute/OptionalChaining)
-    On Going
+    Complete
 
     [√] Optional Chaining
     [√] Optional Chaining as an Alternative to Forced Unwrapping
@@ -337,4 +337,16 @@
     [√] Accessing Subscripts Through Optional Chaining
     [√] Accessing Subscripts of Optional Type
     [√] Linking Multiple Levels of Chaining
-    [ ] Chaining on Methods with Optional Return Values
+    [√] Chaining on Methods with Optional Return Values
+
+### [Error Handling](https://github.com/pratama6624/PratamaSwiftStudyJourney/tree/main/Sources/SwiftRoute/ErrorHandling)
+    On Going
+
+    [√] Representing and Throwing Errors
+    [√] Handling Errors
+        [√] Propagating Errors Using Throwing Functions
+        [√] Handling Errors Using Do-Catch
+        [ ] Converting Errors to Optional Values
+        [ ] Disabling Error Propagation
+    [ ] Specifying the Error Type
+    [ ] Specifying Cleanup Actions
