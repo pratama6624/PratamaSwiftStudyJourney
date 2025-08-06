@@ -340,7 +340,7 @@
     [√] Chaining on Methods with Optional Return Values
 
 ### [Error Handling](https://github.com/pratama6624/PratamaSwiftStudyJourney/tree/main/Sources/SwiftRoute/ErrorHandling)
-    On Going
+    Complete
 
     [√] Representing and Throwing Errors
     [√] Handling Errors
@@ -350,3 +350,18 @@
         [√] Disabling Error Propagation
     [√] Specifying the Error Type
     [√] Specifying Cleanup Actions
+
+### [Concurrency](https://github.com/pratama6624/PratamaSwiftStudyJourney/tree/main/Sources/SwiftRoute/Concurrency)
+    On Going
+
+    [√] Defining and Calling Asynchronous Functions
+    [√] Asynchronous Sequences
+    [ ] Calling Asynchronous Functions in Parallel
+    [ ] Tasks and Task Groups
+    [ ] Task Cancellation
+    [ ] Unstructured Concurrency
+    [ ] Isolation
+    [ ] The Main Actor
+    [ ] Actors
+    [ ] Global Actors
+    [ ] Sendable Types
