@@ -356,11 +356,16 @@
 
     [√] Defining and Calling Asynchronous Functions
     [√] Asynchronous Sequences
-    [ ] Calling Asynchronous Functions in Parallel
-    [ ] Tasks and Task Groups
-    [ ] Task Cancellation
-    [ ] Unstructured Concurrency
-    [ ] Isolation
+    [√] Calling Asynchronous Functions in Parallel
+    [√] Tasks and Task Groups
+    [√] Task Cancellation
+    [√] Unstructured Concurrency
+        [√] Task
+        [√] Task Detached
+    [√] Isolation
+        [√] Immutable Data
+        [√] Task-local Data
+        [√] Actors
     [ ] The Main Actor
     [ ] Actors
     [ ] Global Actors
