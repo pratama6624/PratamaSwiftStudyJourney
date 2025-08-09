@@ -1,21 +1,21 @@
 import Foundation
 
 struct PhotoGallery {
-    @MainActor var photoNames: [String] = [] // Harus di main actor karena dipakai UI
-    var hasCachedPhotos = false              // Aman diakses di background
+    @MainActor var photoNames: [String] = []
+    var hasCachedPhotos = false
 
     @MainActor
     func drawUI() {
-        print("🎨 Menampilkan UI dengan foto: \(photoNames)")
+        print("Menampilakn UI dengan foto: \(photoNames)")
     }
 
     func cachePhotos() {
-        print("💾 Download & simpan foto ke cache...")
+        print("Download & simpan foto ke cache...")
     }
 }
 
 func loadPhotosFromServer() async -> [String] {
-    try? await Task.sleep(nanoseconds: 300_000_000) // Delay 0.3 detik
+    try? await Task.sleep(nanoseconds: 300_000_000)
     return ["forest.jpg", "river.jpg"]
 }
 
@@ -27,7 +27,7 @@ Task {
     gallery.hasCachedPhotos = true
     gallery.cachePhotos()
 
-    // Update UI → harus pakai await karena drawUI() @MainActor
+    // Update UI -> Harus pakai await karena drawUI adalah @MainActor
     await gallery.drawUI()
 
     // Update property @MainActor

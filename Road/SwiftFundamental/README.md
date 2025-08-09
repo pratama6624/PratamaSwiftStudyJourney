@@ -366,7 +366,10 @@
         [√] Immutable Data
         [√] Task-local Data
         [√] Actors
-    [ ] The Main Actor
-    [ ] Actors
+    [√] The Main Actor
+        [√] @MainActor Closure
+        [√] @MainActor Struct/Class/Enum
+        [√] @MainActor Fine-grained Control
+    [√] Actors
     [ ] Global Actors
     [ ] Sendable Types
