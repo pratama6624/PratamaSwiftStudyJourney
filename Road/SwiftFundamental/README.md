@@ -352,7 +352,7 @@
     [√] Specifying Cleanup Actions
 
 ### [Concurrency](https://github.com/pratama6624/PratamaSwiftStudyJourney/tree/main/Sources/SwiftRoute/Concurrency)
-    On Going
+    Complete
 
     [√] Defining and Calling Asynchronous Functions
     [√] Asynchronous Sequences
@@ -371,5 +371,15 @@
         [√] @MainActor Struct/Class/Enum
         [√] @MainActor Fine-grained Control
     [√] Actors
-    [ ] Global Actors
-    [ ] Sendable Types
+    [√] Global Actors
+    [√] Sendable Types
+
+### [Macros](https://github.com/pratama6624/PratamaSwiftStudyJourney/tree/main/Sources/SwiftRoute/Macros)
+    On Going
+
+    [ ] Freestanding Macros
+    [ ] Attached Macros
+    [ ] Macro Declarations
+    [ ] Macro Expansion
+    [ ] Implementing a Macro
+    [ ] Developing and Debugging Macros
