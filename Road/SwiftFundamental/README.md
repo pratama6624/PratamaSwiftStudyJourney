@@ -374,10 +374,20 @@
     [√] Global Actors
     [√] Sendable Types
 
-### [Macros](https://github.com/pratama6624/PratamaSwiftStudyJourney/tree/main/Sources/SwiftRoute/Macros)
+### [Macros](https://github.com/pratama6624/SwiftMacros)
     On Going
 
     [ ] Freestanding Macros
+        [ ] Auto-conformance Protocol
+        [ ] Auto init & Property Mapping
+        [ ] Auto Logging / Tracing
+        [ ] Auto Binding UI & Property Wrapper
+        [ ] Generate Code for Testing / Mock
+        [ ] Auto Router / Navigation Mapping
+        [ ] Generate Helper for Enum
+        [ ] Auto Validation
+        [ ] Auto Dependency Injection
+        [ ] Auto Performance Timer
     [ ] Attached Macros
     [ ] Macro Declarations
     [ ] Macro Expansion
