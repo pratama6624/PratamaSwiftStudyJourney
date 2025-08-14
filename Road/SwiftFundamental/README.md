@@ -377,8 +377,9 @@
 ### [Macros](https://github.com/pratama6624/SwiftMacros)
     On Going
 
-    [ ] Freestanding Macros
-        [ ] Auto-conformance Protocol
+    [√] Freestanding Macros
+    [ ] Attached Macros
+        [√] Auto-conformance Protocol (Auto Codable)
         [ ] Auto init & Property Mapping
         [ ] Auto Logging / Tracing
         [ ] Auto Binding UI & Property Wrapper
@@ -388,7 +389,6 @@
         [ ] Auto Validation
         [ ] Auto Dependency Injection
         [ ] Auto Performance Timer
-    [ ] Attached Macros
     [ ] Macro Declarations
     [ ] Macro Expansion
     [ ] Implementing a Macro
