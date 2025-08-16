@@ -378,10 +378,11 @@
     On Going
 
     [√] Freestanding Macros
+        [√] Auto Logging
     [ ] Attached Macros
         [√] Auto-conformance Protocol (Auto Codable)
-        [ ] Auto init & Property Mapping
-        [ ] Auto Logging / Tracing
+        [√] Auto init & Property Mapping
+        [√] Auto Tracing
         [ ] Auto Binding UI & Property Wrapper
         [ ] Generate Code for Testing / Mock
         [ ] Auto Router / Navigation Mapping
