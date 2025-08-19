@@ -390,7 +390,8 @@
         [ ] Auto Validation
         [ ] Auto Dependency Injection
         [ ] Auto Performance Timer
-    [ ] Macro Declarations
-    [ ] Macro Expansion
+        [√] Form Apple Swift Documentation
+    [√] Macro Declarations
+    [√] Macro Expansion
     [ ] Implementing a Macro
     [ ] Developing and Debugging Macros
