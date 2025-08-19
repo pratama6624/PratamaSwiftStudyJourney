@@ -383,8 +383,8 @@
         [√] Auto-conformance Protocol (Auto Codable)
         [√] Auto init & Property Mapping
         [√] Auto Tracing
-        [ ] Auto Binding UI & Property Wrapper
-        [ ] Generate Code for Testing / Mock
+        [√] Auto Binding UI & Property Wrapper
+        [√] Generate Code for Testing / Mock
         [ ] Auto Router / Navigation Mapping
         [ ] Generate Helper for Enum
         [ ] Auto Validation
