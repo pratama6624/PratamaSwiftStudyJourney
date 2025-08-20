@@ -393,5 +393,5 @@
         [√] Form Apple Swift Documentation
     [√] Macro Declarations
     [√] Macro Expansion
-    [ ] Implementing a Macro
+    [√] Implementing a Macro
     [ ] Developing and Debugging Macros
