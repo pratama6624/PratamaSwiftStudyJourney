@@ -375,7 +375,7 @@
     [√] Sendable Types
 
 ### [Macros](https://github.com/pratama6624/SwiftMacros)
-    On Going
+    Finished but not yet
 
     [√] Freestanding Macros
         [√] Auto Logging
@@ -394,4 +394,12 @@
     [√] Macro Declarations
     [√] Macro Expansion
     [√] Implementing a Macro
-    [ ] Developing and Debugging Macros
+    [√] Developing and Debugging Macros
+
+### [Type Casting](https://github.com/pratama6624/TypeCasting)
+    On Going
+
+    [ ] Defining a Class Hierarchy for Type Casting
+    [ ] Checking Type
+    [ ] Downcasting
+    [ ] Type Casting for Any and AnyObject
