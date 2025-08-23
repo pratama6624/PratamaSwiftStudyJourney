@@ -408,5 +408,6 @@
 ### [Nested Types](https://github.com/pratama6624/NestedTypes)
     On Going
 
-    [ ] Nested Types in Action
+    [√] Nested Types in Action
     [ ] Referring to Nested Types
+    [√] Real life sample Ecommerce Product
