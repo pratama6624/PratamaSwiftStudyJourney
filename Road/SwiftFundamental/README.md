@@ -387,7 +387,7 @@
         [√] Generate Code for Testing / Mock
         [ ] Auto Router / Navigation Mapping
         [ ] Generate Helper for Enum
-        [ ] Auto Validation
+        [√] Auto Validation
         [ ] Auto Dependency Injection
         [ ] Auto Performance Timer
         [√] Form Apple Swift Documentation
@@ -399,7 +399,7 @@
 ### [Type Casting](https://github.com/pratama6624/TypeCasting)
     On Going
 
-    [ ] Defining a Class Hierarchy for Type Casting
-    [ ] Checking Type
-    [ ] Downcasting
-    [ ] Type Casting for Any and AnyObject
+    [√] Defining a Class Hierarchy for Type Casting
+    [√] Checking Type
+    [√] Downcasting
+    [√] Type Casting for Any and AnyObject
