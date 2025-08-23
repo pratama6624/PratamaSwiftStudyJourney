@@ -415,6 +415,7 @@
 ### [Extensions](https://github.com/pratama6624/Extensions)
     On Going
 
+    [√] Introduction
     [ ] Extension Syntax
     [ ] Computed Properties
     [ ] Initializers
