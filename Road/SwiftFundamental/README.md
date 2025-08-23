@@ -406,8 +406,22 @@
     [√] Real life sample Payment System
 
 ### [Nested Types](https://github.com/pratama6624/NestedTypes)
-    On Going
+    Complete
 
     [√] Nested Types in Action
-    [ ] Referring to Nested Types
+    [√] Referring to Nested Types
     [√] Real life sample Ecommerce Product
+
+### [Extensions](https://github.com/pratama6624/Extensions)
+    On Going
+
+    [ ] Extension Syntax
+    [ ] Computed Properties
+    [ ] Initializers
+    [ ] Methods
+    [ ] Mutating Instance Methods
+    [ ] Subscripts
+    [ ] Nested Types
+    [ ] Exercise
+        [ ] Real life solution (???)
+        [ ] Real life solution (???)
