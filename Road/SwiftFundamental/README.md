@@ -397,9 +397,16 @@
     [√] Developing and Debugging Macros
 
 ### [Type Casting](https://github.com/pratama6624/TypeCasting)
-    On Going
+    Complete
 
     [√] Defining a Class Hierarchy for Type Casting
     [√] Checking Type
     [√] Downcasting
     [√] Type Casting for Any and AnyObject
+    [√] Real life sample Payment System
+
+### [Nested Types](https://github.com/pratama6624/NestedTypes)
+    On Going
+
+    [ ] Nested Types in Action
+    [ ] Referring to Nested Types
