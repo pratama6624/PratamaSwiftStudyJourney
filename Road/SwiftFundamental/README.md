@@ -413,7 +413,7 @@
     [√] Real life sample Ecommerce Product
 
 ### [Extensions](https://github.com/pratama6624/Extensions)
-    On Going
+    Complete
 
     [√] Introduction
     [√] Extension Syntax
@@ -423,6 +423,13 @@
     [√] Mutating Instance Methods
     [√] Subscripts
     [√] Nested Types
-    [ ] Exercise
-        [ ] Real life solution (???)
-        [ ] Real life solution (???)
+    [√] Exercise
+        [√] Real life solution (???)
+        [√] Real life solution (???)
+
+### [Protocols](https://github.com/pratama6624/Protocols)
+    On Going
+
+    [ ]
+    [ ] 
+    [ ] 
