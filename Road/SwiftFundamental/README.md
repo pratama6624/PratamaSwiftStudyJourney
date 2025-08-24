@@ -416,13 +416,13 @@
     On Going
 
     [√] Introduction
-    [ ] Extension Syntax
-    [ ] Computed Properties
-    [ ] Initializers
-    [ ] Methods
-    [ ] Mutating Instance Methods
-    [ ] Subscripts
-    [ ] Nested Types
+    [√] Extension Syntax
+    [√] Computed Properties
+    [√] Initializers
+    [√] Methods
+    [√] Mutating Instance Methods
+    [√] Subscripts
+    [√] Nested Types
     [ ] Exercise
         [ ] Real life solution (???)
         [ ] Real life solution (???)
