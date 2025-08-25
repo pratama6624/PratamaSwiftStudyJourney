@@ -430,6 +430,28 @@
 ### [Protocols](https://github.com/pratama6624/Protocols)
     On Going
 
-    [ ]
-    [ ] 
+    [√] Introduction
+    [√] Protocol Syntax
+    [√] Property Requirements
+    [√] Method Requirements
+    [ ] Mutating Method Requirements
+    [ ] Initializer Requirements
+    [ ] Failable Initializer Requirements
+    [ ] Protocols that Have Only Semantic Requirements
+    [ ] Protocols as Types
+    [ ] Delegation
+    [ ] Adding Protocol Conformance with an Extension
+    [ ] Conditionally Conforming to a Protocol
+    [ ] Declaring Protocol Adoption with an Extension
+    [ ] Adopting a Protocol Using a Synthesized Implementation
+    [ ] Implicit Conformance to a Protocol
+    [ ] Collections of Protocol Types
+    [ ] Protocol Inheritance
+    [ ] Class-Only Protocols
+    [ ] Protocol Composition
+    [ ] Checking for Protocol Conformance
+    [ ] Optional Protocol Requirements
+    [ ] Protocol Extensions
+    [ ] Providing Default Implementations
+    [ ] Adding Constraints to Protocol Extensions
     [ ] 
