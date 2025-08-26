@@ -434,7 +434,7 @@
     [√] Protocol Syntax
     [√] Property Requirements
     [√] Method Requirements
-    [ ] Mutating Method Requirements
+    [√] Mutating Method Requirements
     [ ] Initializer Requirements
     [ ] Failable Initializer Requirements
     [ ] Protocols that Have Only Semantic Requirements
