@@ -435,9 +435,10 @@
     [√] Property Requirements
     [√] Method Requirements
     [√] Mutating Method Requirements
-    [ ] Initializer Requirements
-    [ ] Failable Initializer Requirements
-    [ ] Protocols that Have Only Semantic Requirements
+    [√] Initializer Requirements
+    [√] Class Implementations Initializer Requirements
+    [√] Failable Initializer Requirements
+    [√] Protocols that Have Only Semantic Requirements
     [ ] Protocols as Types
     [ ] Delegation
     [ ] Adding Protocol Conformance with an Extension
