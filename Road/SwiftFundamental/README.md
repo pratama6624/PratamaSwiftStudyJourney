@@ -439,8 +439,8 @@
     [√] Class Implementations Initializer Requirements
     [√] Failable Initializer Requirements
     [√] Protocols that Have Only Semantic Requirements
-    [ ] Protocols as Types
-    [ ] Delegation
+    [√] Protocols as Types
+    [√] Delegation
     [ ] Adding Protocol Conformance with an Extension
     [ ] Conditionally Conforming to a Protocol
     [ ] Declaring Protocol Adoption with an Extension
@@ -455,4 +455,3 @@
     [ ] Protocol Extensions
     [ ] Providing Default Implementations
     [ ] Adding Constraints to Protocol Extensions
-    [ ] 
