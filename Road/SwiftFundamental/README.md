@@ -441,7 +441,7 @@
     [√] Protocols that Have Only Semantic Requirements
     [√] Protocols as Types
     [√] Delegation
-    [ ] Adding Protocol Conformance with an Extension
+    [√] Adding Protocol Conformance with an Extension
     [ ] Conditionally Conforming to a Protocol
     [ ] Declaring Protocol Adoption with an Extension
     [ ] Adopting a Protocol Using a Synthesized Implementation
