@@ -442,9 +442,9 @@
     [√] Protocols as Types
     [√] Delegation
     [√] Adding Protocol Conformance with an Extension
-    [ ] Conditionally Conforming to a Protocol
-    [ ] Declaring Protocol Adoption with an Extension
-    [ ] Adopting a Protocol Using a Synthesized Implementation
+    [√] Conditionally Conforming to a Protocol
+    [√] Declaring Protocol Adoption with an Extension
+    [√] Adopting a Protocol Using a Synthesized Implementation
     [ ] Implicit Conformance to a Protocol
     [ ] Collections of Protocol Types
     [ ] Protocol Inheritance
