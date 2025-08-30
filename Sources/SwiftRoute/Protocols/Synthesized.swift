@@ -14,7 +14,7 @@ if v1 == v2 {
 }
 
 // Hashable
-struct User: Hashable {
+struct User: Hashable { 
     var id: Int
     var username: String
 }
@@ -41,5 +41,4 @@ var levels: [SkillLevel] = [
 
 for level in levels.sorted() {
     print("level is \(level)")
-    
 }

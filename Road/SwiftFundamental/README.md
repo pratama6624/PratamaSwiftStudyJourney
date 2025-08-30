@@ -445,10 +445,10 @@
     [√] Conditionally Conforming to a Protocol
     [√] Declaring Protocol Adoption with an Extension
     [√] Adopting a Protocol Using a Synthesized Implementation
-    [ ] Implicit Conformance to a Protocol
-    [ ] Collections of Protocol Types
-    [ ] Protocol Inheritance
-    [ ] Class-Only Protocols
+    [√] Implicit Conformance to a Protocol
+    [√] Collections of Protocol Types
+    [√] Protocol Inheritance
+    [√] Class-Only Protocols
     [ ] Protocol Composition
     [ ] Checking for Protocol Conformance
     [ ] Optional Protocol Requirements
