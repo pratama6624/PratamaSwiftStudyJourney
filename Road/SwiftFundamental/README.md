@@ -449,9 +449,11 @@
     [√] Collections of Protocol Types
     [√] Protocol Inheritance
     [√] Class-Only Protocols
-    [ ] Protocol Composition
-    [ ] Checking for Protocol Conformance
+    [√] Protocol Composition
+    [√] Checking for Protocol Conformance
     [ ] Optional Protocol Requirements
     [ ] Protocol Extensions
     [ ] Providing Default Implementations
     [ ] Adding Constraints to Protocol Extensions
+
+### [Generics](https://github.com/pratama6624/Generics)
