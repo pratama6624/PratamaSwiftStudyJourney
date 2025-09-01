@@ -428,7 +428,7 @@
         [√] Real life solution (???)
 
 ### [Protocols](https://github.com/pratama6624/Protocols)
-    On Going
+    Complete
 
     [√] Introduction
     [√] Protocol Syntax
@@ -453,7 +453,30 @@
     [√] Checking for Protocol Conformance
     [√] Optional Protocol Requirements
     [√] Protocol Extensions
-    [ ] Providing Default Implementations
-    [ ] Adding Constraints to Protocol Extensions
+    [√] Providing Default Implementations
+    [√] Adding Constraints to Protocol Extensions
 
 ### [Generics](https://github.com/pratama6624/Generics)
+    On Going
+
+    [ ] Introduction
+    [ ] The Problem that Generics Solve
+    [ ] Generic Functions
+    [ ] Type Parameters
+    [ ] Naming Type Parameters
+    [ ] Generic Types
+    [ ] Extending a Generic Type
+    [ ] Type Constraints
+    [ ] Type Constraint Syntax
+    [ ] Type Constraints in Action
+    [ ] Associated Types
+    [ ] Associated Types in Action
+    [ ] Extending an Existing Type to Specify an Associated Type
+    [ ] Adding Constraints to an Associated Type
+    [ ] Using a Protocol in Its Associated Type’s Constraints
+    [ ] Generic Where Clauses
+    [ ] Extensions with a Generic Where Clause
+    [ ] Contextual Where Clauses
+    [ ] Associated Types with a Generic Where Clause
+    [ ] Generic Subscripts
+    [ ] Implicit Constraints
