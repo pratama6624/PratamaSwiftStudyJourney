@@ -462,7 +462,7 @@
     [√] Introduction
     [√] The Problem that Generics Solve
     [√] Generic Functions
-    [ ] Type Parameters
+    [√] Type Parameters
     [ ] Naming Type Parameters
     [ ] Generic Types
     [ ] Extending a Generic Type
