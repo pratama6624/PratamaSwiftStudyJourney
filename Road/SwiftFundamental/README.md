@@ -459,9 +459,9 @@
 ### [Generics](https://github.com/pratama6624/Generics)
     On Going
 
-    [ ] Introduction
-    [ ] The Problem that Generics Solve
-    [ ] Generic Functions
+    [√] Introduction
+    [√] The Problem that Generics Solve
+    [√] Generic Functions
     [ ] Type Parameters
     [ ] Naming Type Parameters
     [ ] Generic Types
