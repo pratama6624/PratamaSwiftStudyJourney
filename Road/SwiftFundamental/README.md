@@ -463,9 +463,9 @@
     [√] The Problem that Generics Solve
     [√] Generic Functions
     [√] Type Parameters
-    [ ] Naming Type Parameters
-    [ ] Generic Types
-    [ ] Extending a Generic Type
+    [√] Naming Type Parameters
+    [√] Generic Types
+    [√] Extending a Generic Type
     [ ] Type Constraints
     [ ] Type Constraint Syntax
     [ ] Type Constraints in Action
