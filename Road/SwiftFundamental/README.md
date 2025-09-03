@@ -466,7 +466,7 @@
     [√] Naming Type Parameters
     [√] Generic Types
     [√] Extending a Generic Type
-    [ ] Type Constraints
+    [√] Type Constraints
     [ ] Type Constraint Syntax
     [ ] Type Constraints in Action
     [ ] Associated Types
