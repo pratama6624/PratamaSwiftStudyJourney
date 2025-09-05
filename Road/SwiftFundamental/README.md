@@ -556,11 +556,13 @@
     Just the readme, there's no place for it yet
 
     [ ] Bitwise Operators
-    [ ] Bitwise NOT Operator
-    [ ] Bitwise AND Operator
-    [ ] Bitwise OR Operator
-    [ ] Bitwise XOR Operator
-    [ ] Bitwise Left and Right Shift Operators
+        [√] & (AND)
+        [√] | (OR)
+        [√] ^ (XOR)
+        [√] ~ (NOT)
+        [√] << (Shift Left)
+        [√] >> (Shift Right)
+        [ ] Real Case
     [ ] Shifting Behavior for Unsigned Integers
     [ ] Shifting Behavior for Signed Integers
     [ ] Overflow Operators
