@@ -481,3 +481,98 @@
     [ ] Associated Types with a Generic Where Clause
     [ ] Generic Subscripts
     [ ] Implicit Constraints
+
+### [Opaque and Boxed Protocol Types](https://github.com/pratama6624/OpaqueandBoxedProtocolTypes)
+    On Going
+    Just the readme, there's no place for it yet
+
+    [ ] The Problem that Opaque Types Solve
+    [ ] Returning an Opaque Type
+    [ ] Boxed Protocol Types
+    [ ] Differences Between Opaque Types and Boxed Protocol Types
+    [ ] Opaque Parameter Types
+
+### [Automatic Reference Counting](https://github.com/pratama6624/AutomaticReferenceCounting)
+    On Going
+    Just the readme, there's no place for it yet
+
+    [ ] How ARC Works
+    [ ] ARC in Action
+    [ ] Strong Reference Cycles Between Class Instances
+    [ ] Resolving Strong Reference Cycles Between Class Instances
+    [ ] Weak References
+    [ ] Unowned References
+    [ ] Unowned Optional References
+    [ ] Unowned References and Implicitly Unwrapped Optional Properties
+    [ ] Strong Reference Cycles for Closures
+    [ ] Resolving Strong Reference Cycles for Closures
+    [ ] Defining a Capture List
+    [ ] Weak and Unowned References
+
+### [Memory Safety](https://github.com/pratama6624/MemorySafety)
+    On Going
+    Just the readme, there's no place for it yet
+
+    [ ] Understanding Conflicting Access to Memory
+    [ ] Characteristics of Memory Access
+    [ ] Conflicting Access to In-Out Parameters
+    [ ] Conflicting Access to self in Methods
+    [ ] Conflicting Access to Properties
+
+### [Access Control](https://github.com/pratama6624/AccessControl)
+    On Going
+    Just the readme, there's no place for it yet
+
+    [ ] Modules, Source Files, and Packages
+    [ ] Access Levels
+    [ ] Guiding Principle of Access Levels
+    [ ] Default Access Levels
+    [ ] Access Levels for Single-Target Apps
+    [ ] Access Levels for Frameworks
+    [ ] Access Levels for Unit Test Targets
+    [ ] Access Control Syntax
+    [ ] Custom Types
+    [ ] Tuple Types
+    [ ] Function Types
+    [ ] Enumeration Types
+    [ ] Raw Values and Associated Values
+    [ ] Nested Types
+    [ ] Subclassing
+    [ ] Constants, Variables, Properties, and Subscripts
+    [ ] Getters and Setters
+    [ ] Initializers
+    [ ] Default Initializers
+    [ ] Default Memberwise Initializers for Structure Types
+    [ ] Protocols
+    [ ] Protocol Inheritance
+    [ ] Protocol Conformance
+    [ ] Extensions
+    [ ] Private Members in Extensions
+    [ ] Generics
+    [ ] Type Aliases
+
+### [Advanced Operators](https://github.com/pratama6624/AdvancedOperators)
+    On Going
+    Just the readme, there's no place for it yet
+
+    [ ] Bitwise Operators
+    [ ] Bitwise NOT Operator
+    [ ] Bitwise AND Operator
+    [ ] Bitwise OR Operator
+    [ ] Bitwise XOR Operator
+    [ ] Bitwise Left and Right Shift Operators
+    [ ] Shifting Behavior for Unsigned Integers
+    [ ] Shifting Behavior for Signed Integers
+    [ ] Overflow Operators
+    [ ] Value Overflow
+    [ ] Precedence and Associativity
+    [ ] Operator Methods
+    [ ] Prefix and Postfix Operators
+    [ ] Compound Assignment Operators
+    [ ] Equivalence Operators
+    [ ] Custom Operators
+    [ ] Precedence for Custom Infix Operators
+    [ ] Result Builders
+
+
+"Today, I officially passed one step in the long roadmap to becoming an Apple Developer. Swift Fundamentals on swift.org is finally complete! While this is just the first step, I've already laid the most important foundation. The journey is still long, but now I have a strong foundation to advance to the next level."
