@@ -467,8 +467,8 @@
     [√] Generic Types
     [√] Extending a Generic Type
     [√] Type Constraints
-    [ ] Type Constraint Syntax
-    [ ] Type Constraints in Action
+    [√] Type Constraint Syntax
+    [√] Type Constraints in Action
     [ ] Associated Types
     [ ] Associated Types in Action
     [ ] Extending an Existing Type to Specify an Associated Type
