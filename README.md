@@ -22,6 +22,7 @@ My personal roadmap to become a **professional iOS Developer by early 2027**. Ev
 I’ll keep this list updated as I progress.
 
 - [ ] [Fundamental Programming (Swift)](./Road/SwiftFundamental/README.md)
+- [ ] [Advanced Programming (Swift Next level)](./Road/SwiftAdvanced/README.md)
 - [x] Version Control (Git & GitHub)
 - [ ] Basic Xcode & SwiftUI/UIKit Familiarity
 - [ ] Layouting & Navigation
