@@ -562,7 +562,7 @@
         [√] ~ (NOT)
         [√] << (Shift Left)
         [√] >> (Shift Right)
-        [ ] Real Case
+        [√] Real Case
     [ ] Shifting Behavior for Unsigned Integers
     [ ] Shifting Behavior for Signed Integers
     [ ] Overflow Operators
