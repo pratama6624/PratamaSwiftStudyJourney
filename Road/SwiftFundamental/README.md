@@ -563,11 +563,14 @@
         [√] << (Shift Left)
         [√] >> (Shift Right)
         [√] Real Case
-    [ ] Shifting Behavior for Unsigned Integers
-    [ ] Shifting Behavior for Signed Integers
-    [ ] Overflow Operators
-    [ ] Value Overflow
-    [ ] Precedence and Associativity
+    [√] Bitwise Left and Right Shift Operators
+        [√] Shifting Behavior for Unsigned Integers
+        [√] Shifting Behavior for Signed Integers
+    [√] Overflow Operators
+        [√] Value Overflow
+    [√] Precedence and Associativity
+        [√] % * /
+        [√] - +
     [ ] Operator Methods
     [ ] Prefix and Postfix Operators
     [ ] Compound Assignment Operators
