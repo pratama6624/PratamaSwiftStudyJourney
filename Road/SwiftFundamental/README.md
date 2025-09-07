@@ -523,10 +523,16 @@
     On Going
     Just the readme, there's no place for it yet
 
-    [ ] Modules, Source Files, and Packages
-    [ ] Access Levels
-    [ ] Guiding Principle of Access Levels
+    [√] Modules, Source Files, and Packages
+    [√] Access Levels
+        [√] Private
+        [√] File Private
+        [√] Internal (Default)
+        [√] Public
+        [√] Open
+    [√] Guiding Principle of Access Levels
     [ ] Default Access Levels
+        Note : Back to the internal intro (Yeah, that's it)
     [ ] Access Levels for Single-Target Apps
     [ ] Access Levels for Frameworks
     [ ] Access Levels for Unit Test Targets
