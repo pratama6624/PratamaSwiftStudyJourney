@@ -23,8 +23,8 @@ I’ll keep this list updated as I progress.
 
 - [ ] [Fundamental Programming (Swift)](./Road/SwiftFundamental/README.md)
 - [ ] [Advanced Programming (Swift Next level)](./Road/SwiftAdvanced/README.md)
-- [x] Version Control (Git & GitHub)
-- [ ] Basic Xcode & SwiftUI/UIKit Familiarity
+- [ ] [Version Control (Git & GitHub)](./Road/VersionControl/README.md)
+- [ ] [Basic Xcode & SwiftUI/UIKit Familiarity](./Road/XCodeSwiftUIKIT/README.md)
 - [ ] Layouting & Navigation
 - [ ] State Management & Data Flow
 - [ ] Networking (API/JSON & Codable)
