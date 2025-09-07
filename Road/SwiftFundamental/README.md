@@ -552,10 +552,9 @@
     [ ] Type Aliases
 
 ### [Advanced Operators](https://github.com/pratama6624/AdvancedOperators)
-    On Going
-    Just the readme, there's no place for it yet
+    Complete
 
-    [ ] Bitwise Operators
+    [√] Bitwise Operators
         [√] & (AND)
         [√] | (OR)
         [√] ^ (XOR)
@@ -577,7 +576,7 @@
     [√] Equivalence Operators
     [√] Custom Operators
     [√] Precedence for Custom Infix Operators
-    [ ] Result Builders
+    [√] Result Builders
 
 
 "Today, I officially passed one step in the long roadmap to becoming an Apple Developer. Swift Fundamentals on swift.org is finally complete! While this is just the first step, I've already laid the most important foundation. The journey is still long, but now I have a strong foundation to advance to the next level."
