@@ -531,17 +531,17 @@
         [√] Public
         [√] Open
     [√] Guiding Principle of Access Levels
-    [ ] Default Access Levels
+    [√] Default Access Levels
         Note : Back to the internal intro (Yeah, that's it)
-    [ ] Access Levels for Single-Target Apps
-    [ ] Access Levels for Frameworks
-    [ ] Access Levels for Unit Test Targets
-    [ ] Access Control Syntax
-    [ ] Custom Types
-    [ ] Tuple Types
-    [ ] Function Types
-    [ ] Enumeration Types
-    [ ] Raw Values and Associated Values
+    [√] Access Levels for Single-Target Apps
+    [√] Access Levels for Frameworks
+    [√] Access Levels for Unit Test Targets
+    [√] Access Control Syntax
+    [√] Custom Types
+    [√] Tuple Types
+    [√] Function Types
+    [√] Enumeration Types
+    [√] Raw Values and Associated Values
     [ ] Nested Types
     [ ] Subclassing
     [ ] Constants, Variables, Properties, and Subscripts
