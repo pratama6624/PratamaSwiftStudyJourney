@@ -575,7 +575,7 @@
     [√] Prefix and Postfix Operators
     [√] Compound Assignment Operators
     [√] Equivalence Operators
-    [ ] Custom Operators
+    [√] Custom Operators
     [ ] Precedence for Custom Infix Operators
     [ ] Result Builders
 
