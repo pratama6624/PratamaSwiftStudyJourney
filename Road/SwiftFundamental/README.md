@@ -542,7 +542,7 @@
     [√] Function Types
     [√] Enumeration Types
     [√] Raw Values and Associated Values
-    [ ] Nested Types
+    [√] Nested Types
     [ ] Subclassing
     [ ] Constants, Variables, Properties, and Subscripts
     [ ] Getters and Setters
