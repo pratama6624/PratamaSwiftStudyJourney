@@ -472,7 +472,7 @@
         [√] Real Case
     [√] Associated Types
     [√] Associated Types in Action
-    [ ] Extending an Existing Type to Specify an Associated Type
+    [√] Extending an Existing Type to Specify an Associated Type
     [ ] Adding Constraints to an Associated Type
     [ ] Using a Protocol in Its Associated Type’s Constraints
     [ ] Generic Where Clauses
