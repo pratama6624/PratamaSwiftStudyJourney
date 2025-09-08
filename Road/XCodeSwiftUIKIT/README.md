@@ -5,22 +5,22 @@
 ### XCode Basic
     On Going
     
-    [ ] Xcode IDE Familiarity
-        [ ] New Project
-            [ ] App
-            [ ] Playgound
-            [ ] Framework
-        [ ] Navigator
-        [ ] Editor
-        [ ] Inspector
-        [ ] Debug Area
-        [ ] Simulator
-            [ ] Install
-            [ ] Change Device
-            [ ] Debug
-            [ ] Run (Command + R)
-            [ ] Build (Command + B)
-            [ ] Stop
+    [√] Xcode IDE Familiarity
+        [√] New Project
+            [√] App
+            [√] Playgound
+            [√] Framework
+        [√] Navigator
+        [√] Editor
+        [√] Inspector
+        [√] Debug Area
+        [√] Simulator
+            [√] Install
+            [√] Change Device
+            [√] Debug
+            [√] Run (Command + R)
+            [√] Build (Command + B)
+            [√] Stop
 
     [ ] File Structure
         [ ] .swift
