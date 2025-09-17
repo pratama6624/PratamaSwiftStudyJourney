@@ -6,13 +6,28 @@ While I already have some experience using Swift, my previous learning process w
 
 ---
 
+### Tech stack
+
+- Main Language     : Swift
+- Frontend          : SwiftUI & UIKit
+- Backend           : Vapor (Swift Framework)
+- Database          : Core Data (Original Apple Tech)
+                    : Firebase (Google Realtime Database)
+                    : Realm (Offline Database)
+                    : Postgre
+                    : UserDefaults (Key Value Database)
+- Testing           : XCTest (Unit Test)
+                    : XCTest UI Testing (End to End UI Test)
+
+---
+
 ### What's Inside
 
 - Code examples, experiments, and hands-on tests  
 - Notes and summaries from official Swift docs  
 - Backend with [Vapor](https://vapor.codes) — bringing full-stack Swift into the game  
 
-> _“From UIKit to server-side Swift — aiming for full-stack Apple Developer mastery.”_
+> _“From UIKit/SwiftUI to server-side Swift — aiming for full-stack Apple Developer mastery.”_
 
 ---
 
