@@ -478,7 +478,7 @@
     [√] Generic Where Clauses
     [√] Extensions with a Generic Where Clause
     [√] Contextual Where Clauses
-    [ ] Associated Types with a Generic Where Clause
+    [√] Associated Types with a Generic Where Clause
     [ ] Generic Subscripts
     [ ] Implicit Constraints
 
