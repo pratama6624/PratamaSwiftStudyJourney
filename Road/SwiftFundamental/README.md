@@ -457,7 +457,7 @@
     [√] Adding Constraints to Protocol Extensions
 
 ### [Generics](https://github.com/pratama6624/Generics)
-    On Going
+    Complete
 
     [√] Introduction
     [√] The Problem that Generics Solve
@@ -480,7 +480,7 @@
     [√] Contextual Where Clauses
     [√] Associated Types with a Generic Where Clause
     [√] Generic Subscripts
-    [ ] Implicit Constraints
+    [√] Implicit Constraints
 
 ### [Opaque and Boxed Protocol Types](https://github.com/pratama6624/OpaqueandBoxedProtocolTypes)
     On Going
