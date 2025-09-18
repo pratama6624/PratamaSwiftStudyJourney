@@ -477,7 +477,7 @@
     [√] Using a Protocol in Its Associated Type’s Constraints
     [√] Generic Where Clauses
     [√] Extensions with a Generic Where Clause
-    [ ] Contextual Where Clauses
+    [√] Contextual Where Clauses
     [ ] Associated Types with a Generic Where Clause
     [ ] Generic Subscripts
     [ ] Implicit Constraints
