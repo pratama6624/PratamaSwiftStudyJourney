@@ -479,7 +479,7 @@
     [√] Extensions with a Generic Where Clause
     [√] Contextual Where Clauses
     [√] Associated Types with a Generic Where Clause
-    [ ] Generic Subscripts
+    [√] Generic Subscripts
     [ ] Implicit Constraints
 
 ### [Opaque and Boxed Protocol Types](https://github.com/pratama6624/OpaqueandBoxedProtocolTypes)
