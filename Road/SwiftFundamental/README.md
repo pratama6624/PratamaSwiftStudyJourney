@@ -543,7 +543,7 @@
     [√] Enumeration Types
     [√] Raw Values and Associated Values
     [√] Nested Types
-    [ ] Subclassing
+    [√] Subclassing
     [ ] Constants, Variables, Properties, and Subscripts
     [ ] Getters and Setters
     [ ] Initializers
