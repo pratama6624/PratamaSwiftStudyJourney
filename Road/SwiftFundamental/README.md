@@ -550,10 +550,10 @@
     [√] Default Initializers
     [√] Default Memberwise Initializers for Structure Types
     [√] Protocols
-    [ ] Protocol Inheritance
-    [ ] Protocol Conformance
-    [ ] Extensions
-    [ ] Private Members in Extensions
+    [√] Protocol Inheritance
+    [√] Protocol Conformance
+    [√] Extensions
+    [√] Private Members in Extensions
     [ ] Generics
     [ ] Type Aliases
 
