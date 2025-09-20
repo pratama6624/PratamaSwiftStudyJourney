@@ -548,8 +548,8 @@
     [√] Getters and Setters
     [√] Initializers
     [√] Default Initializers
-    [ ] Default Memberwise Initializers for Structure Types
-    [ ] Protocols
+    [√] Default Memberwise Initializers for Structure Types
+    [√] Protocols
     [ ] Protocol Inheritance
     [ ] Protocol Conformance
     [ ] Extensions
