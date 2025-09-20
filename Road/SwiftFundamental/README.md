@@ -520,8 +520,7 @@
     [ ] Conflicting Access to Properties
 
 ### [Access Control](https://github.com/pratama6624/AccessControl)
-    On Going
-    Just the readme, there's no place for it yet
+    Complete
 
     [√] Modules, Source Files, and Packages
     [√] Access Levels
@@ -554,8 +553,8 @@
     [√] Protocol Conformance
     [√] Extensions
     [√] Private Members in Extensions
-    [ ] Generics
-    [ ] Type Aliases
+    [√] Generics
+    [√] Type Aliases
 
 ### [Advanced Operators](https://github.com/pratama6624/AdvancedOperators)
     Complete
