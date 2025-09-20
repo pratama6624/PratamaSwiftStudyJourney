@@ -544,10 +544,10 @@
     [√] Raw Values and Associated Values
     [√] Nested Types
     [√] Subclassing
-    [ ] Constants, Variables, Properties, and Subscripts
-    [ ] Getters and Setters
-    [ ] Initializers
-    [ ] Default Initializers
+    [√] Constants, Variables, Properties, and Subscripts
+    [√] Getters and Setters
+    [√] Initializers
+    [√] Default Initializers
     [ ] Default Memberwise Initializers for Structure Types
     [ ] Protocols
     [ ] Protocol Inheritance
