@@ -486,7 +486,9 @@
     On Going
     Just the readme, there's no place for it yet
 
-    [ ] The Problem that Opaque Types Solve
+    [√] Opaque Types ( some )
+    [√] Boxed Protocol ( any )
+    [√] The Problem that Opaque Types Solve
     [ ] Returning an Opaque Type
     [ ] Boxed Protocol Types
     [ ] Differences Between Opaque Types and Boxed Protocol Types
@@ -554,7 +556,7 @@
     [√] Extensions
     [√] Private Members in Extensions
     [√] Generics
-    [√] Type Aliases
+    [√]  
 
 ### [Advanced Operators](https://github.com/pratama6624/AdvancedOperators)
     Complete
