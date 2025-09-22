@@ -483,16 +483,14 @@
     [√] Implicit Constraints
 
 ### [Opaque and Boxed Protocol Types](https://github.com/pratama6624/OpaqueandBoxedProtocolTypes)
-    On Going
-    Just the readme, there's no place for it yet
+    Complete
 
     [√] Opaque Types ( some )
     [√] Boxed Protocol ( any )
     [√] The Problem that Opaque Types Solve
-    [ ] Returning an Opaque Type
-    [ ] Boxed Protocol Types
-    [ ] Differences Between Opaque Types and Boxed Protocol Types
-    [ ] Opaque Parameter Types
+    [√] Returning an Opaque Type
+    [√] Boxed Protocol Types
+    [√] Opaque Parameter Types
 
 ### [Automatic Reference Counting](https://github.com/pratama6624/AutomaticReferenceCounting)
     On Going
