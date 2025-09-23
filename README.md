@@ -39,7 +39,7 @@ I’ll keep this list updated as I progress.
 - [ ] [Fundamental Programming (Swift)](./Road/SwiftFundamental/README.md) - 94% Complete
 - [ ] [Advanced Programming (Swift Next level)](./Road/SwiftAdvanced/README.md) - 0% Complete
 - [ ] [Version Control (Git & GitHub)](./Road/VersionControl/README.md) - 43% Complete
-- [ ] [Basic Xcode & SwiftUI/UIKit Familiarity](./Road/XCodeSwiftUIKIT/README.md) - 18% Complete
+- [ ] [Basic Xcode & SwiftUI/UIKit Familiarity](./Road/XCodeSwiftUIKIT/README.md) - 45% Complete
 - [ ] Layouting & Navigation
 - [ ] State Management & Data Flow
 - [ ] Networking (API/JSON & Codable)

@@ -40,29 +40,29 @@
 ### SwiftUI Basic
     On Going
 
-    [ ] View Fundamentals
-        [ ] Text
-        [ ] Image
-        [ ] Button
-        [ ] Toggle
-        [ ] Slider
-        [ ] ProgressView
-        [ ] VStack
-        [ ] HStack
-        [ ] ZStack
-        [ ] Spacer
-        [ ] Divider
-    [ ] Modifiers
-        [ ] Font
-        [ ] Color
-        [ ] Background
-        [ ] Padding
-        [ ] Corner Radius
-        [ ] Frame
-        [ ] Alignment
-        [ ] Shadow
-        [ ] Opacity
-        [ ] Overlay
+    [√] View Fundamentals
+        [√] Text
+        [√] Image
+        [√] Button
+        [√] Toggle
+        [√] Slider
+        [√] ProgressView
+        [√] VStack
+        [√] HStack
+        [√] ZStack
+        [√] Spacer
+        [√] Divider
+    [√] Modifiers
+        [√] Font
+        [√] Color
+        [√] Background
+        [√] Padding
+        [√] Corner Radius
+        [√] Frame
+        [√] Alignment
+        [√] Shadow
+        [√] Opacity
+        [√] Overlay
     [ ] Basic Interaction
         [ ] onTapGesture
         [ ] onAppear
