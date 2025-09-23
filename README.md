@@ -38,7 +38,7 @@ I’ll keep this list updated as I progress.
 
 - [ ] [Fundamental Programming (Swift)](./Road/SwiftFundamental/README.md)
 - [ ] [Advanced Programming (Swift Next level)](./Road/SwiftAdvanced/README.md)
-- [ ] [Version Control (Git & GitHub)](./Road/VersionControl/README.md)![Progress](https://progress-bar.dev/43/?title=Complete)
+- [ ] [Version Control (Git & GitHub)](./Road/VersionControl/README.md) **Progress:** 43% ✅
 - [ ] [Basic Xcode & SwiftUI/UIKit Familiarity](./Road/XCodeSwiftUIKIT/README.md)
 - [ ] Layouting & Navigation
 - [ ] State Management & Data Flow
