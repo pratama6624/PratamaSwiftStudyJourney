@@ -36,10 +36,10 @@ While I already have some experience using Swift, my previous learning process w
 My personal roadmap to become a **professional iOS Developer by early 2027**. Every checkbox represents a skill or area I aim to master.  
 I’ll keep this list updated as I progress.
 
-- [ ] [Fundamental Programming (Swift)](./Road/SwiftFundamental/README.md) - 🟩🟩⬜ (93% Complete)
-- [ ] [Advanced Programming (Swift Next level)](./Road/SwiftAdvanced/README.md) - 🟩🟩⬜ (0% Complete)
-- [ ] [Version Control (Git & GitHub)](./Road/VersionControl/README.md) - 🟩🟩⬜ (43% Complete)
-- [ ] [Basic Xcode & SwiftUI/UIKit Familiarity](./Road/XCodeSwiftUIKIT/README.md) - 🟩🟩⬜ (18% Complete)
+- [ ] [Fundamental Programming (Swift)](./Road/SwiftFundamental/README.md) - 93% Complete
+- [ ] [Advanced Programming (Swift Next level)](./Road/SwiftAdvanced/README.md) - 0% Complete
+- [ ] [Version Control (Git & GitHub)](./Road/VersionControl/README.md) - 43% Complete
+- [ ] [Basic Xcode & SwiftUI/UIKit Familiarity](./Road/XCodeSwiftUIKIT/README.md) - 18% Complete
 - [ ] Layouting & Navigation
 - [ ] State Management & Data Flow
 - [ ] Networking (API/JSON & Codable)
