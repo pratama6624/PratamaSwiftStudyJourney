@@ -510,14 +510,14 @@
     [ ] Weak and Unowned References
 
 ### [Memory Safety](https://github.com/pratama6624/MemorySafety)
-    On Going
+    Complete
 
     [√] Introduction
     [√] Understanding Conflicting Access to Memory
-    [ ] Characteristics of Memory Access
-    [ ] Conflicting Access to In-Out Parameters
-    [ ] Conflicting Access to self in Methods
-    [ ] Conflicting Access to Properties
+    [√] Characteristics of Memory Access
+    [√] Conflicting Access to In-Out Parameters
+    [√] Conflicting Access to self in Methods
+    [√] Conflicting Access to Properties
 
 ### [Access Control](https://github.com/pratama6624/AccessControl)
     Complete
