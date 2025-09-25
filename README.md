@@ -2,8 +2,6 @@
 
 This repository documents my structured journey to mastering **Swift** — Apple's official programming language for building apps on iOS, iPadOS, macOS, watchOS, and tvOS.
 
-While I already have some experience using Swift, my previous learning process was unstructured and scattered. Now, I’m taking a more disciplined approach by following the [official Swift documentation](https://swift.org/documentation/) step by step — solidifying the basics and bridging all the gaps.
-
 ---
 
 ### Tech stack
@@ -11,29 +9,14 @@ While I already have some experience using Swift, my previous learning process w
 - Main Language     : Swift
 - Frontend          : SwiftUI & UIKit
 - Backend           : Vapor (Swift Framework)
-- Database          : Core Data (Original Apple Tech)
-                    : Firebase (Google Realtime Database)
-                    : Realm (Offline Database)
-                    : Postgre
-                    : UserDefaults (Key Value Database)
-- Testing           : XCTest (Unit Test)
-                    : XCTest UI Testing (End to End UI Test)
-
----
-
-### What's Inside
-
-- Code examples, experiments, and hands-on tests  
-- Notes and summaries from official Swift docs  
-- Backend with [Vapor](https://vapor.codes) — bringing full-stack Swift into the game  
-
-> _“From UIKit/SwiftUI to server-side Swift — aiming for full-stack Apple Developer mastery.”_
+- Database          : Core Data, FireBase, Realm, Postgre, UserDefaults
+- Testing           : XCTest (Unit Test) & XCTest UI Testing (End to End UI Test)
 
 ---
 
 ## Road to iOS Developer 2027
 
-My personal roadmap to become a **professional iOS Developer by early 2027**. Every checkbox represents a skill or area I aim to master.  
+My personal roadmap to become a **professional iOS Developer by early 2027**.
 I’ll keep this list updated as I progress.
 
 - [ ] [Fundamental Programming (Swift)](./Road/SwiftFundamental/README.md) - 94% (436/459) Complete
