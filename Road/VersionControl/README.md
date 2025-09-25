@@ -66,10 +66,10 @@
 ### Collaboration on GitHub
     On Going
 
-    [ ] Fork vs Clone
+    [√] Fork vs Clone
     [ ] Pull Request (PR) workflow
-    [ ] Code Review di GitHub
-    [ ] Issues & Labels → tracking bug/fitur
+    [√] Code Review di GitHub
+    [√] Issues & Labels → tracking bug/fitur
     [ ] Milestones & Projects (manajemen task)
     [ ] Wiki & Documentation di repo
 
@@ -90,8 +90,8 @@
 ### Security & Best Practices
     On Going
 
-    [ ] Don't Commit Sensitive Files
-    [ ] Use .gitignore
+    [√] Don't Commit Sensitive Files
+    [√] Use .gitignore
     [ ] Protected branch di GitHub
     [ ] Signed commits (GPG)
 

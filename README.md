@@ -21,7 +21,7 @@ I’ll keep this list updated as I progress.
 
 - [ ] [Fundamental Programming (Swift)](./Road/SwiftFundamental/README.md) - 94% (436/459)
 - [ ] [Advanced Programming (Swift Next level)](./Road/SwiftAdvanced/README.md) - 0% (0/194)
-- [ ] [Version Control (Git & GitHub)](./Road/VersionControl/README.md) - 43% (23/53)
+- [ ] [Version Control (Git & GitHub)](./Road/VersionControl/README.md) - 52% (28/53)
 - [ ] [Basic Xcode & SwiftUI/UIKit Familiarity](./Road/XCodeSwiftUIKIT/README.md) - 45% (39/85)
 - [ ] [Layouting & Navigation](./Road/LayoutingNavigation/README.md) - 0% (0/36)
 - [ ] [State Management & Data Flow](./Road/StateManagementDataFlow/README.md) - 0% (0/51)
