@@ -19,7 +19,7 @@ This repository documents my structured journey to mastering **Swift** — Apple
 My personal roadmap to become a **professional iOS Developer by early 2027**.
 I’ll keep this list updated as I progress.
 
-- [ ] [Fundamental Programming (Swift)](./Road/SwiftFundamental/README.md) - 94% (436/459)
+- [ ] [Fundamental Programming (Swift)](./Road/SwiftFundamental/README.md) - 95% (439/459)
 - [ ] [Advanced Programming (Swift Next level)](./Road/SwiftAdvanced/README.md) - 0% (0/194)
 - [ ] [Version Control (Git & GitHub)](./Road/VersionControl/README.md) - 52% (28/53)
 - [ ] [Basic Xcode & SwiftUI/UIKit Familiarity](./Road/XCodeSwiftUIKIT/README.md) - 45% (39/85)

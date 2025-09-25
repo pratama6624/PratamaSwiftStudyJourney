@@ -496,9 +496,9 @@
     On Going
     Just the readme, there's no place for it yet
 
-    [ ] How ARC Works
-    [ ] ARC in Action
-    [ ] Strong Reference Cycles Between Class Instances
+    [√] How ARC Works
+    [√] ARC in Action
+    [√] Strong Reference Cycles Between Class Instances
     [ ] Resolving Strong Reference Cycles Between Class Instances
     [ ] Weak References
     [ ] Unowned References
@@ -554,7 +554,7 @@
     [√] Extensions
     [√] Private Members in Extensions
     [√] Generics
-    [√]  
+    [√] Type Aliases
 
 ### [Advanced Operators](https://github.com/pratama6624/AdvancedOperators)
     Complete
