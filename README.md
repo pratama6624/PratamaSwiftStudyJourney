@@ -2,15 +2,15 @@
 
 This repository documents my structured journey to mastering **Swift** — Apple's official programming language for building apps on iOS, iPadOS, macOS, watchOS, and tvOS.
 
----
-
 ### Tech stack
 
-- Main Language     : Swift
-- Frontend          : SwiftUI & UIKit
-- Backend           : Vapor (Swift Framework)
-- Database          : Core Data, FireBase, Realm, Postgre, UserDefaults
-- Testing           : XCTest (Unit Test) & XCTest UI Testing (End to End UI Test)
+| **Area**      | **Tech**                                              |
+|---------------|-------------------------------------------------------|
+| **Language**  | Swift                                                 |
+| **Frontend**  | SwiftUI                                               |
+| **Backend**   | Swift & Vapor (Swift Framework)                       |
+| **Database**  | Core Data, Firebase, Realm, PostgreSQL, UserDefaults  |
+| **Testing**   | XCTest (Unit Test), XCTest UI (End-to-End UI Test)    |
 
 ---
 
@@ -24,7 +24,7 @@ I’ll keep this list updated as I progress.
 - [ ] [Version Control (Git & GitHub)](./Road/VersionControl/README.md) - 43% (23/53) Complete
 - [ ] [Basic Xcode & SwiftUI/UIKit Familiarity](./Road/XCodeSwiftUIKIT/README.md) - 45% (39/85) Complete
 - [ ] [Layouting & Navigation](./Road/LayoutingNavigation/README.md) - 0% (0/36) Complete
-- [ ] State Management & Data Flow
+- [ ] [State Management & Data Flow](./Road/StateManagementDataFlow/README.md) - 0% (0/51) Complete
 - [ ] Networking (API/JSON & Codable)
 - [ ] Local Data (UserDefaults, Core Data, Keychain)
 - [ ] Authentication (Login/Register Basic)
@@ -50,13 +50,13 @@ I’ll keep this list updated as I progress.
 
 ---
 
-## Final Reward (Big Goal)
+## Final Reward
 
-If I complete **100%** of this roadmap —  
-**I'll reward myself with the latest iPhone model, no matter the price.**  
-Yup. Even if it's the **most expensive one of the year**. No compromise.  
+**New IPhone**
+**New Airpods Pro**
+
 _It’s my way of saying “I earned it.”_
 
 ---
 
-[Let’s build something extraordinary.]
+_Let’s build something extraordinary._
