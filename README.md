@@ -25,8 +25,8 @@ I’ll keep this list updated as I progress.
 - [ ] [Basic Xcode & SwiftUI/UIKit Familiarity](./Road/XCodeSwiftUIKIT/README.md) - 45% (39/85)
 - [ ] [Layouting & Navigation](./Road/LayoutingNavigation/README.md) - 0% (0/36)
 - [ ] [State Management & Data Flow](./Road/StateManagementDataFlow/README.md) - 0% (0/51)
-- [ ] Networking (API/JSON & Codable)
-- [ ] Local Data (UserDefaults, Core Data, Keychain)
+- [ ] [Networking (API/JSON & Codable)](./Road/Networking/README.md) - 0% (0/21)
+- [ ] [Local Data (UserDefaults, Core Data, Keychain)](./Road/LocalData/README.md) - 0% (0/21)
 - [ ] Authentication (Login/Register Basic)
 - [ ] Project Architecture (MVVM, Clean Code)
 - [ ] Unit Test & UI Test
@@ -56,7 +56,5 @@ I’ll keep this list updated as I progress.
 **New Airpods Pro**
 
 _It’s my way of saying “I earned it.”_
-
----
 
 _Let’s build something extraordinary._
