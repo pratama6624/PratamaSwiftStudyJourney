@@ -30,6 +30,7 @@ I’ll keep this list updated as I progress.
 - [ ] [Local Data (UserDefaults, Core Data, Keychain)](./Road/LocalData/README.md) - 0% (0/21)
 - [ ] [Authentication (Login/Register Basic)](./Road/Authentication/README.md) - 0% (0/23)
 - [ ] [Project Architecture (MVVM, Clean Code)](./Road/ProjectArchitecture/README.md) - 0% (0/67)
+
 🟨 CUT LINE #1 — “No Push No IPhone”
 - [ ] [Unit Test & UI Test](./Road/Test/README.md) - 0% (0/46)
 - [ ] Debugging & Profiling Tools
@@ -38,6 +39,7 @@ I’ll keep this list updated as I progress.
 - [ ] Working with Media (Camera, Gallery, File)
 - [ ] Accessibility & Localization
 - [ ] App Lifecycle & SceneDelegate
+
 🟥 CUT LINE #2 — “Push = Buy IPhone”
 - [ ] App Performance Optimization
 - [ ] Working with Frameworks (MapKit, HealthKit, etc.)
