@@ -28,23 +28,23 @@ This repository documents my structured journey to mastering **Swift** — Apple
 
 🟨 “No Push No IPhone”
 - [ ] [Unit Test & UI Test](./Road/Test/README.md) - 0% (0/46)
-- [ ] Debugging & Profiling Tools
-- [ ] Error Handling & Logging
-- [ ] Push Notification & Background Task
-- [ ] Working with Media (Camera, Gallery, File)
-- [ ] Accessibility & Localization
-- [ ] App Lifecycle & SceneDelegate
+- [ ] [Debugging & Profiling Tools](./Road/DebuggingProfilingTools/README.md) - 0% (0/68)
+- [ ] [Error Handling & Logging](./Road/ErrorHandlingLogging/README.md) - 0% (0/38)
+- [ ] [Push Notification & Background Task](./Road/ErrorHandlingLogging/README.md) - 0% (0/38)
+- [ ] [Working with Media (Camera, Gallery, File)](./Road/WorkingWithMedia/README.md) - 0% (0/98)
+- [ ] [Accessibility & Localization](./Road/AccessibilityLocalization/README.md) - 0% (0/120)
+- [ ] [App Lifecycle & SceneDelegate](./Road/AppLifecycleSceneDelegate/README.md) - 0% (0/150)
 
 🟥 “Push = Buy IPhone”
-- [ ] App Performance Optimization
-- [ ] Working with Frameworks (MapKit, HealthKit, etc.)
-- [ ] App Store Preparation
-- [ ] TestFlight & Beta Testing
-- [ ] App Store Submission
-- [ ] Freelance / Real Project Simulation
-- [ ] Contribute to Open Source / Build Personal Portfolio
-- [ ] Stay Updated (WWDC, Swift Evolution, Apple Docs)
-- [ ] Soft Skills: Problem Solving & Communication
+- [ ] [App Performance Optimization](./Road/Empty/README.md) - 0% (0/111)
+- [ ] [Working with Frameworks (MapKit, HealthKit, etc.)](./Road/Empty/README.md) - 0% (0/79)
+- [ ] [App Store Preparation](./Road/Empty/README.md) - 0% (0/70)
+- [ ] [TestFlight & Beta Testing](./Road/Empty/README.md) - 0% (0/150)
+- [ ] [App Store Submission](./Road/Empty/README.md) - 0% (0/62)
+- [ ] [Freelance / Real Project Simulation](./Road/Empty/README.md) - 0% (0/79)
+- [ ] [Contribute to Open Source / Build Personal Portfolio](./Road/Empty/README.md) - 0% (0/99)
+- [ ] [Stay Updated (WWDC, Swift Evolution, Apple Docs)](./Road/Empty/README.md) - 0% (0/76)
+- [ ] [Soft Skills: Problem Solving & Communication](./Road/Empty/README.md) - 0% (0/65)
 
 > _This roadmap keeps me focused, motivated, and accountable on my journey.
 
