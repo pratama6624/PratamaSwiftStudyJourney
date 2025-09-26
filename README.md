@@ -1,4 +1,4 @@
-# Becoming an iOS Developer
+# Becoming an iOS Developer 2027
 
 This repository documents my structured journey to mastering **Swift** — Apple's official programming language for building apps on iOS, iPadOS, macOS, watchOS, and tvOS.
 
@@ -12,12 +12,7 @@ This repository documents my structured journey to mastering **Swift** — Apple
 | **Database**  | Core Data, Firebase, Realm, PostgreSQL, UserDefaults  |
 | **Testing**   | XCTest (Unit Test), XCTest UI (End-to-End UI Test)    |
 
----
-
-## Road to iOS Developer 2027
-
-My personal roadmap to become a **professional iOS Developer by early 2027**.
-I’ll keep this list updated as I progress.
+### Roadmap
 
 🟩 "Simulator Is Still King"
 - [ ] [Fundamental Programming (Swift)](./Road/SwiftFundamental/README.md) - 95% (439/459)
