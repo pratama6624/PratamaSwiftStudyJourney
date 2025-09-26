@@ -27,8 +27,8 @@ I’ll keep this list updated as I progress.
 - [ ] [State Management & Data Flow](./Road/StateManagementDataFlow/README.md) - 0% (0/51)
 - [ ] [Networking (API/JSON & Codable)](./Road/Networking/README.md) - 0% (0/21)
 - [ ] [Local Data (UserDefaults, Core Data, Keychain)](./Road/LocalData/README.md) - 0% (0/21)
-- [ ] Authentication (Login/Register Basic)
-- [ ] Project Architecture (MVVM, Clean Code)
+- [ ] [Authentication (Login/Register Basic)](./Road/Authentication/README.md) - 0% (0/23)
+- [ ] [Project Architecture (MVVM, Clean Code)](./Road/ProjectArchitecture/README.md) - 0% (0/67)
 - [ ] Unit Test & UI Test
 - [ ] Debugging & Profiling Tools
 - [ ] Error Handling & Logging
