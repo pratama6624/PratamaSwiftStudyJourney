@@ -19,7 +19,7 @@ This repository documents my structured journey to mastering **Swift** — Apple
 My personal roadmap to become a **professional iOS Developer by early 2027**.
 I’ll keep this list updated as I progress.
 
-🟩 Stage: "Simulator Is Still King"
+🟩 "Simulator Is Still King"
 - [ ] [Fundamental Programming (Swift)](./Road/SwiftFundamental/README.md) - 95% (439/459)
 - [ ] [Advanced Programming (Swift Next level)](./Road/SwiftAdvanced/README.md) - 0% (0/194)
 - [ ] [Version Control (Git & GitHub)](./Road/VersionControl/README.md) - 52% (28/53)
@@ -31,7 +31,7 @@ I’ll keep this list updated as I progress.
 - [ ] [Authentication (Login/Register Basic)](./Road/Authentication/README.md) - 0% (0/23)
 - [ ] [Project Architecture (MVVM, Clean Code)](./Road/ProjectArchitecture/README.md) - 0% (0/67)
 
-🟨 CUT LINE #1 — “No Push No IPhone”
+🟨 “No Push No IPhone”
 - [ ] [Unit Test & UI Test](./Road/Test/README.md) - 0% (0/46)
 - [ ] Debugging & Profiling Tools
 - [ ] Error Handling & Logging
@@ -40,7 +40,7 @@ I’ll keep this list updated as I progress.
 - [ ] Accessibility & Localization
 - [ ] App Lifecycle & SceneDelegate
 
-🟥 CUT LINE #2 — “Push = Buy IPhone”
+🟥 “Push = Buy IPhone”
 - [ ] App Performance Optimization
 - [ ] Working with Frameworks (MapKit, HealthKit, etc.)
 - [ ] App Store Preparation
