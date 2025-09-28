@@ -302,7 +302,7 @@
         [√] Initializer Inheritance and Overriding
         [√] Automatic Initializer Inheritance
     [√] Designated and Convenience Initializers in Action
-    [ ] Failable Initializers
+    [√] Failable Initializers
         [√] Failable Initializers
         [√] Failable Initializers for Enumerations
         [√] Failable Initializers for Enumerations with Raw Values
@@ -367,21 +367,17 @@
     [√] Sendable Types
 
 ### [Macros](https://github.com/pratama6624/SwiftMacros)
-    Finished but not yet
+    Complete
 
     [√] Freestanding Macros
         [√] Auto Logging
-    [ ] Attached Macros
+    [√] Attached Macros
         [√] Auto-conformance Protocol (Auto Codable)
         [√] Auto init & Property Mapping
         [√] Auto Tracing
         [√] Auto Binding UI & Property Wrapper
         [√] Generate Code for Testing / Mock
-        [ ] Auto Router / Navigation Mapping
-        [ ] Generate Helper for Enum
         [√] Auto Validation
-        [ ] Auto Dependency Injection
-        [ ] Auto Performance Timer
         [√] Form Apple Swift Documentation
     [√] Macro Declarations
     [√] Macro Expansion
@@ -485,8 +481,7 @@
     [√] Opaque Parameter Types
 
 ### [Automatic Reference Counting](https://github.com/pratama6624/AutomaticReferenceCounting)
-    On Going
-    Just the readme, there's no place for it yet
+    Complete
 
     [√] How ARC Works
     [√] ARC in Action
@@ -498,8 +493,8 @@
         [√] Unowned References and Implicitly Unwrapped Optional Properties
     [√] Strong Reference Cycles for Closures
     [√] Resolving Strong Reference Cycles for Closures
-    [ ] Defining a Capture List
-    [ ] Weak and Unowned References
+    [√] Defining a Capture List
+    [√] Weak and Unowned References
 
 ### [Memory Safety](https://github.com/pratama6624/MemorySafety)
     Complete
