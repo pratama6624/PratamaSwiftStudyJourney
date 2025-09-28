@@ -500,10 +500,10 @@
     [√] ARC in Action
     [√] Strong Reference Cycles Between Class Instances
     [ ] Resolving Strong Reference Cycles Between Class Instances
-    [ ] Weak References
-    [ ] Unowned References
-    [ ] Unowned Optional References
-    [ ] Unowned References and Implicitly Unwrapped Optional Properties
+        [√] Weak References
+        [√] Unowned References
+        [ ] Unowned Optional References
+        [ ] Unowned References and Implicitly Unwrapped Optional Properties
     [ ] Strong Reference Cycles for Closures
     [ ] Resolving Strong Reference Cycles for Closures
     [ ] Defining a Capture List
