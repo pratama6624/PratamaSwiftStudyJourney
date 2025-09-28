@@ -188,7 +188,7 @@
         [√] Top Contributor Tracker (Case Study 4)
 
 ### [Enumerations](https://github.com/pratama6624/PratamaSwiftStudyJourney/tree/main/Sources/SwiftRoute/Enumerations)
-    Finished but not yet
+    Complete
 
     [√] Enumeration Syntax
     [√] Matching Enumeration Values with a Switch Statement
@@ -199,14 +199,6 @@
         [√] Initializing from a Raw Value
     [√] Recursive Enumerations
         [√] Sample From Apple Docs
-        [ ] Study Case 1
-        [ ] Study Case 2
-        [ ] Study Case 3
-        [ ] Real Study Case 4 (Simulation)
-        [ ] Real Study Case 5 (Simulation)
-
-        Note : Just skip it for now
-               OP skill for this
 
 ### [Structures and Classes](https://github.com/pratama6624/PratamaSwiftStudyJourney/tree/main/Sources/SwiftRoute/StructuresAndClasses)
     Complete
@@ -499,13 +491,13 @@
     [√] How ARC Works
     [√] ARC in Action
     [√] Strong Reference Cycles Between Class Instances
-    [ ] Resolving Strong Reference Cycles Between Class Instances
+    [√] Resolving Strong Reference Cycles Between Class Instances
         [√] Weak References
         [√] Unowned References
-        [ ] Unowned Optional References
-        [ ] Unowned References and Implicitly Unwrapped Optional Properties
-    [ ] Strong Reference Cycles for Closures
-    [ ] Resolving Strong Reference Cycles for Closures
+        [√] Unowned Optional References
+        [√] Unowned References and Implicitly Unwrapped Optional Properties
+    [√] Strong Reference Cycles for Closures
+    [√] Resolving Strong Reference Cycles for Closures
     [ ] Defining a Capture List
     [ ] Weak and Unowned References
 
