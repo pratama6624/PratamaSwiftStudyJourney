@@ -5,15 +5,15 @@
 ### Project Structure
     On Going
 
-    [ ] Modules/Folders
-    [ ] Models
-    [ ] ViewModels
-    [ ] Views
-    [ ] Services
-    [ ] Utilities
-    [ ] Resources
-    [ ] Grouped Folders Xcode Matching Namespaces
-    [ ] Keep each file small & single-purpose
+    [√] Modules/Folders
+    [√] Models
+    [√] ViewModels
+    [√] Views
+    [√] Services
+    [√] Utilities
+    [√] Resources
+    [√] Grouped Folders Xcode Matching Namespaces
+    [√] Keep each file small & single-purpose
 
 ### MVVM Pattern
     On Going
