@@ -1,27 +1,27 @@
 [Back to Main Road](https://github.com/pratama6624/PratamaSwiftStudyJourney/tree/main)
 
-## Road Map (Low-Level Roadmap) - Version Control
+## Road Map (Low-Level Roadmap) - Layouting Navigation
 
 ### Layouting
     On Going
 
-    [ ] View Hierarchy
-        [ ] VStack
-        [ ] HStack
-        [ ] ZStack
-        [ ] Spacer
-        [ ] Divider
-    [ ] Adaptive Layout
-        [ ] GeometryReader
-        [ ] LayoutPriority
-        [ ] Responsif
-    [ ] Modifiers Penting
-        [ ] Padding
-        [ ] Frame
-        [ ] Background
-        [ ] Corner Radius
-        [ ] Shadow
-        [ ] ViewModifier
+    [√] View Hierarchy
+        [√] VStack
+        [√] HStack
+        [√] ZStack
+        [√] Spacer
+        [√] Divider
+    [√] Adaptive Layout
+        [√] GeometryReader
+        [√] LayoutPriority
+        [√] Responsif
+    [√] Modifiers Penting
+        [√] Padding
+        [√] Frame
+        [√] Background
+        [√] Corner Radius
+        [√] Shadow
+        [√] ViewModifier
     [ ] Reusable Component
         [ ] Extract View
         [ ] Consistent Style

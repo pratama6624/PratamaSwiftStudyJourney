@@ -18,7 +18,7 @@ This repository documents my structured journey to mastering **Swift** — Apple
 - [x] [Fundamental Programming (Swift)](./Road/SwiftFundamental/README.md) - 100% (450/450)
 - [ ] [Version Control (Git & GitHub)](./Road/VersionControl/README.md) - 52% (28/53)
 - [ ] [Basic Xcode & SwiftUI/UIKit Familiarity](./Road/XCodeSwiftUIKIT/README.md) - 45% (39/85)
-- [ ] [Layouting & Navigation](./Road/LayoutingNavigation/README.md) - 0% (0/36)
+- [ ] [Layouting & Navigation](./Road/LayoutingNavigation/README.md) - 047% (17/36)
 - [ ] [State Management & Data Flow](./Road/StateManagementDataFlow/README.md) - 0% (0/51)
 - [ ] [Networking (API/JSON & Codable)](./Road/Networking/README.md) - 0% (0/21)
 - [ ] [Local Data (UserDefaults, Core Data, Keychain)](./Road/LocalData/README.md) - 0% (0/21)
