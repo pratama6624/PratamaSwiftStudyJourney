@@ -22,13 +22,13 @@
             [√] Build (Command + B)
             [√] Stop
 
-    [ ] File Structure
-        [ ] .swift
-        [ ] .storyboard
-        [ ] .xib
-        [ ] .swiftui
-        [ ] info.plist
-        [ ] Asset Catalog
+    [√] File Structure
+        [√] .swift
+        [√] .storyboard
+        [√] .xib
+        [√] .swiftui
+        [√] info.plist
+        [√] Asset Catalog
 
     [ ] Basic Project Settings
         [ ] App Target
