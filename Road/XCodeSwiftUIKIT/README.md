@@ -30,12 +30,12 @@
         [√] info.plist
         [√] Asset Catalog
 
-    [ ] Basic Project Settings
-        [ ] App Target
-        [ ] Bundle Identifier
-        [ ] Deployment Target
-        [ ] Minimum iOS Version
-        [ ] Signing & Capabilities (Automatic vs Manual)
+    [√] Basic Project Settings
+        [√] App Target
+        [√] Bundle Identifier
+        [√] Deployment Target
+        [√] Minimum iOS Version
+        [√] Signing & Capabilities (Automatic vs Manual)
 
 ### SwiftUI Basic
     On Going

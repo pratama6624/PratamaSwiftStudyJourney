@@ -17,7 +17,7 @@ This repository documents my structured journey to mastering **Swift** — Apple
 🟩 "Simulator Is Still King"
 - [x] [Fundamental Programming (Swift)](./Road/SwiftFundamental/README.md) - 100% (450/450)
 - [ ] [Version Control (Git & GitHub)](./Road/VersionControl/README.md) - 52% (28/53)
-- [ ] [Basic Xcode & SwiftUI/UIKit Familiarity](./Road/XCodeSwiftUIKIT/README.md) - 54% (46/85)
+- [ ] [Basic Xcode & SwiftUI/UIKit Familiarity](./Road/XCodeSwiftUIKIT/README.md) - 61% (52/85)
 - [ ] [Layouting & Navigation](./Road/LayoutingNavigation/README.md) - 47% (17/36)
 - [ ] [State Management & Data Flow](./Road/StateManagementDataFlow/README.md) - 0% (0/51)
 - [ ] [Networking (API/JSON & Codable)](./Road/Networking/README.md) - 0% (0/21)
