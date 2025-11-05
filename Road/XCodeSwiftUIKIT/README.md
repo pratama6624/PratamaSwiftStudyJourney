@@ -3,7 +3,7 @@
 ## Road Map (Low-Level Roadmap) - XCode SwiftUI UIKIT
 
 ### XCode Basic
-    On Going
+    Complete
     
     [√] Xcode IDE Familiarity
         [√] New Project

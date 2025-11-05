@@ -21,7 +21,7 @@
         [√] Background
         [√] Corner Radius
         [√] Shadow
-        [√] ViewModifier
+        [√] 
     [ ] Reusable Component
         [ ] Extract View
         [ ] Consistent Style

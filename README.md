@@ -1,5 +1,7 @@
 # Becoming an iOS Developer 2027
 
+![Image](https://github.com/user-attachments/assets/7336a721-f290-460d-ae65-13633a57b131)
+
 This repository documents my structured journey to mastering **Swift** — Apple's official programming language for building apps on iOS, iPadOS, macOS, watchOS, and tvOS.
 
 ### Tech stack
