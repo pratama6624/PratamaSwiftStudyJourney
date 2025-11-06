@@ -25,7 +25,7 @@ This repository documents my structured journey to mastering **Swift** — Apple
 - [ ] [Networking (API/JSON & Codable)](./Road/Networking/README.md) - 0% (0/21)
 - [ ] [Local Data (UserDefaults, Core Data, Keychain)](./Road/LocalData/README.md) - 0% (0/21)
 - [ ] [Authentication (Login/Register Basic)](./Road/Authentication/README.md) - 0% (0/23)
-- [ ] [Project Architecture (MVVM, Clean Code)](./Road/ProjectArchitecture/README.md) - 13% (9/67)
+- [ ] [Project Architecture (MVVM, Clean Code)](./Road/ProjectArchitecture/README.md) - 28% (19/67)
 
 🟨 “No Push No IPhone”
 - [ ] [Unit Test & UI Test](./Road/Test/README.md) - 0% (0/46)

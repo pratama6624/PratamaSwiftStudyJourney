@@ -18,16 +18,16 @@
 ### MVVM Pattern
     On Going
 
-    [ ] Model: Pure data structures, Codable, business logic only
-    [ ] ViewModel
-        [ ] ObservableObject
-        [ ] Holds State & Business Logic
-        [ ] Talks to Services
-        [ ] Exposes @Published properties
-    [ ] View
-        [ ] SwiftUI View
-        [ ] Declarative UI bound to ViewModel
-        [ ] No business logic
+    [√] Model: Pure data structures, Codable, business logic only
+    [√] ViewModel
+        [√] ObservableObject
+        [√] Holds State & Business Logic
+        [√] Talks to Services
+        [√] Exposes @Published properties
+    [√] View
+        [√] SwiftUI View
+        [√] Declarative UI bound to ViewModel
+        [√] No business logic
 
 ### Clean Code Principles
     On Going
